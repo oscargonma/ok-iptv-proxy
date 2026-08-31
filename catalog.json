@@ -1,14 +1,5972 @@
 [
-    {
-        "id": "6363784350313",
-        "title": "Y donde esta el policia?",
-        "poster": "https://image.tmdb.org/t/p/original/eykTYCLnPW4quK6rqOHtc5PR8qy.jpg",
-        "genre": "Comedia"
-    },
-    {
-        "id": "6581116406389",
-        "title": "la sombra del reino",
-        "poster": "https://image.tmdb.org/t/p/original/tkMsXx2Cmigomq5ANWHQOIWRC1S.jpg",
-        "genre": "Accion"
-    }
+  {
+    "id": "6342618319493",
+    "title": "La Ira De Becky",
+    "poster": "https://image.tmdb.org/t/p/w500/yvGX9k90QfenTy2KonXUrzXsOpY.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "9240843127423",
+    "title": "Pesadilla Americana",
+    "poster": "https://image.tmdb.org/t/p/w500/fWa89Rr95zFYqTKVfDPKpjrofsM.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "10276301179552",
+    "title": "Official Secrets",
+    "poster": "https://image.tmdb.org/t/p/w500/nmRdVrAy9icP0NWsSjwBUgvlu21.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "7075922053848",
+    "title": "Una Serie De Eventos Desafortunados",
+    "poster": "https://image.tmdb.org/t/p/w500/b8mT42o3MXAuvRdElJZaqY6eUiZ.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "8369492462190",
+    "title": "Están Entre Nosotros",
+    "poster": "https://image.tmdb.org/t/p/w500/t9bG1SOCHHVidLI746RyJKqY4AG.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "7555862825604",
+    "title": "El Diario De La Princesa 2 ",
+    "poster": "https://image.tmdb.org/t/p/w500/ndsSUCSqwe8nqdTqJXX4aDrsNM0.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "492362271366",
+    "title": "El Maquinista",
+    "poster": "https://image.tmdb.org/t/p/w500/2z6jtS2dVTbM73USNEewBh7kwX3.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2350184335957",
+    "title": "Apocalypto",
+    "poster": "https://image.tmdb.org/t/p/w500/yQ4uC13IYVerbxMMXeSogSQUkOT.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6179923888773",
+    "title": "El Último Objetivo",
+    "poster": "https://image.tmdb.org/t/p/w500/bzNwXKRn8lmpS8HmQYxmT42OlGr.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6173906307717",
+    "title": "El amor está en el aire",
+    "poster": "https://image.tmdb.org/t/p/w500/bmTnqJaaL4tipNCGpywoDooRdYJ.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "884499614268",
+    "title": "Robin Hood",
+    "poster": "https://image.tmdb.org/t/p/w500/rRwrvxi2YA9DzAYcqtMZd2C3rfL.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "278190754438",
+    "title": "Ultimátum a la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/goeKLdunnK9GClRVWSXm6bgiKoR.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2290914167519",
+    "title": "[REC]³ Génesis",
+    "poster": "https://image.tmdb.org/t/p/w500/cRVSZ03HIXKOKfRaKd00gZC5uqA.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3588587719308",
+    "title": "Desafío total",
+    "poster": "https://image.tmdb.org/t/p/w500/v7DoneFNYIrCGeNFiPrqGiQlimN.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6103349004927",
+    "title": "Presencias extrañas",
+    "poster": "https://image.tmdb.org/t/p/w500/6ufNBNtTFvGstZrL0mC34mRnnpe.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3263752178286",
+    "title": "Noche de miedo",
+    "poster": "https://image.tmdb.org/t/p/w500/ftzPwgnINKlU6Vrqm0X5KXaFpfZ.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4430708607557",
+    "title": "Siete almas",
+    "poster": "https://image.tmdb.org/t/p/w500/3z8EmLOiOWOgf3gyeobCoFWelcp.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "6802225892071",
+    "title": "La noche de Halloween",
+    "poster": "https://image.tmdb.org/t/p/w500/6bsDpDL312h6vEGPOPWoweaZWUG.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3100343863918",
+    "title": "Al diablo con el diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/5GJnnmOOCzbdxf2UN9bATM9ZFIg.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "384521079430",
+    "title": "El gigante de hierro",
+    "poster": "https://image.tmdb.org/t/p/w500/voPAzJFyopCnLEwaBWpoX8uDvGI.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "4653838109385",
+    "title": "La roca",
+    "poster": "https://image.tmdb.org/t/p/w500/l6PuNPsNFx1UFWfQwjk1McPce4y.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2394012715716",
+    "title": "Instinto básico",
+    "poster": "https://image.tmdb.org/t/p/w500/7iUhPh6B5C4T1osYDzoUchjb3i4.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1543162366680",
+    "title": "El clan de los Rompehuesos",
+    "poster": "https://image.tmdb.org/t/p/w500/jl6bUYM5HBTMyckxeJKA2x0UQjS.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4905763867334",
+    "title": "Gremlins",
+    "poster": "https://image.tmdb.org/t/p/w500/73Lf0JYHyWyZQGu04wvzzM3hh0l.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "9649084762634",
+    "title": "Misterio a bordo",
+    "poster": "https://image.tmdb.org/t/p/w500/cCu3lbeGNxBNwGE2plneJMmu5g7.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3264458590830",
+    "title": "Mentiras arriesgadas",
+    "poster": "https://image.tmdb.org/t/p/w500/fRNe1fadJ6waoEcjGHgJGyVpEri.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "4440257464861",
+    "title": "Contacto sangriento",
+    "poster": "https://image.tmdb.org/t/p/w500/rnMZfM9CAlGwS8NMNRFRbxJAVOx.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "321973258886",
+    "title": "El quinto elemento",
+    "poster": "https://image.tmdb.org/t/p/w500/wnps5IL8YpeJpZvciDRXt7yZF8a.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "579835005672",
+    "title": "Eden Lake",
+    "poster": "https://image.tmdb.org/t/p/w500/juDdVU8RijF3ovORzC4EJvUbmTk.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "355354282627",
+    "title": "Amor y otras drogas",
+    "poster": "https://image.tmdb.org/t/p/w500/b8gw9s7hWbcA0kuezuV10DKgjRP.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "7378389437060",
+    "title": "El gato con botas",
+    "poster": "https://image.tmdb.org/t/p/w500/1VmrC82zY4U33l9UHlZTWDB1asN.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "5414095030870",
+    "title": "Los extraños",
+    "poster": "https://image.tmdb.org/t/p/w500/n14pclgMhk1ZnuioVgN64Nralfb.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "373621852904",
+    "title": "Siempre a tu lado (Hachiko)",
+    "poster": "https://image.tmdb.org/t/p/w500/rLPMD8BOHjvvjjCX7BZQdqNWBm2.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "12219989035686",
+    "title": "Sin piedad",
+    "poster": "https://image.tmdb.org/t/p/w500/9zBNg8koM3fjUTPT7QeJHuGG2r9.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "13489119627823",
+    "title": "Proyecto salvación",
+    "poster": "https://image.tmdb.org/t/p/w500/7lwOTxajURKEWO6gI370NTrVdBO.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "5557395262165",
+    "title": "Scary Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/fHWR3YplPQWciYzxEity2kyDoDn.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "10052380068532",
+    "title": "Arma letal 3",
+    "poster": "https://image.tmdb.org/t/p/w500/6AYVXfpC4tE7pYNpa6Zf6wKu6f2.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1800173128302",
+    "title": "La lista de Schindler",
+    "poster": "https://image.tmdb.org/t/p/w500/3Ho0pXsnMxpGJWqdOi0KDNdaTkT.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2955624581847",
+    "title": "La milla verde",
+    "poster": "https://image.tmdb.org/t/p/w500/aBQiJRxGRrX0mXFMjxyzWYFtEnf.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "526929889926",
+    "title": "El bueno, el feo y el malo",
+    "poster": "https://image.tmdb.org/t/p/w500/fSWnIXsxA47smMLwRELSWkxbVJ.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "44426332704",
+    "title": "Uno de los nuestros",
+    "poster": "https://image.tmdb.org/t/p/w500/3Yy0zBO9AlyAZH1cTI8Ko2ouCi.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "6246962301533",
+    "title": "Ciudad de Dios",
+    "poster": "https://image.tmdb.org/t/p/w500/zYjngc6yGUO1IEuAwk0yAhg8CKh.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "690345544326",
+    "title": "Psicosis",
+    "poster": "https://image.tmdb.org/t/p/w500/xFbnc2QPG5H5gYWsGbZT4q8Akya.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "199300418179",
+    "title": "Seven",
+    "poster": "https://image.tmdb.org/t/p/w500/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2394011798212",
+    "title": "American History X",
+    "poster": "https://image.tmdb.org/t/p/w500/h2cDqHvnZkycBJKoF7WhcQ2MX1V.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "6068612565562",
+    "title": "Regreso al futuro",
+    "poster": "https://image.tmdb.org/t/p/w500/owk40tn1sFJmC7bhamEpmhdZPKa.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "371321998056",
+    "title": "El profesional (Léon)",
+    "poster": "https://image.tmdb.org/t/p/w500/9Ztxqq9mAeGiXDkyqXJPaACUcbd.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1881555274357",
+    "title": "Senderos de gloria",
+    "poster": "https://image.tmdb.org/t/p/w500/vz8J8nTbF5JP7PQK4VNVsO8rzCy.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "1763914484420",
+    "title": "El truco final (El prestigio)",
+    "poster": "https://image.tmdb.org/t/p/w500/lIl2CrnWohGrZSO9eyKRptxZ7Hs.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "317251848838",
+    "title": "Sospechosos habituales",
+    "poster": "https://image.tmdb.org/t/p/w500/zI2ESVtVBJTo68aWuwCku78q4dZ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2295870589550",
+    "title": "Infiltrados",
+    "poster": "https://image.tmdb.org/t/p/w500/hf0Hgw1snmBwinkHYLCxGIs6DgO.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3224836704991",
+    "title": "Lock & Stock",
+    "poster": "https://image.tmdb.org/t/p/w500/prewFR5HkUNpU1tNGUBPMal20rI.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1225846557399",
+    "title": "París, Texas",
+    "poster": "https://image.tmdb.org/t/p/w500/ba8edzVOul1uDHaLgDImALqhsN1.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "7000257071839",
+    "title": "Metrópolis",
+    "poster": "https://image.tmdb.org/t/p/w500/fCWd45ybxghuvaeSMcBsLFKY6PG.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "6482968054399",
+    "title": "La momia",
+    "poster": "https://image.tmdb.org/t/p/w500/aGRMxB5ve2nSKsq8ww6PyUwhWpP.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "311667788520",
+    "title": "En busca del valle encantado",
+    "poster": "https://image.tmdb.org/t/p/w500/jsxGmtUe06AAhfWihGiLDukI0QS.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "2577726376588",
+    "title": "La historia interminable II: El siguiente capítulo",
+    "poster": "https://image.tmdb.org/t/p/w500/bmxZK2By8BsHrfGOlEERIX4TYRA.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "347025443462",
+    "title": "La venganza del conde de Montecristo",
+    "poster": "https://image.tmdb.org/t/p/w500/udaGNhjNcfW2Y2EQKk75SYIeBYl.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2999618046701",
+    "title": "Ice Age: La edad de hielo",
+    "poster": "https://image.tmdb.org/t/p/w500/9rpdhn7p7mDZW2rUXsINf9c6sR5.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "4931652684428",
+    "title": "Los picarones",
+    "poster": "https://image.tmdb.org/t/p/w500/kJNXMni0ObOXLth6v9xpUhWbtrp.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "2195575409375",
+    "title": "Aterriza como puedas 2",
+    "poster": "https://image.tmdb.org/t/p/w500/kcWD4D6mLNhgwLdNeulHHBSAttd.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4017384458975",
+    "title": "El príncipe de las tinieblas",
+    "poster": "https://image.tmdb.org/t/p/w500/xCoojA85HYHXZwlc0jsptGxcYc4.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2560407046879",
+    "title": "El final de Damien",
+    "poster": "https://image.tmdb.org/t/p/w500/pINF9b9NeHtWAN0skAZkZUtYgUQ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1624665426530",
+    "title": "La Maldición de Damien",
+    "poster": "https://image.tmdb.org/t/p/w500/pTSQ3VMTAxb5JJcQDJoyAFOoNtP.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "688273558150",
+    "title": "El terror no tiene forma",
+    "poster": "https://image.tmdb.org/t/p/w500/19ZltwoootdlIHn85bNNFnhixsX.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1137928964824",
+    "title": "Tiburón",
+    "poster": "https://image.tmdb.org/t/p/w500/85MbaRlyfZfZGVHoFy2Am53oVYt.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "7541783005910",
+    "title": "Guerra Mundial Z",
+    "poster": "https://image.tmdb.org/t/p/w500/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2134347745935",
+    "title": "28 días después",
+    "poster": "https://image.tmdb.org/t/p/w500/sIGsLU7hMDVKhGKsRFcFxUAtFyT.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "6562720844343",
+    "title": "Constantine",
+    "poster": "https://image.tmdb.org/t/p/w500/oj0s9jvCyMSCMvw7pNWt7nELykW.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "288763873926",
+    "title": "El efecto mariposa 2",
+    "poster": "https://image.tmdb.org/t/p/w500/jtfho3wPE46t6qYmSsFz40UzrJe.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2515056921311",
+    "title": "El efecto mariposa 3: Revelaciones",
+    "poster": "https://image.tmdb.org/t/p/w500/cP9zhOtNvNgzsksYOecqUy5OBk5.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1715390057192",
+    "title": "En el ojo del huracán",
+    "poster": "https://image.tmdb.org/t/p/w500/6oSLNkg8f7q0IzQGlV5CeVCr9ZX.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "7530846751368",
+    "title": "Elegidos para el triunfo",
+    "poster": "https://image.tmdb.org/t/p/w500/wYnKZnRt43EYy10e5lgqA8ZMu9.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2663135906444",
+    "title": "Guerreros del espacio",
+    "poster": "https://image.tmdb.org/t/p/w500/wTNDDi04HXReqjhiqjH7ZNlVO79.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4264159545969",
+    "title": "La Increíble mujer menguante",
+    "poster": "https://image.tmdb.org/t/p/w500/9jHzgQlAxYjr5mRQGTuTtXEAU4j.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2560237767391",
+    "title": "El clan de los Doberman",
+    "poster": "https://image.tmdb.org/t/p/w500/f9EpBDyGySpRtREGyAXZHuE3whK.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2155467180767",
+    "title": "Testamento final",
+    "poster": "https://image.tmdb.org/t/p/w500/jOrVg4KmnhiCtYMSz7wd3Vgitp2.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2482605525753",
+    "title": "Ben, La Rata Asesina",
+    "poster": "https://image.tmdb.org/t/p/w500/LvTapjbjdg9bGzt79hZAp2idcn.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "6631465290244",
+    "title": "Pánico en la carretera",
+    "poster": "https://image.tmdb.org/t/p/w500/oVNGSenkvWKnGEc5TWowfL1ci2T.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3711134730865",
+    "title": "Destinos opuestos",
+    "poster": "https://image.tmdb.org/t/p/w500/kb6IzkcovQTupxpQsEelMqrVO8W.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "2816848562834",
+    "title": "Tiburón 2",
+    "poster": "https://image.tmdb.org/t/p/w500/gQgHcjBWzjCvdfFNY6PGMEzMN93.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "7569774676627",
+    "title": "En honor a la verdad",
+    "poster": "https://image.tmdb.org/t/p/w500/nqMlCYhD19ZvdYxMbUSAXAH4iNO.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4923133266610",
+    "title": "Con su propia ley",
+    "poster": "https://image.tmdb.org/t/p/w500/clpKkTgbploGIhJYxbOEv7ICAW1.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6449288251973",
+    "title": "Flash Gordon",
+    "poster": "https://image.tmdb.org/t/p/w500/uyHg2QH4B34fp941h0pGs4E9kxJ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3496821983960",
+    "title": "Millennium",
+    "poster": "https://image.tmdb.org/t/p/w500/mvNJSwZRSHtRXiXveTk2MmWJYNL.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3078059592407",
+    "title": "El cielo puede esperar",
+    "poster": "https://image.tmdb.org/t/p/w500/qPAbI8isy1J7Z2I66kmI3mC9DQV.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "3195652410079",
+    "title": "Iluminados por el fuego",
+    "poster": "https://image.tmdb.org/t/p/w500/fnJybyb0RC94fee8n5Ld4wln0Zs.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "252474821313",
+    "title": "Un hombre llamado Caballo",
+    "poster": "https://image.tmdb.org/t/p/w500/frObHVH8sh7mvkHttNhpilakg15.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "379108199144",
+    "title": "La última tentación de Cristo",
+    "poster": "https://image.tmdb.org/t/p/w500/su4LK5bzWazBRyc5bHlG85inTXx.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2029478611566",
+    "title": "Ben-Hur",
+    "poster": "https://image.tmdb.org/t/p/w500/bG0yaRTC7N0bWhlaPXsyi3ZnbMo.jpg",
+    "genre": "Historia"
+  },
+  {
+    "id": "2790733318836",
+    "title": "Los Diez Mandamientos",
+    "poster": "https://image.tmdb.org/t/p/w500/kUfNxdftpiADE92Ch2Z0IRZjwwm.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1084416068128",
+    "title": "La pasión de Cristo",
+    "poster": "https://image.tmdb.org/t/p/w500/qPSyfz3yzTHXh1s8KRNy5YMNQJL.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "7160873683603",
+    "title": "Carga maldita",
+    "poster": "https://image.tmdb.org/t/p/w500/bQDI2LFEoNJWgmsQIaVvfV0jnOi.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "6334647700037",
+    "title": "Noches de neón",
+    "poster": "https://image.tmdb.org/t/p/w500/yLxvitJxVmwkhd5eqG1NSuTWDeS.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "6607401519685",
+    "title": "Los Vikingos",
+    "poster": "https://image.tmdb.org/t/p/w500/4xE1BX51KRKMBzO4BbiHfqxll4X.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "4871608404678",
+    "title": "Critters 3",
+    "poster": "https://image.tmdb.org/t/p/w500/frjklbq23pRgBjhekEq6drQkrZm.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "6912380242501",
+    "title": "Los trece fantasmas",
+    "poster": "https://image.tmdb.org/t/p/w500/8CyQj2VIfmGzjvdoLwYLyT8h4YS.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "6912831982149",
+    "title": "Ladrones de trenes",
+    "poster": "https://image.tmdb.org/t/p/w500/hpTsS2eO9XUZBpzdU7Z1mbjNpUH.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1148859583129",
+    "title": "Maniquí",
+    "poster": "https://image.tmdb.org/t/p/w500/jkizahsN5NUsjoRd2enHm8awhyz.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4435677219468",
+    "title": "El regreso del increíble Hulk",
+    "poster": "https://image.tmdb.org/t/p/w500/53VfrSubC968oNmhflchPkVYlQf.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "5138099800716",
+    "title": "Repo Man (El recuperador)",
+    "poster": "https://image.tmdb.org/t/p/w500/aX0DvCsGDQ7LVmTwTBgiPkqzGIy.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4803584395867",
+    "title": "Mi Obsesión por Helena",
+    "poster": "https://image.tmdb.org/t/p/w500/vKGerYnC882Ag9obSDxdNdUvRha.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2222086425228",
+    "title": "Los gritos del silencio",
+    "poster": "https://image.tmdb.org/t/p/w500/qo5q1bZI1kCPOZroV1Fx5f1ozAU.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2914470660748",
+    "title": "Contra todo riesgo",
+    "poster": "https://image.tmdb.org/t/p/w500/Ac0m41QYoxYBfRoU4cL491vOfEv.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1296650209865",
+    "title": "Dentro del laberinto",
+    "poster": "https://image.tmdb.org/t/p/w500/AhRH7qhyRWGOfr88UKLfSUEm7A0.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2189153602271",
+    "title": "American Me (Sin remisión)",
+    "poster": "https://image.tmdb.org/t/p/w500/mrcdh66L6K1Nb5xPORuZufvE9aE.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2553121540808",
+    "title": "El Experimento Filadelfia",
+    "poster": "https://image.tmdb.org/t/p/w500/w2kwfDyHC9lquiGuZhJA2LohL33.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "6720298224197",
+    "title": "La centinela",
+    "poster": "https://image.tmdb.org/t/p/w500/opI5fzqlbbE4WMSspwZe2XgKC42.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3286605302331",
+    "title": "Plata dulce",
+    "poster": "https://image.tmdb.org/t/p/w500/nPskchDZ8abXE3uajsktPw3IdAE.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4430443776755",
+    "title": "El valle de Gwangi",
+    "poster": "https://image.tmdb.org/t/p/w500/mp6QSzE1UT5bsGpDv19Yzd5m8Pl.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "3695425686090",
+    "title": "Gatos salvajes",
+    "poster": "https://image.tmdb.org/t/p/w500/zqhoG55rXOCaSsGq78TyJ2wSpkc.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2915849341655",
+    "title": "American Beauty",
+    "poster": "https://image.tmdb.org/t/p/w500/wdXHzwh4DCifigYD50YEYM6CJS3.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4223113824878",
+    "title": "Robin Hood, príncipe de los ladrones",
+    "poster": "https://image.tmdb.org/t/p/w500/b0pJ0SZ9xAEpqo0tx7WOQ9xv8Ns.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1387970693693",
+    "title": "Runaway, brigada especial",
+    "poster": "https://image.tmdb.org/t/p/w500/dy0sD8t8p3LMDQowUw8CzQFRLvD.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3128072014476",
+    "title": "Poseídos",
+    "poster": "https://image.tmdb.org/t/p/w500/tW06KsiYpH3VW4p80N4GcaYuyTc.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "6380415290079",
+    "title": "Mil ramos de rosas",
+    "poster": "https://image.tmdb.org/t/p/w500/fq82qspH3i2KcvXrk1xlY5JFbiM.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1673979955770",
+    "title": "A 20 millones de millas de la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/g42nmYFGf7SAo2552UkR6uGPpue.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3231173184180",
+    "title": "Santa Claus, la película",
+    "poster": "https://image.tmdb.org/t/p/w500/tZvGQF2623FD0MZgvOy18J5d7x5.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "3315039013486",
+    "title": "Una Navidad de locos",
+    "poster": "https://image.tmdb.org/t/p/w500/xwcvnwlVWuGefRCH7EMmciMfAjW.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2410215115299",
+    "title": "Fabricando al hombre perfecto",
+    "poster": "https://image.tmdb.org/t/p/w500/sVXFUCqq9xr9DGfhguFa1EQp1WB.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2493910354573",
+    "title": "Golpe en la pequeña China",
+    "poster": "https://image.tmdb.org/t/p/w500/5uriF7cQQzfcgwWblJD80tIE7gu.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1987154741900",
+    "title": "Cocktail",
+    "poster": "https://image.tmdb.org/t/p/w500/xvB7e1uAxwbHko3fhgCssr711wn.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "1822520707781",
+    "title": "Viaje alucinante",
+    "poster": "https://image.tmdb.org/t/p/w500/u5fmv9wzgubvVOljx9sViuiHYNL.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3726612826869",
+    "title": "Cariño, he agrandado al niño",
+    "poster": "https://image.tmdb.org/t/p/w500/1mbjSOQz7tUTBKTE9jpgaISv2C9.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "6186765584965",
+    "title": "Cielo líquido",
+    "poster": "https://image.tmdb.org/t/p/w500/qrIMhIMLhLYHMqmWftKlZRApeCh.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2475242031865",
+    "title": "Cobra, el brazo fuerte de la ley",
+    "poster": "https://image.tmdb.org/t/p/w500/zXW4cRRcnPGeSej9EBlKJxnxUUk.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2576003893906",
+    "title": "Campo de batalla: La Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/fUia7wlYS2B6tMjdcn4LSsWjwAK.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "6572180310659",
+    "title": "Moonraker",
+    "poster": "https://image.tmdb.org/t/p/w500/kyisfNtn0cmQA4e39H9VCa5CkN6.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "392905362054",
+    "title": "Cocoon",
+    "poster": "https://image.tmdb.org/t/p/w500/osyR4zl0hBivH7leFTy11vFGjhX.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "5039127792308",
+    "title": "Dos renegados",
+    "poster": "https://image.tmdb.org/t/p/w500/cjO1uOtR91o0LaCKXJHaiThIao.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6191269743139",
+    "title": "El hombre de mimbre",
+    "poster": "https://image.tmdb.org/t/p/w500/qeNitlsX0CMxj4of9UM9cVuvUIN.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "6533559224972",
+    "title": "Presunto inocente",
+    "poster": "https://image.tmdb.org/t/p/w500/sszy9h6k7GsE2xbXgEAhLDHN8HR.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "1161558362839",
+    "title": "Superagente K-9",
+    "poster": "https://image.tmdb.org/t/p/w500/aroGPuJTZ6hz0okkQr39JwDFHJN.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "7970890910268",
+    "title": "La ventana secreta",
+    "poster": "https://image.tmdb.org/t/p/w500/tNPnEp91xKShOIGh1VJgAIXIGT9.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "6267853802055",
+    "title": "Espías como nosotros",
+    "poster": "https://image.tmdb.org/t/p/w500/7mJJnqQhwFJJGXk7guEawNn8nui.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3508477233797",
+    "title": "Scanners",
+    "poster": "https://image.tmdb.org/t/p/w500/sRMqNuggnx3NN28PP8ogkUegIMJ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2046275029727",
+    "title": "Erik el vikingo",
+    "poster": "https://image.tmdb.org/t/p/w500/b0zQNIlFN50VjW7t8AmkG14jtXa.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2715331594892",
+    "title": "Al final de la escalera",
+    "poster": "https://image.tmdb.org/t/p/w500/qcn1zmcyjcSIgtq4EWgbAGf7c6J.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "284926151302",
+    "title": "Anarchy: La noche de las bestias",
+    "poster": "https://image.tmdb.org/t/p/w500/ynDDbzVge9AzuTkeyw8JcKr58Cq.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1254286756567",
+    "title": "Piraña",
+    "poster": "https://image.tmdb.org/t/p/w500/mrlXGpRZcSrYxgCfCxLnhF7eoph.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3056678865631",
+    "title": "Trog",
+    "poster": "https://image.tmdb.org/t/p/w500/tGSYOU7ozwVTjutl9T8SshPTzPd.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3885945588439",
+    "title": "Amanecer rojo",
+    "poster": "https://image.tmdb.org/t/p/w500/7Z1NgiJ3cq5tasdfKVuAmcJpXyK.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1225926052426",
+    "title": "Miedo azul",
+    "poster": "https://image.tmdb.org/t/p/w500/ou0nHZJl2x9MVRkTxGTngdUcs26.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3468694915619",
+    "title": "El temible burlón",
+    "poster": "https://image.tmdb.org/t/p/w500/iwQi3Wi25AgirqOjYTuVLncaa7v.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3746105395949",
+    "title": "La posesión",
+    "poster": "https://image.tmdb.org/t/p/w500/kTVEsT1Jvml9AzUcGRrvB9Q6pSA.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2386471684621",
+    "title": "La casa de cera",
+    "poster": "https://image.tmdb.org/t/p/w500/2LQS9JNfbRlsalAe2BlTDXquSyH.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1254297701079",
+    "title": "Distrito 34: Corrupción total",
+    "poster": "https://image.tmdb.org/t/p/w500/3GdNEYrQch9F0GnWF9bB0HslO0Q.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "725999684230",
+    "title": "El secreto de sus ojos",
+    "poster": "https://image.tmdb.org/t/p/w500/sd6LML87wa9UPZgfuPnGwic82YH.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "408696851078",
+    "title": "District 9",
+    "poster": "https://image.tmdb.org/t/p/w500/eROypi6RFeXFsfqeUMtTTXmdyOY.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4677335517897",
+    "title": "Expediente X: Enfréntate al futuro",
+    "poster": "https://image.tmdb.org/t/p/w500/w0VeX22A6oCUBgYONhW5eDbdilf.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "2454548056620",
+    "title": "Bolsa de cadáveres",
+    "poster": "https://image.tmdb.org/t/p/w500/vZrHLfxKiJ6NgPn0Xi0mJ4HMWWy.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3737219500724",
+    "title": "El jinete pálido",
+    "poster": "https://image.tmdb.org/t/p/w500/vOezX2ee3fuCCvFjjCRt5hP1Fw1.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "833592429190",
+    "title": "La Bamba",
+    "poster": "https://image.tmdb.org/t/p/w500/orb1F1h8lMs27n0lOE5kjNMsHde.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "830742334062",
+    "title": "Dos policías rebeldes",
+    "poster": "https://image.tmdb.org/t/p/w500/ZYpSdXaTMFYCGbmVmXOFbdJmSv.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "748127128296",
+    "title": "Muñeco diabólico 2",
+    "poster": "https://image.tmdb.org/t/p/w500/sg0GuCbEdGMoDlpv33oP6Z5x1g6.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "771785820771",
+    "title": "La historia interminable",
+    "poster": "https://image.tmdb.org/t/p/w500/dHZ3HmN294z2ri1KyWFwBORFOd7.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "35916679712",
+    "title": "Alien³",
+    "poster": "https://image.tmdb.org/t/p/w500/mj4lGdK8dyivFDKoRXEUmkaUKKf.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3091579341535",
+    "title": "Del Espacio Profundo",
+    "poster": "https://image.tmdb.org/t/p/w500/lLuYpdJnULurcO6Z6KMlSfBxZBD.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "30633102006",
+    "title": "Anaconda",
+    "poster": "https://image.tmdb.org/t/p/w500/uj0ZYr2ZvAFT0uPuBdaLb9yYZQv.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "6980207119009",
+    "title": "Bitelchús",
+    "poster": "https://image.tmdb.org/t/p/w500/fS9uBsxTs3TWdv0wSEpwyhhvCnO.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "4624762145475",
+    "title": "Days of thunder (Días de trueno)",
+    "poster": "https://image.tmdb.org/t/p/w500/ePPRlLtTJkLLZLG0ekA6d2O83i5.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2156030659295",
+    "title": "Troll Hunter",
+    "poster": "https://image.tmdb.org/t/p/w500/bb4CfzDqyKkvrGzRlXovYHtKMDN.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2270852352573",
+    "title": "El ataque de los tomates asesinos",
+    "poster": "https://image.tmdb.org/t/p/w500/trbJ7xnbM66ive5qNEVTbfJQjZo.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2196410338015",
+    "title": "Los commitments",
+    "poster": "https://image.tmdb.org/t/p/w500/iccBDq9aS1gwi6b8aJjBgPU4t2D.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1254275222231",
+    "title": "Bronco Billy",
+    "poster": "https://image.tmdb.org/t/p/w500/pVX6nBUytfFVkGFeMNfdN3XOBW7.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1136279947991",
+    "title": "Cube",
+    "poster": "https://image.tmdb.org/t/p/w500/ngM6WtSC1bzcST3QzbCiDYsxo7E.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1212815968899",
+    "title": "La delgada línea roja",
+    "poster": "https://image.tmdb.org/t/p/w500/234oXaXKIcyXpWMMFISsZ94tas9.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3100344388206",
+    "title": "Imparable",
+    "poster": "https://image.tmdb.org/t/p/w500/e4Vok9xyYs5CKKYKapGQGccyFU2.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3232218286808",
+    "title": "La hora final",
+    "poster": "https://image.tmdb.org/t/p/w500/A2hZ9uRLcC5XYA4qNAwiZiLslMb.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1526377679609",
+    "title": "Mothman, la última profecía",
+    "poster": "https://image.tmdb.org/t/p/w500/poYhzoLWvxDGCsSfGBLjc90VN1e.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "368921348840",
+    "title": "Pesadilla en Elm Street",
+    "poster": "https://image.tmdb.org/t/p/w500/qDmeYxsfNA68Bn7aW8HSkAuVmWf.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2394011732676",
+    "title": "Bailando con lobos",
+    "poster": "https://image.tmdb.org/t/p/w500/NYzUSchNAs0Q3K2ebPRvkPrlrs.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "4161667861159",
+    "title": "Escalofrío en la noche",
+    "poster": "https://image.tmdb.org/t/p/w500/vvQoEJtBNc6JgE0CEL0MxmHbHsB.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3867052083927",
+    "title": "Máscara",
+    "poster": "https://image.tmdb.org/t/p/w500/lfWLrwXST3hEaUwVftSGskjmuEs.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5572748315359",
+    "title": "El rey de Nueva York",
+    "poster": "https://image.tmdb.org/t/p/w500/ogU1DgalBtVNNiKP4t6LPDjyaij.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "3866081364626",
+    "title": "Proyecto Brainstorm",
+    "poster": "https://image.tmdb.org/t/p/w500/8IUhe4lNAMeIrJZgnen3V4GmyfT.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "799851350660",
+    "title": "Luces rojas",
+    "poster": "https://image.tmdb.org/t/p/w500/1ievscaJ9egfPdG8C3HiymVf43A.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "4733250636410",
+    "title": "Atrapados en Chernóbil",
+    "poster": "https://image.tmdb.org/t/p/w500/7RdQGvkeQMD8bRxdx70uCX23TF4.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2645977402002",
+    "title": "La mosca 2",
+    "poster": "https://image.tmdb.org/t/p/w500/mGrE2MNOjEQvHVqZSXUzdUboKcc.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2537525676684",
+    "title": "Persecución mortal",
+    "poster": "https://image.tmdb.org/t/p/w500/jnWmZUjQHJl9MATvymsMG1rEHza.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3045559372491",
+    "title": "Training Day (Día de entrenamiento)",
+    "poster": "https://image.tmdb.org/t/p/w500/nagh5PjkfBnDf5SKXyHupWu4yod.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2522842794719",
+    "title": "Cromosoma 3",
+    "poster": "https://image.tmdb.org/t/p/w500/hHNDJ9DaVosyfDhyym90azABgxd.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1169969253079",
+    "title": "Campo de sueños",
+    "poster": "https://image.tmdb.org/t/p/w500/lVjjHrlx7ohGRiMdAkvq3F8Q0uh.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5108184189653",
+    "title": "Saw",
+    "poster": "https://image.tmdb.org/t/p/w500/k9h1Don5JWNhLMAjspwbiMMoDzS.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1349482777303",
+    "title": "Merlín el encantador",
+    "poster": "https://image.tmdb.org/t/p/w500/hMAVsdyj0O13AJF4HK15WxaFsBm.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2708544424594",
+    "title": "Razas de noche",
+    "poster": "https://image.tmdb.org/t/p/w500/qRkKJLHR5c1rhFjhDFugpynxAs0.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4188356414167",
+    "title": "Escalofrío",
+    "poster": "https://image.tmdb.org/t/p/w500/bVe4Y0lrGjW6VqZDW44f3c80S0u.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2348956256834",
+    "title": "El ejército de las tinieblas",
+    "poster": "https://image.tmdb.org/t/p/w500/aWko0iXOEbqvWZa8NVKrUbBMJYy.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "1226746497751",
+    "title": "El padre de la novia",
+    "poster": "https://image.tmdb.org/t/p/w500/5K37OEh1rCQgUiJK3YiOQYHWHkl.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2170731825887",
+    "title": "It ¡El terror del más allá!",
+    "poster": "https://image.tmdb.org/t/p/w500/hVC3wd7RdlGTKg4xBlF5gry0Z5j.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2775072049810",
+    "title": "Tornado!",
+    "poster": "https://image.tmdb.org/t/p/w500/kzQNHyfqdbUdpJqHyqtZSQYxq5F.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2782001695378",
+    "title": "La loca historia de las galaxias",
+    "poster": "https://image.tmdb.org/t/p/w500/kO0lVdkp5pawQFZl1YKCh30pXCU.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2818269645527",
+    "title": "Destino final",
+    "poster": "https://image.tmdb.org/t/p/w500/6F3MEcGHeMAMxledi7vQfqkZRkc.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3453035743884",
+    "title": "Poltergeist II: El otro lado",
+    "poster": "https://image.tmdb.org/t/p/w500/qnBacCgcGyyX7jmwDf4gemu9OuX.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "862763944582",
+    "title": "Broken Arrow: Alarma nuclear",
+    "poster": "https://image.tmdb.org/t/p/w500/xAhuGvBECZQoNo2h0JFP3Z0iLhy.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3100346681966",
+    "title": "¡Este cuerpo no es el mío!",
+    "poster": "https://image.tmdb.org/t/p/w500/c5ffGrKTcRrKQ59Wg3vMmg7QFN.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2647586310802",
+    "title": "El tiempo en sus manos",
+    "poster": "https://image.tmdb.org/t/p/w500/rqR0I0EITpG6uY27aQYDxItXH4a.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2733166430935",
+    "title": "Wayne's World: ¡Qué desparrame!",
+    "poster": "https://image.tmdb.org/t/p/w500/nQ75ReOwRAB8SNeMW0jFjyBcTNC.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2179479374453",
+    "title": "Domingo negro",
+    "poster": "https://image.tmdb.org/t/p/w500/jcpdHAqYrnfnRCY7zTOkcm7FnAV.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "4740641393312",
+    "title": "Ángeles y demonios",
+    "poster": "https://image.tmdb.org/t/p/w500/kLTpEwwVyquJmWak9qKGc4icFMK.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "3091580127967",
+    "title": "Creature",
+    "poster": "https://image.tmdb.org/t/p/w500/tv4xMEUqYvfJAW9BtUF25JnCHqS.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "7426326661870",
+    "title": "Sonrisas y lágrimas",
+    "poster": "https://image.tmdb.org/t/p/w500/3mYxH1mwSmNoyZF4xvDvcEpH18F.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4305752885996",
+    "title": "Alien: Resurrección",
+    "poster": "https://image.tmdb.org/t/p/w500/6MLQ5ehGD3b8E0JZ9K2G4cZeFaI.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "568356047441",
+    "title": "Masters del universo",
+    "poster": "https://image.tmdb.org/t/p/w500/6UTNuS4WhpIPqRbEmj9QBRPIkCt.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "865843481222",
+    "title": "La familia Addams",
+    "poster": "https://image.tmdb.org/t/p/w500/ro7bdsSGp1jtvMxSWEfLLCK33PO.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4442866190922",
+    "title": "La cosa (The Thing)",
+    "poster": "https://image.tmdb.org/t/p/w500/p3ysBtfK6bPVLXRwsPzVdRlmkdI.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4452731783820",
+    "title": "Procedimiento ilegal",
+    "poster": "https://image.tmdb.org/t/p/w500/kfWkoOVWjZMZGoN63KjkMsb6LOp.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2938539149957",
+    "title": "Virus",
+    "poster": "https://image.tmdb.org/t/p/w500/5Np88iigCfnXvMlMKmCcbPVIbYQ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "368937536134",
+    "title": "Un método peligroso",
+    "poster": "https://image.tmdb.org/t/p/w500/sffZb1HKUvMcKmuB8KycMZ61ycQ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2064401763039",
+    "title": "El día después",
+    "poster": "https://image.tmdb.org/t/p/w500/v5bY9oib2MQZPQuf7xNAkLftaiu.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2259789023967",
+    "title": "Días del cielo",
+    "poster": "https://image.tmdb.org/t/p/w500/t0omyXIvd4sY4sbsvOc6uqOFpwe.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2032742632103",
+    "title": "La amenaza de Andrómeda",
+    "poster": "https://image.tmdb.org/t/p/w500/nmTaysdcdR6gZuhXcaQ6If1DHul.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2341505862391",
+    "title": "El hombre que nunca estuvo allí",
+    "poster": "https://image.tmdb.org/t/p/w500/60GzoSrfNHm2V14pI8ENj3ICICD.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2239944854040",
+    "title": "Cuando el viento sopla",
+    "poster": "https://image.tmdb.org/t/p/w500/59lf1AjY8w1EDvfjf3OXu5qsg9F.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2141400664693",
+    "title": "Meteoro",
+    "poster": "https://image.tmdb.org/t/p/w500/y1OlXxEsYnB16RDPJ6OnrJVwcru.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2213314431523",
+    "title": "Rabia",
+    "poster": "https://image.tmdb.org/t/p/w500/if4h7tx0Zdxnq8qmm37OoQ5VCes.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3900453554903",
+    "title": "Volar por los aires",
+    "poster": "https://image.tmdb.org/t/p/w500/f9PlTSciH3sO4xlCOedyRns4ra.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2022136416829",
+    "title": "Callejón Infernal",
+    "poster": "https://image.tmdb.org/t/p/w500/m92uqQcGzWrxQLxyrpm3qzL4IPC.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2043188218591",
+    "title": "Sueños eléctricos",
+    "poster": "https://image.tmdb.org/t/p/w500/bkKrLw0WkHNCOCHnHCKlxx6XUHR.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "1850411780762",
+    "title": "La celda 2",
+    "poster": "https://image.tmdb.org/t/p/w500/2CSU8iP6DXFDYgJYAiufWdw4pSI.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2169426283231",
+    "title": "Bajo cero",
+    "poster": "https://image.tmdb.org/t/p/w500/pm9GX8TUtrr5LreiqYUa012Wisp.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "876464573062",
+    "title": "La posesión de Grace",
+    "poster": "https://image.tmdb.org/t/p/w500/eztd2YcRUmjxRVcCtBYt56CqsX6.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2342680267404",
+    "title": "El gurú",
+    "poster": "https://image.tmdb.org/t/p/w500/6jJoUKSZp8Q3y79E12p4dZzHc2A.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3100344584814",
+    "title": "El expreso de medianoche",
+    "poster": "https://image.tmdb.org/t/p/w500/jHHNr2ZSaXUdTbFvNPgNBJf4tUa.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "801156303549",
+    "title": "Los chicos del maíz",
+    "poster": "https://image.tmdb.org/t/p/w500/8lFJtTAFxn0eCpQPNYEll2opv0K.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3840769460951",
+    "title": "Despertares",
+    "poster": "https://image.tmdb.org/t/p/w500/dkQfTT6hpfll4dzhfC0pNjRwXAe.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2526594796247",
+    "title": "Hackers, piratas informáticos",
+    "poster": "https://image.tmdb.org/t/p/w500/1INXMUzeL6ffzNierJdu5YQf1Ek.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1805728156195",
+    "title": "Los profanadores de tumbas",
+    "poster": "https://image.tmdb.org/t/p/w500/tfphlX6R5cxa477rzi2pTHfUJyU.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1960105937548",
+    "title": "Granja maldita",
+    "poster": "https://image.tmdb.org/t/p/w500/mqeDQOfqohVThQ7ZKErqoHL5odm.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4543153244895",
+    "title": "Viscosidad",
+    "poster": "https://image.tmdb.org/t/p/w500/h7hIaLa2gqeOE2Y1OWLTzmcUMTV.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2226403347084",
+    "title": "Los Extermineitors",
+    "poster": "https://image.tmdb.org/t/p/w500/laSKiSVY0wVFLC1s2kIR8AXRiaM.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2554166053591",
+    "title": "El último forajido",
+    "poster": "https://image.tmdb.org/t/p/w500/8gF0bxSlwFDNBnNKsMb0kj0uuE6.jpg",
+    "genre": "Película de TV"
+  },
+  {
+    "id": "1183970757251",
+    "title": "Warlock 2: Apocalipsis final",
+    "poster": "https://image.tmdb.org/t/p/w500/sDEc22vvBeWu14j1Iood6QyA3wK.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "402974116486",
+    "title": "Vampiros de John Carpenter",
+    "poster": "https://image.tmdb.org/t/p/w500/oa67yugnWstYxJDHvGS0XTN0aSL.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3264459180654",
+    "title": "Unrest (Los que no descansan)",
+    "poster": "https://image.tmdb.org/t/p/w500/mQhSNeAZaYpVn2CJwKSnqvM1Ek5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2232338090557",
+    "title": "Take Shelter",
+    "poster": "https://image.tmdb.org/t/p/w500/915o7bvyYyOtU8u7UWax9CDQh83.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "368927509224",
+    "title": "Pesadilla en Elm Street 2: La venganza de Freddy",
+    "poster": "https://image.tmdb.org/t/p/w500/54JsC5uy6l9HTeDmW1DGQ76dsc4.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1169962961539",
+    "title": "La profecía",
+    "poster": "https://image.tmdb.org/t/p/w500/iWyb6PKnl7lp0ytK8ZG7vJloGxc.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1774870858308",
+    "title": "El chico de oro",
+    "poster": "https://image.tmdb.org/t/p/w500/su5XS4TTnRJzRsElWmLjGEGYMU9.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2406011767406",
+    "title": "American Pie 2",
+    "poster": "https://image.tmdb.org/t/p/w500/3vCYQf5zQUFnG2dZptuvZlO0alE.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2673316268776",
+    "title": "Sin perdón",
+    "poster": "https://image.tmdb.org/t/p/w500/bhcVwMko4DbSELZapIQv4mmdPKY.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2571580148478",
+    "title": "Hace un millón de años",
+    "poster": "https://image.tmdb.org/t/p/w500/78YyaNsGtc0ZoE4xSlaZ4yawEWG.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3148415437527",
+    "title": "Llamaradas",
+    "poster": "https://image.tmdb.org/t/p/w500/sXidEP5x5RhUlNUlnHNrfFyActO.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2452107168270",
+    "title": "[REC]²",
+    "poster": "https://image.tmdb.org/t/p/w500/9C7GrP6g29hklOqtGE0eEUbsPeC.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2444713986792",
+    "title": "El asesinato de Jesse James por el cobarde Robert Ford",
+    "poster": "https://image.tmdb.org/t/p/w500/azrNQgdyBczVjLwqYqefPf3Vg6X.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3193241012959",
+    "title": "La reencarnación de Peter Proud",
+    "poster": "https://image.tmdb.org/t/p/w500/2LwL6rOnJeKbV6i3UM539MoE2Vs.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1134713178840",
+    "title": "Terremoto",
+    "poster": "https://image.tmdb.org/t/p/w500/vECrzeE0Keh7wllGDYbGvTk5mEj.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2381769738949",
+    "title": "El enigma de otro mundo",
+    "poster": "https://image.tmdb.org/t/p/w500/48nJtwb2rfYprwNcs4sidOlVr6C.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1719309765316",
+    "title": "The Punisher (El castigador)",
+    "poster": "https://image.tmdb.org/t/p/w500/bXEjRdWopGO4RhUlX0wdxMTT0Os.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "222957144710",
+    "title": "Río salvaje",
+    "poster": "https://image.tmdb.org/t/p/w500/obXfrcnYvjPoBGw8thSyPAZOxCy.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "42829023839",
+    "title": "El furor del dragón",
+    "poster": "https://image.tmdb.org/t/p/w500/vQypZXgN2QhqAVO0cxxlsAe9Fzw.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1179274709719",
+    "title": "eXistenZ",
+    "poster": "https://image.tmdb.org/t/p/w500/lSSeDs0egzkWMDO47gUywtJiC0d.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2896121563788",
+    "title": "Benji",
+    "poster": "https://image.tmdb.org/t/p/w500/sfgOfEuBd83UquRB0wyDaovx6mN.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2601293384309",
+    "title": "Trenes rigurosamente vigilados",
+    "poster": "https://image.tmdb.org/t/p/w500/iYNeJvHDokAYoryc3k2JZWgPuMV.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "906814294662",
+    "title": "La alianza del mal",
+    "poster": "https://image.tmdb.org/t/p/w500/m1sWww2EIh8UxVIbxQBWoBmNqqE.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2157970590431",
+    "title": "Pato Lucas cazamonstruos",
+    "poster": "https://image.tmdb.org/t/p/w500/ig8ptjEB4rYbZRgYR2rkSSF8TLk.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "1221542742743",
+    "title": "Trabajo basura",
+    "poster": "https://image.tmdb.org/t/p/w500/nZaCSfRVCisOrW7hdW7MowzseP3.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2515671714520",
+    "title": "Calma total",
+    "poster": "https://image.tmdb.org/t/p/w500/AoMXkav9Nwxsw3eGSX3rywGsS33.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "4052378127063",
+    "title": "El abogado del diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/ksJNEa0pTZK6RnV4MRLmOgyMOJF.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "3263752833646",
+    "title": "Identidad",
+    "poster": "https://image.tmdb.org/t/p/w500/oWZmq1dbLB2h7r0JRBTBbiWqQke.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "3262037428797",
+    "title": "2024: Apocalipsis nuclear (Un muchacho y su perro)",
+    "poster": "https://image.tmdb.org/t/p/w500/dMbkoFzD5sEQvEaqRsIh4pTBJVq.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5244645083882",
+    "title": "Loca academia de policía",
+    "poster": "https://image.tmdb.org/t/p/w500/wmphZLnqARmCvjFvYkBAMhlsmNl.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3323082705590",
+    "title": "Parking 2",
+    "poster": "https://image.tmdb.org/t/p/w500/dXreaFYNKyI7JAAHzOKGOO94lO.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1224966736599",
+    "title": "El pelotón chiflado",
+    "poster": "https://image.tmdb.org/t/p/w500/AJbbPq0XI54ueCkVHzMfXI9t1n.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3051953130094",
+    "title": "La muerte tenía un precio",
+    "poster": "https://image.tmdb.org/t/p/w500/qY5gbsSBDETBhyH42XkKxBrJnqB.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1782790294055",
+    "title": "La sombra del diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/Aa4UMR8FrQLkZafllUcT7fmmTEh.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3263752047214",
+    "title": "Noche de miedo II",
+    "poster": "https://image.tmdb.org/t/p/w500/1aIs4nK1NTkHZuSCQZb8GSpIOKP.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2801139714677",
+    "title": "Furia Oriental (Fist of Fury)",
+    "poster": "https://image.tmdb.org/t/p/w500/hONgSVhFqNGQkgSzXXwUZcbUC28.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5475510586079",
+    "title": "El aparecido",
+    "poster": "https://image.tmdb.org/t/p/w500/sXhsWfivD986hglz8pKj5EGtIJK.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "343362767494",
+    "title": "Los Croods",
+    "poster": "https://image.tmdb.org/t/p/w500/3X3qtBTgKt5mCB30RJwbIjgjzdw.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "3576495868451",
+    "title": "Ángeles sin cielo",
+    "poster": "https://image.tmdb.org/t/p/w500/7yanc0HUED3USbnYAy4Yvg1nZbH.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4867637775046",
+    "title": "Critters",
+    "poster": "https://image.tmdb.org/t/p/w500/dxBy4WePZY06Bk5KvXb4K3UnjCy.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2461006105106",
+    "title": "Una mujer bajo la influencia",
+    "poster": "https://image.tmdb.org/t/p/w500/xX9xyqocEh4OvkhGip9m9JjXNTe.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4531942591061",
+    "title": "Guardianes del futuro",
+    "poster": "https://image.tmdb.org/t/p/w500/xvnGq5pBk58r0HOIL1d5PlyBQxL.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1775923038921",
+    "title": "Pat Garrett y Billy el Niño",
+    "poster": "https://image.tmdb.org/t/p/w500/eGfUVB3myNH4T8qa48SYkfw50RO.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1536183765519",
+    "title": "La cuarta fase",
+    "poster": "https://image.tmdb.org/t/p/w500/2tpTnb6o1LVRn2IDwn7fr6qn27I.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "2854987434719",
+    "title": "Grita libertad",
+    "poster": "https://image.tmdb.org/t/p/w500/4hQbrELn2Qdo9s3cYNEHwZnhe2Q.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2327961537164",
+    "title": "La niebla",
+    "poster": "https://image.tmdb.org/t/p/w500/ggMJD3zupAwzAXwj9szGf6vnobY.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3250042440253",
+    "title": "Tentáculos",
+    "poster": "https://image.tmdb.org/t/p/w500/uETOhskcgl1lZOi2SSPh6xNTsU1.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2091246357027",
+    "title": "Tierra de sangre",
+    "poster": "https://image.tmdb.org/t/p/w500/h2MmLzkWv3Wx3phsMQqFgyB3plJ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1843614911172",
+    "title": "E.T. el extraterrestre",
+    "poster": "https://image.tmdb.org/t/p/w500/4kixNqJAu7hWpZOnOsznL7YPuuQ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2717308095116",
+    "title": "El fuera de la ley",
+    "poster": "https://image.tmdb.org/t/p/w500/5TzrWk1mSoavRcdkNEhVpKftICv.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "240551791163",
+    "title": "El sexto sentido",
+    "poster": "https://image.tmdb.org/t/p/w500/pvjph7FouToPBY3PhTvTyOYoJDX.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "3298680834700",
+    "title": "Temblores 2: La respuesta",
+    "poster": "https://image.tmdb.org/t/p/w500/uGogIG6BHjoKnKJTRnFA5YwmFu0.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2164507019999",
+    "title": "Latidos",
+    "poster": "",
+    "genre": "Películas"
+  },
+  {
+    "id": "1166375455293",
+    "title": "Silverado",
+    "poster": "https://image.tmdb.org/t/p/w500/lkQ7ha7WUVq3xqEU78VbqymRc9E.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "3589793778279",
+    "title": "Rocky II",
+    "poster": "https://image.tmdb.org/t/p/w500/nMaiiu0CzT77U4JZkUYV7KqdAjK.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2356737739487",
+    "title": "Autopsia de un alien",
+    "poster": "https://image.tmdb.org/t/p/w500/zFQ23icWVfFIONdyedlfutZHijo.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "639238408838",
+    "title": "Yo, robot",
+    "poster": "https://image.tmdb.org/t/p/w500/u0tUxQQxrbKX3GIfsCYeHrrYPzV.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2797426051799",
+    "title": "Wayne's World 2: ¡Qué desparrame 2!",
+    "poster": "https://image.tmdb.org/t/p/w500/72TBNPN06oo1myHqihwcCQVDl48.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1604833774281",
+    "title": "A Scanner Darkly (Una mirada en la oscuridad)",
+    "poster": "https://image.tmdb.org/t/p/w500/xHB6cPkNYZyZtAIxmWA3PGgwxGh.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2724559719052",
+    "title": "El último rey de Escocia",
+    "poster": "https://image.tmdb.org/t/p/w500/gU3tnndAme22T5kUplCG8la0dul.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1185189726740",
+    "title": "Acción Jackson",
+    "poster": "https://image.tmdb.org/t/p/w500/6u6N56G3UOfDsXD2uJZeVgDbp3q.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1521965206077",
+    "title": "Un vaquero sin rumbo",
+    "poster": "https://image.tmdb.org/t/p/w500/wnzS8ksKG5io8ZRWoRjntSPshE1.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1236987284183",
+    "title": "Leyenda urbana",
+    "poster": "https://image.tmdb.org/t/p/w500/51xghNQVIrkdg7T6NknFWCDzpfC.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1170729798205",
+    "title": "El puente de Remagen",
+    "poster": "https://image.tmdb.org/t/p/w500/fStkAJ9HSqbct9iuKf1o59Aeliq.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "2613289028312",
+    "title": "La ley de la calle",
+    "poster": "https://image.tmdb.org/t/p/w500/nhkBx2ehlxZVLclBXuojUZuSjB6.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "313181473414",
+    "title": "Frequency",
+    "poster": "https://image.tmdb.org/t/p/w500/yElY5RvsxoRs1LxSSMBM2uS3e6k.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2991202437847",
+    "title": "El último hombre... vivo",
+    "poster": "https://image.tmdb.org/t/p/w500/pR6gbM0uKtKeYZEvSdzoehyAEpU.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4307118787252",
+    "title": "12 monos",
+    "poster": "https://image.tmdb.org/t/p/w500/bXLwKCCMS2NCNlxAhSwn9HCymRl.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2717509749388",
+    "title": "Encerrado",
+    "poster": "https://image.tmdb.org/t/p/w500/xAXLra2j06GGO00m8d0d7GVcEr.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2931948325522",
+    "title": "Capricornio Uno",
+    "poster": "https://image.tmdb.org/t/p/w500/nTKmP3ML8BrDS8g79dXOsK3UNKH.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1959824329356",
+    "title": "Aeropuerto 77",
+    "poster": "https://image.tmdb.org/t/p/w500/rrChB8wOXCNbOX9HHFP1oha4fbf.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2800092187246",
+    "title": "Los ojos de Julia",
+    "poster": "https://image.tmdb.org/t/p/w500/lMZ7Fqp6kmT1N6VfitzSqB7DTdb.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2711877061287",
+    "title": "La invasión de los ultracuerpos",
+    "poster": "https://image.tmdb.org/t/p/w500/xE5BFZ7ymk2XsLCPOLwKb6h6Sjc.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1716449446532",
+    "title": "Gettysburg",
+    "poster": "https://image.tmdb.org/t/p/w500/wxVlMW8GbiqXISqTeiPnJ76yA0g.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "704377719399",
+    "title": "Tigre y dragón",
+    "poster": "https://image.tmdb.org/t/p/w500/cNHT7JrAzPMMSVmI9XBZpYkeocr.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2284299553503",
+    "title": "The Descent: Part 2",
+    "poster": "https://image.tmdb.org/t/p/w500/tqJR40qXPdI0AfkuFwEJA9mfd2D.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "85789838039",
+    "title": "Enemigo público",
+    "poster": "https://image.tmdb.org/t/p/w500/pHLraZnPPAchPFQqbdZcNcNudKz.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1221388208855",
+    "title": "El último escalón",
+    "poster": "https://image.tmdb.org/t/p/w500/oLqguFHQWvkN9Mn76tWe2c63Iu5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2318558825100",
+    "title": "Atrapado por su pasado",
+    "poster": "https://image.tmdb.org/t/p/w500/yX9vWug1cGtJ6hKhLZDz4fR71Zy.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1194038069975",
+    "title": "El abismo negro",
+    "poster": "https://image.tmdb.org/t/p/w500/v3ZMU06FlGpxYwo6uw8D6sn5URB.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "857864473222",
+    "title": "Este muerto está muy vivo 2",
+    "poster": "https://image.tmdb.org/t/p/w500/9dgnViNrC15QQMyl7u7fJhP1MA6.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2570899294764",
+    "title": "Intruso en la noche",
+    "poster": "https://image.tmdb.org/t/p/w500/pib25gFtNCShcyRpFvp1jrcJ1Xk.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1955298282045",
+    "title": "Campeón de campeones",
+    "poster": "https://image.tmdb.org/t/p/w500/xSwj7yORjuO67VuZPvLM90iKLg0.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1151322688153",
+    "title": "Gorilas en la niebla",
+    "poster": "https://image.tmdb.org/t/p/w500/obrJkMogBFZttglk4t9rAax7QA7.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "970309307014",
+    "title": "Cellular",
+    "poster": "https://image.tmdb.org/t/p/w500/6F0Rz5SObtMlbT6U0kGVKcdTXN2.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "406444182126",
+    "title": "Río místico",
+    "poster": "https://image.tmdb.org/t/p/w500/b6j7T4uBjXdG8FBMuDFsHttgIK2.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "4201152645812",
+    "title": "Acero azul",
+    "poster": "https://image.tmdb.org/t/p/w500/uAmecCf8NBdrv4Fdj4KE07gJ2pB.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2208827443935",
+    "title": "El círculo",
+    "poster": "https://image.tmdb.org/t/p/w500/hOSYIl1y76ZxGJR72urrtD1fKCN.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1384188545785",
+    "title": "Almas de metal",
+    "poster": "https://image.tmdb.org/t/p/w500/d0ARZWovukxMwN97D83UOiwMAqP.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "714532326022",
+    "title": "Los dioses deben estar locos",
+    "poster": "https://image.tmdb.org/t/p/w500/qdGWx0CyuhBD1FlDqbwWwEKhq8h.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "5156296067673",
+    "title": "Saw II",
+    "poster": "https://image.tmdb.org/t/p/w500/gw7nQp0rXmEF81SvumCXWx7U5nb.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2583797566069",
+    "title": "La conversación",
+    "poster": "https://image.tmdb.org/t/p/w500/g4bVCc10hpWEiYaSdhL4Jo6MetA.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "368947497704",
+    "title": "Pesadilla en Elm Street 5: El niño de los sueños",
+    "poster": "https://image.tmdb.org/t/p/w500/vUEPnN7ZkW3buaTDmosFubwC7ZH.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2231558933102",
+    "title": "Polar Express",
+    "poster": "https://image.tmdb.org/t/p/w500/ja6QGEUkP8t3wjjoHYvpRStomlT.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "726761605766",
+    "title": "Exploradores",
+    "poster": "https://image.tmdb.org/t/p/w500/f7aN2yei6bjZAlfvk5uurixtZuv.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2918140611205",
+    "title": "El señor de la guerra",
+    "poster": "https://image.tmdb.org/t/p/w500/tzmXFYq9OhUNYATAtbCuNr1Nin9.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3827601509079",
+    "title": "Embriagado de amor",
+    "poster": "https://image.tmdb.org/t/p/w500/uec4w09lToRUbHMNH39Bc2T1mLa.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "2628859333260",
+    "title": "Maleficio (Thinner)",
+    "poster": "https://image.tmdb.org/t/p/w500/nXqHqsQXA0jJpCaUsyre1Yw18oV.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2124787157647",
+    "title": "El cuerpo del delito",
+    "poster": "https://image.tmdb.org/t/p/w500/blWCLJHZGgJcJvZMpqo8T4w8RoM.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1225854749399",
+    "title": "Sospechoso",
+    "poster": "https://image.tmdb.org/t/p/w500/kS0IDiLK0C9guWB70Xvbb67Hy2y.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2584302062303",
+    "title": "Maradona by Kusturica",
+    "poster": "https://image.tmdb.org/t/p/w500/r0JzNHSQNL7ya96bnGSroSNRUwf.jpg",
+    "genre": "Documental"
+  },
+  {
+    "id": "1217995475672",
+    "title": "El profesor chiflado",
+    "poster": "https://image.tmdb.org/t/p/w500/emO5eQK7szRVPlUZwf7dda9U0jc.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2406013209198",
+    "title": "American Pie ¡Menuda boda!",
+    "poster": "https://image.tmdb.org/t/p/w500/mUGNXTC3CelVZMFuV4DTEle2wO2.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1670661999336",
+    "title": "El Trueno Azul",
+    "poster": "https://image.tmdb.org/t/p/w500/KVCOAU6ilJBSZHipAY4gLvxQeo.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2232967105164",
+    "title": "Birdy",
+    "poster": "https://image.tmdb.org/t/p/w500/r79GeBQjHfhhnPiUU5XlIBgqjT2.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3712215616223",
+    "title": "Timerider: El jinete del tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/eejL6UYExbaO6fsKZtZcB89p9lE.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "978930371206",
+    "title": "Evita",
+    "poster": "https://image.tmdb.org/t/p/w500/mVdQatilUGMtB6sV4FXA7O473UD.jpg",
+    "genre": "Historia"
+  },
+  {
+    "id": "2173626747532",
+    "title": "Los chicos del barrio",
+    "poster": "https://image.tmdb.org/t/p/w500/wcHEyW05V0PH4b1bLo47nTIp1oX.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "43903552072",
+    "title": "La sombra",
+    "poster": "https://image.tmdb.org/t/p/w500/cC6uLcRdaoXyjzCbW9KxVUziXrz.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "1629924297413",
+    "title": "Desaparecido en combate 2",
+    "poster": "https://image.tmdb.org/t/p/w500/8j3vhv2IVwvV7UQFf5YtuDLcO0h.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1370303302179",
+    "title": "El vuelo del Fénix",
+    "poster": "https://image.tmdb.org/t/p/w500/nTLtQdW2rbFHOFvpw2nNUdv3Fbn.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2430417570436",
+    "title": "El profesor chiflado",
+    "poster": "https://image.tmdb.org/t/p/w500/A2EjualhbPbT5PoVNx6qOxTgUNl.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2009933613791",
+    "title": "El gran despilfarro",
+    "poster": "https://image.tmdb.org/t/p/w500/3ldzVpOY6lSKb4uQyU50jv0sh7F.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2450526374413",
+    "title": "Dark Angel: Ángel de la muerte",
+    "poster": "https://image.tmdb.org/t/p/w500/cyoHaQiew5zk6ZSYLAHbSRkbrbc.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2673315941096",
+    "title": "Infierno de cobardes",
+    "poster": "https://image.tmdb.org/t/p/w500/wjDXOhds3c0is5gGkBpxy0EjuI6.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2094522042915",
+    "title": "La tierra de los muertos vivientes",
+    "poster": "https://image.tmdb.org/t/p/w500/bLFow6tnwCZ2LPiUbSu94V8klpl.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1244796750467",
+    "title": "El exorcista: El comienzo",
+    "poster": "https://image.tmdb.org/t/p/w500/4fKbC5ujncZUMMekAsxjeSMqlr2.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2862581942894",
+    "title": "El guerrero rojo",
+    "poster": "https://image.tmdb.org/t/p/w500/2oqvb8EEWCqHJnyj0jWpy24S3uw.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "7514459736652",
+    "title": "Willow",
+    "poster": "https://image.tmdb.org/t/p/w500/kymxskRkwRGGrlJLdneItwTIAHm.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "3133935061684",
+    "title": "El primer caballero",
+    "poster": "https://image.tmdb.org/t/p/w500/p8JX9Tor5VhRExWvnC5nKy1aOqT.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "39624182287",
+    "title": "[REC]⁴ Apocalipsis",
+    "poster": "https://image.tmdb.org/t/p/w500/ezWbQjJtCYgpu692haXJaYgRHmZ.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "345516018307",
+    "title": "Jeepers Creepers",
+    "poster": "https://image.tmdb.org/t/p/w500/x2fWYlY2Ad2FL2Ad9p1HTgJEi8x.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1972750322316",
+    "title": "Enemigo mío",
+    "poster": "https://image.tmdb.org/t/p/w500/vuphbYxqjsTLfTFykpZj7dy2mRg.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3900427733727",
+    "title": "El hijo de la novia",
+    "poster": "https://image.tmdb.org/t/p/w500/d7asQbYjP3iAICg7CRKbis0MIcf.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2354265655918",
+    "title": "King Kong",
+    "poster": "https://image.tmdb.org/t/p/w500/tSfZ6LoZgnz8BOrSQVo24vqv4nW.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1773253823015",
+    "title": "Operación Dragón",
+    "poster": "https://image.tmdb.org/t/p/w500/ssZnHf4cPRJGpQGv9unW8B76nrb.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "761777883747",
+    "title": "Todos los hombres del presidente",
+    "poster": "https://image.tmdb.org/t/p/w500/wmocd5vF8Nt0oz06qCKMEL1mjBD.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "977906043526",
+    "title": "Las cenizas de Ángela",
+    "poster": "https://image.tmdb.org/t/p/w500/oMRwCLNklVQC6XDiwKGknEONIQk.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "822930115206",
+    "title": "Nuestros maravillosos aliados",
+    "poster": "https://image.tmdb.org/t/p/w500/nqsjEyilkis7Z62uvchjxXfHktF.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "2085911202447",
+    "title": "Regreso al futuro II",
+    "poster": "https://image.tmdb.org/t/p/w500/oTiQdzBOP5biNvzvrSPAvPxiSKH.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2651092683410",
+    "title": "Viaje al centro de la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/ivdTeQo2WVgYacARsSvo4S1VpQn.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2654385277663",
+    "title": "Coherence",
+    "poster": "https://image.tmdb.org/t/p/w500/yZP8tg2yX0RGqFwknfCYWuy6bpp.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "503517874822",
+    "title": "La playa",
+    "poster": "https://image.tmdb.org/t/p/w500/w6KtlEcZDPwpg4gC5cMhchC8FC6.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "516652010118",
+    "title": "El imaginario del doctor Parnassus",
+    "poster": "https://image.tmdb.org/t/p/w500/lzceuiHbqiOGRkDjzysVQ15DVK7.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "4936718158573",
+    "title": "A todo gas",
+    "poster": "https://image.tmdb.org/t/p/w500/8WFvLnHEYGVVBk8mzTVe7nJ91HQ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6991403485817",
+    "title": "Babel",
+    "poster": "https://image.tmdb.org/t/p/w500/os6R4WX50SoOclBt0U9XjdyReaR.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5532270463557",
+    "title": "El diablo sobre ruedas",
+    "poster": "https://image.tmdb.org/t/p/w500/pwGsxfMNLx3RUQGyl23419CC1RO.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1237017823875",
+    "title": "El regreso de los muertos vivientes",
+    "poster": "https://image.tmdb.org/t/p/w500/yZsQ2asRp8mwbGt4WnqnE59pfdT.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "6085089888888",
+    "title": "Akira",
+    "poster": "https://image.tmdb.org/t/p/w500/vjPt8HYymLOkRv82x9JwVO7M2a5.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "3100346419822",
+    "title": "Looney Tunes: De nuevo en acción",
+    "poster": "https://image.tmdb.org/t/p/w500/6QIy1WUEX4piBh2mXkJAZ6zEU6r.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2548882475660",
+    "title": "70 minutos para huir",
+    "poster": "https://image.tmdb.org/t/p/w500/oJWin62bMqnQUUydUAjlwWo5rsY.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "4558043023982",
+    "title": "Patton",
+    "poster": "https://image.tmdb.org/t/p/w500/1jCaXkBMi9onVxeqqN9v7kovp3u.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "1225008613962",
+    "title": "Amityville II: La posesión",
+    "poster": "https://image.tmdb.org/t/p/w500/b2C13Joh5uAd3EMZOiJCvMIW75H.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3217309305469",
+    "title": "Sidney (Hard Eight)",
+    "poster": "https://image.tmdb.org/t/p/w500/1l5UaoP25Ak8PWCKIULQz70yF03.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4396856183519",
+    "title": "Vuelo a las estrellas",
+    "poster": "https://image.tmdb.org/t/p/w500/24wBAt0OAbFukArnE8SLKp0JYP3.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2955182475956",
+    "title": "Tiempos de gloria",
+    "poster": "https://image.tmdb.org/t/p/w500/f2sKUHfBLTCUuGogGKUR7zqlk7D.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2488011328035",
+    "title": "La casa que nunca muere",
+    "poster": "https://image.tmdb.org/t/p/w500/auK8SR6NTr7S7LTXqoQlb025wFR.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2376945175157",
+    "title": "Desapariciones",
+    "poster": "https://image.tmdb.org/t/p/w500/2y7OqCau4v6Baq7CtXo3L3kMyGt.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1723478772420",
+    "title": "Jumper",
+    "poster": "https://image.tmdb.org/t/p/w500/jtd5jdh3rquFMr25qoRAENwlwa7.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3443152521825",
+    "title": "Los 1001 cuentos de Bugs Bunny",
+    "poster": "https://image.tmdb.org/t/p/w500/cYknJKuyRPdnnS1tw45cxxhcGfY.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2192922905228",
+    "title": "Las aventuras de Buckaroo Banzai",
+    "poster": "https://image.tmdb.org/t/p/w500/yP9FAbZAlVWHEKn0kDJdFGujd5n.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1224953367255",
+    "title": "Juego de honor",
+    "poster": "https://image.tmdb.org/t/p/w500/zv8adNlsTTOkcyrRwODlHREXaPU.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1250849393266",
+    "title": "Fiebre del sábado noche",
+    "poster": "https://image.tmdb.org/t/p/w500/qgwWjfpgGvUPoWXdq5kPLii6AOr.jpg",
+    "genre": "Música"
+  },
+  {
+    "id": "1870903052917",
+    "title": "Naves misteriosas",
+    "poster": "https://image.tmdb.org/t/p/w500/nw9Y61x0aDZsFkGza2mSLa8vBUE.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "327863437955",
+    "title": "Infierno blanco",
+    "poster": "https://image.tmdb.org/t/p/w500/qrLan9yN5LJbJYozrr5VarL1FVh.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "357674977926",
+    "title": "La ladrona de libros",
+    "poster": "https://image.tmdb.org/t/p/w500/5DBOnKLZj5JmsRlCKCEWga5Nf0A.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1227655350999",
+    "title": "Woman on Top",
+    "poster": "https://image.tmdb.org/t/p/w500/bEYQgIQjbOSe7twwxJBpTYctFlw.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4817091889763",
+    "title": "Dos duros sobre ruedas",
+    "poster": "https://image.tmdb.org/t/p/w500/wimgbZSfDW78r0DXaBXCBl3Ueiy.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1220013787863",
+    "title": "Dark City",
+    "poster": "https://image.tmdb.org/t/p/w500/xZiUwgdXMUMY8vEpMylOahUIDzL.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "2422251588236",
+    "title": "La puerta 2",
+    "poster": "https://image.tmdb.org/t/p/w500/ogmrboi0JzQ8HS6TK588BMzRA33.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "325214472838",
+    "title": "La chica de al lado",
+    "poster": "https://image.tmdb.org/t/p/w500/pdqTZ04llLE507Lmth6mi8f931R.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "3970456816173",
+    "title": "Toro salvaje",
+    "poster": "https://image.tmdb.org/t/p/w500/kU7TurhweNSREpv1tIVJO66AhMp.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3947865639534",
+    "title": "La loca historia del mundo",
+    "poster": "https://image.tmdb.org/t/p/w500/aHRPWYzqvGZva3tN77ZYUCr1zDC.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "5098716662485",
+    "title": "The Ring (La señal)",
+    "poster": "https://image.tmdb.org/t/p/w500/4TPPSB8OAtgYo9EdFzr7tsTsLDB.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "5536846383829",
+    "title": "Jurassic Park (Parque Jurásico)",
+    "poster": "https://image.tmdb.org/t/p/w500/h831eszSFmEyr94WKcgscqPIRbh.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "7479342729750",
+    "title": "Pocahontas",
+    "poster": "https://image.tmdb.org/t/p/w500/o8QGvm0zDrJ8aONM8G5dW4BNawG.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2474137357023",
+    "title": "Pequeño gran hombre",
+    "poster": "https://image.tmdb.org/t/p/w500/6JrDqq9qFHaDpBuaCipQS75rlux.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1520553691746",
+    "title": "Miedo y asco en Las Vegas",
+    "poster": "https://image.tmdb.org/t/p/w500/yYoH7nCw1UXdpqZDXPoL8IsUK2y.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3100345961070",
+    "title": "La profecía IV: El renacer",
+    "poster": "https://image.tmdb.org/t/p/w500/gTKFrH64uClBiHld6We0HLuy7tg.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2397782805215",
+    "title": "Domingo sangriento",
+    "poster": "https://image.tmdb.org/t/p/w500/lLFalh1ctjAyeYVt3MDAdNUIz5c.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2799220427410",
+    "title": "Ultimátum a la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/o9T3uBAUEoAykes1DTVedeloPrh.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4103664896622",
+    "title": "Christine",
+    "poster": "https://image.tmdb.org/t/p/w500/AtgrsSurLLrzGL3Bh7pLcg1QHki.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "294072224488",
+    "title": "El vuelo del Fénix",
+    "poster": "https://image.tmdb.org/t/p/w500/3UsWOlHuSCGti6Y8HdV26IkDpsv.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1450518645419",
+    "title": "Star Trek IV. Misión: salvar la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/vf47SrKxzFjoTl3ilcRkjKsGWW8.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2322524277388",
+    "title": "Cruce de caminos",
+    "poster": "https://image.tmdb.org/t/p/w500/oZKKLUwYTY2HqjqLN9UPpxhQeCO.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3100344978030",
+    "title": "Déjà Vu",
+    "poster": "https://image.tmdb.org/t/p/w500/sRhG9FVei9YcTDsTaBAHRVhLlQs.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6770712840944",
+    "title": "Serpico",
+    "poster": "https://image.tmdb.org/t/p/w500/wrtRPZcMPDdHyRMP8akf6QxRDPS.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "973398870548",
+    "title": "Socios y sabuesos",
+    "poster": "https://image.tmdb.org/t/p/w500/mPRTuakCxvN5hm20vPHzSgmB52n.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "384395709160",
+    "title": "Atmósfera cero",
+    "poster": "https://image.tmdb.org/t/p/w500/253tPnAuC8RZKQvWhBoEPt4iSBR.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4396992236255",
+    "title": "Nacido el cuatro de julio",
+    "poster": "https://image.tmdb.org/t/p/w500/wube6W2ntQeuIO42ND76oUP25Y1.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3479803005680",
+    "title": "La chica del valle",
+    "poster": "https://image.tmdb.org/t/p/w500/lrVD0u477BZsg5Fp7gIFjZQBU24.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2722206190220",
+    "title": "Regreso al planeta de los simios",
+    "poster": "https://image.tmdb.org/t/p/w500/wNh22vYIfd2Xr6zBoh8ZQGivt1L.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1236560448215",
+    "title": "Hostel",
+    "poster": "https://image.tmdb.org/t/p/w500/iBKRKu3srnTqiEITXOUSLperhKP.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1866642360949",
+    "title": "Poseidón",
+    "poster": "https://image.tmdb.org/t/p/w500/4OlwVoSxeeP9TuZ5OdKWnIPLvsO.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "707910175464",
+    "title": "Mad Max 2: El guerrero de la carretera",
+    "poster": "https://image.tmdb.org/t/p/w500/udpVgRB3xz5ZN553apthn4TyT6G.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "776718781117",
+    "title": "La vuelta al mundo en 80 días",
+    "poster": "https://image.tmdb.org/t/p/w500/5sOJTtPJfOT74sSTABd3E0K5Zmy.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1226708552407",
+    "title": "Nena, olvídame",
+    "poster": "https://image.tmdb.org/t/p/w500/10vXic9IMUTW5FrB1ivmieM2ydY.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "6752113265221",
+    "title": "En busca del fuego",
+    "poster": "https://image.tmdb.org/t/p/w500/8SzprDkpE99DZenVJBs5z6PwflA.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3312981117620",
+    "title": "Asesinos cibernéticos",
+    "poster": "https://image.tmdb.org/t/p/w500/fn9ze2ggUVYb5KnMcvpXLJI7pXU.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3842378959575",
+    "title": "White Noise: Más allá",
+    "poster": "https://image.tmdb.org/t/p/w500/mYbGCNa4LA2KBW7SgXL52Jf8rHh.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2119626394255",
+    "title": "Cube 2: Hypercube",
+    "poster": "https://image.tmdb.org/t/p/w500/gN5jiymsQW00AK7ZT2ftM7hVsWD.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "4021131283054",
+    "title": "Kickboxer",
+    "poster": "https://image.tmdb.org/t/p/w500/tzEOkUn5708fQvF0bOPB5bLLRNk.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1533137259009",
+    "title": "Un hombre lobo americano en Londres",
+    "poster": "https://image.tmdb.org/t/p/w500/k4inabU76A8SOCfRg5A1nhjV72.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2352752953917",
+    "title": "Saturno 3",
+    "poster": "https://image.tmdb.org/t/p/w500/eaMnHse1z7FIhiBH4WS2ElFEPkr.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1943338682941",
+    "title": "Los pájaros",
+    "poster": "https://image.tmdb.org/t/p/w500/aqMiK53QEC5UyGePN5KmgL7DLNg.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "683124001414",
+    "title": "Conan, el bárbaro",
+    "poster": "https://image.tmdb.org/t/p/w500/8YBNMzXo1IEK7DF3i1rBdqwqMBx.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1513340734062",
+    "title": "El imperio del sol",
+    "poster": "https://image.tmdb.org/t/p/w500/6s0RoC4LuRNKnVWeQ3gq5J8uprN.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2143875566303",
+    "title": "El hombre de la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/uN3X6JZhcEZqLTeQ8r5CKEmKeix.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2472351435407",
+    "title": "Los sustitutos",
+    "poster": "https://image.tmdb.org/t/p/w500/1JzxhNsVXEsFmlIIeFaFM70qRnh.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "496855157382",
+    "title": "Stomp the Yard: Ritmo salvaje",
+    "poster": "https://image.tmdb.org/t/p/w500/xoNkCaqnBmy6G6C6PhOGka9EDst.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2671999322764",
+    "title": "El chip prodigioso",
+    "poster": "https://image.tmdb.org/t/p/w500/8roFG65NOnQRyxq5Cpq1HHRXg0f.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2800091728494",
+    "title": "Sansón y Dalila",
+    "poster": "https://image.tmdb.org/t/p/w500/2EK1w9XqLVVZGlh8BavjznsKrX7.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "1377992510106",
+    "title": "Cazador de forajidos",
+    "poster": "https://image.tmdb.org/t/p/w500/mh4leOTbLiwrmMdJVbg9k3Uewd6.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2226021141188",
+    "title": "Eyes Wide Shut",
+    "poster": "https://image.tmdb.org/t/p/w500/gh0YQsW7Zibtt50xtwRM62m1L97.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3100345043566",
+    "title": "Ghost Ship (Barco fantasma)",
+    "poster": "https://image.tmdb.org/t/p/w500/HBpFXvylps4DsLaQKidTAFp8n.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4573794142943",
+    "title": "Sepultado vivo",
+    "poster": "https://image.tmdb.org/t/p/w500/jdpabZucc12RLHE1tZ2lkJkO1rv.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "675948137094",
+    "title": "El cabo del miedo",
+    "poster": "https://image.tmdb.org/t/p/w500/rDZLjlSxHRTvoTu1rvRiPTWsdND.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "774061296317",
+    "title": "Duplex",
+    "poster": "https://image.tmdb.org/t/p/w500/zOiEUnjC5EvdOmu7L81pwpYXJ3d.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2201207769661",
+    "title": "Calles de fuego",
+    "poster": "https://image.tmdb.org/t/p/w500/r6s0i5GpGIcJAgIeOAlC0d4cvJE.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2628761946756",
+    "title": "Furia de titanes",
+    "poster": "https://image.tmdb.org/t/p/w500/vYiLMNIuSjRdm9CC858n93TCO5x.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "5355307928244",
+    "title": "21 gramos",
+    "poster": "https://image.tmdb.org/t/p/w500/beMWVLE8ggT2DYNc4QUMsmcAKpG.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1788116273880",
+    "title": "El síndrome de China",
+    "poster": "https://image.tmdb.org/t/p/w500/kUNV9uuKJWTucD68gXUFYFhvt9e.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1486921337379",
+    "title": "La leyenda de Billie Jean",
+    "poster": "https://image.tmdb.org/t/p/w500/5Jk9pwXFVB0efLSXdikJdY2Cinz.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1911305210394",
+    "title": "Creep",
+    "poster": "https://image.tmdb.org/t/p/w500/c6tmVgGGy9eE60UZz3sxvPlOiEq.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1233391389219",
+    "title": "Warlock, el brujo",
+    "poster": "https://image.tmdb.org/t/p/w500/odUW8lKgpJHX6ilcUYIderenTxZ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3315035605614",
+    "title": "Big",
+    "poster": "https://image.tmdb.org/t/p/w500/ri6DEF9rul9Z0nOkPdTWHilZgJd.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "384379390696",
+    "title": "Tora! Tora! Tora!",
+    "poster": "https://image.tmdb.org/t/p/w500/yYZW7AofHO3oXKBR51qChxySrK.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "4688134539811",
+    "title": "La colina de la hamburguesa",
+    "poster": "https://image.tmdb.org/t/p/w500/8O0ZennG3GC26z0gLnRJ5N0F8Ne.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "3865313938143",
+    "title": "El grito",
+    "poster": "https://image.tmdb.org/t/p/w500/qNBzIoK5f5YxroprnnoQvDbN37W.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2603642784331",
+    "title": "RoboCop",
+    "poster": "https://image.tmdb.org/t/p/w500/aWUZ3gcjaWzjEr0KcZubpeJ4hFr.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2199128967741",
+    "title": "El gran McLintock",
+    "poster": "https://image.tmdb.org/t/p/w500/uP1DCqbdq9ZOzSPz809OhTELuF3.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1134397950680",
+    "title": "King Kong",
+    "poster": "https://image.tmdb.org/t/p/w500/7WQcJuFtwkT3PsK3V6kBzK0F4Ko.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "288930400899",
+    "title": "Tiro mortal",
+    "poster": "https://image.tmdb.org/t/p/w500/aklMCDgw9R7D83Le7LXQ98MPTcp.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3372317084300",
+    "title": "15 minutos",
+    "poster": "https://image.tmdb.org/t/p/w500/1Mz8cz471FJvQWhOImZuZbwDRp2.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2804679641816",
+    "title": "Medidas desesperadas",
+    "poster": "https://image.tmdb.org/t/p/w500/l5Qoq5nd8Sg9DHg9aMglPyYNCeB.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "240117418606",
+    "title": "Deep Impact",
+    "poster": "https://image.tmdb.org/t/p/w500/71SSQCG61ckKVZc3e2U1aZlHNY5.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2678039644887",
+    "title": "Desaparecido en combate",
+    "poster": "https://image.tmdb.org/t/p/w500/sEBoWZscD4O6L46r2PSlt01XsKz.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "924918221446",
+    "title": "El señor de las bestias 2: La puerta del tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/4t0ngs66qmha5sOZQv0MPN7pJPJ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2403962259989",
+    "title": "30 días de oscuridad 2: Tinieblas",
+    "poster": "https://image.tmdb.org/t/p/w500/j4qkf7BIqOrxjqtcLFzA4XJ01Fd.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4712884931198",
+    "title": "Los Goonies",
+    "poster": "https://image.tmdb.org/t/p/w500/v7dWDGqLS0FHsVpSLNeKo9xlkg1.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2354266638958",
+    "title": "La niebla",
+    "poster": "https://image.tmdb.org/t/p/w500/8gG0GP0TPnn91zIsNkwnQgBK8mh.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2268723481311",
+    "title": "Ranas",
+    "poster": "https://image.tmdb.org/t/p/w500/tJVLdllZKBYdIN7HsfugZbSeNfd.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2038529985167",
+    "title": "Rescate al amanecer",
+    "poster": "https://image.tmdb.org/t/p/w500/bgvO8KrCmHVtcpyB7mbSz0iCePt.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "5538190265045",
+    "title": "Acorralado",
+    "poster": "https://image.tmdb.org/t/p/w500/sYHRcd9p3rV3t3w8MHGaA7wdIBl.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "10829947472564",
+    "title": "Una historia de violencia",
+    "poster": "https://image.tmdb.org/t/p/w500/rZLpsfxj2qKbJzSzXiKFYrRIeB1.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2302029662883",
+    "title": "Terciopelo azul",
+    "poster": "https://image.tmdb.org/t/p/w500/rzcigN8ujeVJiEKGP3y3mJybvii.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "2081288751651",
+    "title": "Puerta al Infierno",
+    "poster": "https://image.tmdb.org/t/p/w500/wkDi6nAQzSy5lex7kBaPPTlWx34.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3104572246743",
+    "title": "Los padres de ella",
+    "poster": "https://image.tmdb.org/t/p/w500/l2wmJV3NmYEC2FiXmEPRieppZ4V.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "683010886278",
+    "title": "Conan, el destructor",
+    "poster": "https://image.tmdb.org/t/p/w500/7vwtQwywduJfG50SrxlhalpXsUx.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "661924809350",
+    "title": "Lágrimas del sol",
+    "poster": "https://image.tmdb.org/t/p/w500/h4r3AwNkYdrDYZeM8gG9zheiW7r.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "4818165959348",
+    "title": "Turbulence",
+    "poster": "https://image.tmdb.org/t/p/w500/gnsxWkxWHPXMOAzXvS7aKMSKP0N.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3906050067167",
+    "title": "義膽群英",
+    "poster": "https://image.tmdb.org/t/p/w500/eorb0FJQ3u2NtV2ayakbI3d76dY.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2537246362327",
+    "title": "Poli de guardería",
+    "poster": "https://image.tmdb.org/t/p/w500/zYwEZ7TWFAAuZucUJmWLktfLCEN.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3264459049582",
+    "title": "Pequeño pero matón",
+    "poster": "https://image.tmdb.org/t/p/w500/k1R2gKOAIwOGpNRNBbRszTEAKYU.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3814820940434",
+    "title": "El ataque de la mujer de 50 pies",
+    "poster": "https://image.tmdb.org/t/p/w500/8szjExlckPl5y2vNkpMI7LoWms9.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "395827153547",
+    "title": "Mira quién habla ahora",
+    "poster": "https://image.tmdb.org/t/p/w500/alTFrpxgq5XlOA6LpfHToTcC6Cc.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "3930002098834",
+    "title": "El escorpión negro",
+    "poster": "https://image.tmdb.org/t/p/w500/z6gEzeLl3NWuESexRiUpk4rtLPH.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "825625479912",
+    "title": "Blow",
+    "poster": "https://image.tmdb.org/t/p/w500/mKchBmaj69q1hTDWOpXLxZ26cVw.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1994399091244",
+    "title": "30 días de oscuridad",
+    "poster": "https://image.tmdb.org/t/p/w500/pOPW3GaJ1DgQrlNTzGHvctHMumx.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1954120600129",
+    "title": "Jo, ¡qué noche!",
+    "poster": "https://image.tmdb.org/t/p/w500/gT8XcLbE5LeQ9wbIWJJXfevB2yl.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "305249520262",
+    "title": "Un día de furia",
+    "poster": "https://image.tmdb.org/t/p/w500/kFBDnvgkSsVrBAjej1RriGOB8BV.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2764239735413",
+    "title": "El día más largo",
+    "poster": "https://image.tmdb.org/t/p/w500/glWepCvby6ve4y8ZhlWxGRikJZt.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "331155638918",
+    "title": "El dilema",
+    "poster": "https://image.tmdb.org/t/p/w500/jhLDPSGn98zaN53Ww00xnEi6uza.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "975807187590",
+    "title": "Moon",
+    "poster": "https://image.tmdb.org/t/p/w500/y90zRKir3o4UwlRRocNP7G8eTbC.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1974622620383",
+    "title": "Cavernícola",
+    "poster": "https://image.tmdb.org/t/p/w500/vQXrIvUtog7R32HFeTW6R3tYGIQ.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "868493888189",
+    "title": "Humor dulce hogar",
+    "poster": "https://image.tmdb.org/t/p/w500/9NLNYODnNOJw6rzuWZ77vhMayjF.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2714680363666",
+    "title": "Cowboy de medianoche",
+    "poster": "https://image.tmdb.org/t/p/w500/czwhpcAa17QqUextesRPp9YFKLC.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3309312740056",
+    "title": "Eternamente joven",
+    "poster": "https://image.tmdb.org/t/p/w500/cxq7TPG21bqxuI8XpjluSQ95jlp.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1234875517506",
+    "title": "Teniente corrupto",
+    "poster": "https://image.tmdb.org/t/p/w500/qxNAEJM8y04zfX2FOYSd3yPuJwO.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2541407308338",
+    "title": "V/H/S",
+    "poster": "https://image.tmdb.org/t/p/w500/4pfIa7DnOJxteBsrkePMY1TSlGL.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1136715369021",
+    "title": "Recuerdos del ayer",
+    "poster": "https://image.tmdb.org/t/p/w500/oRhdS9KvZgQ3MvlKCNAMygCXQW1.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "3878607784594",
+    "title": "La diabla de Marte",
+    "poster": "https://image.tmdb.org/t/p/w500/jhv31Ly41n8J6rHAyyYNldVTaOk.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3423933958892",
+    "title": "The Doors",
+    "poster": "https://image.tmdb.org/t/p/w500/xa5dn3u0pwFcbWqANxZt0LTQCka.jpg",
+    "genre": "Música"
+  },
+  {
+    "id": "355466414723",
+    "title": "Desafío total",
+    "poster": "https://image.tmdb.org/t/p/w500/vX5aHvyyRgyjrSNnBRWuSfPcjOQ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "953049287315",
+    "title": "La habitación del pánico",
+    "poster": "https://image.tmdb.org/t/p/w500/a4RVuYE53xDV8zlppZMVP2Z27gp.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2051470985826",
+    "title": "Juegos de guerra",
+    "poster": "https://image.tmdb.org/t/p/w500/tFnhVopdrik99QC71sbbvLG6rLc.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2191130561247",
+    "title": "Los blancos no la saben meter",
+    "poster": "https://image.tmdb.org/t/p/w500/e8dqLBK1dMXsmLwubzk8Y69auyU.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2354316315279",
+    "title": "Rollerball",
+    "poster": "https://image.tmdb.org/t/p/w500/1xZwgJ87ohcM1l5KTaxXsFk7nDF.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2472701725219",
+    "title": "Abandonada",
+    "poster": "https://image.tmdb.org/t/p/w500/sMsumrOXxsRx1ORLZeQFAoHeVag.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3315036588654",
+    "title": "Agárrame esos fantasmas",
+    "poster": "https://image.tmdb.org/t/p/w500/1v7Z2fCo7cg78S4Q4BhFYyhg0yF.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3895864003218",
+    "title": "La vida de Brian",
+    "poster": "https://image.tmdb.org/t/p/w500/b4JaQ2ZjPxblj3E3S9ga5ykTita.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "358028544646",
+    "title": "Misery",
+    "poster": "https://image.tmdb.org/t/p/w500/fehKf1zn2IKa8pMwc71LeDzHjk.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1759469701828",
+    "title": "Comando",
+    "poster": "https://image.tmdb.org/t/p/w500/cA6a4xW76bNZdXZKLCr4YkdpElK.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2870133459636",
+    "title": "Solo ante el peligro",
+    "poster": "https://image.tmdb.org/t/p/w500/3StARdicdbh4hqvbBoZkhXKhW4S.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1116308048597",
+    "title": "La noche del cometa",
+    "poster": "https://image.tmdb.org/t/p/w500/7NniYcCFcLt82wPj0IrvMkwYsDP.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "258029390395",
+    "title": "Veredicto final",
+    "poster": "https://image.tmdb.org/t/p/w500/gBKnCcR154R9Nqu0n2B4oDg5uAN.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4555006282420",
+    "title": "Malas compañías",
+    "poster": "https://image.tmdb.org/t/p/w500/jTDd8kip30IEkAbxsLlDbcHLrpR.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "30627334838",
+    "title": "Última llamada",
+    "poster": "https://image.tmdb.org/t/p/w500/5NfIQnpdimdr6uXkB46YQUJnjLZ.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1185134217748",
+    "title": "Destino de caballero",
+    "poster": "https://image.tmdb.org/t/p/w500/mfOXbEtFmKdPPFt4SC46M0yDKL8.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "868926229181",
+    "title": "No matarás... al vecino",
+    "poster": "https://image.tmdb.org/t/p/w500/tRPXllE8ktssheL8yEAKwTGRDMk.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2669693635133",
+    "title": "King Kong contra Godzilla",
+    "poster": "https://image.tmdb.org/t/p/w500/v4lxYywAyEuT974dVi22y8TGP0t.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1405019818531",
+    "title": "Hampones",
+    "poster": "https://image.tmdb.org/t/p/w500/Ae3LuUlNc46hwNP4op455bajrzA.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "584423770727",
+    "title": "Posdata: Te quiero",
+    "poster": "https://image.tmdb.org/t/p/w500/9EAzEm99P9TxueZscEe9JRx0K2K.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2347432807052",
+    "title": "Ángeles y demonios",
+    "poster": "https://image.tmdb.org/t/p/w500/1Z56MonpplOTKur2KTz371RQrjr.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2658631092959",
+    "title": "Primer",
+    "poster": "https://image.tmdb.org/t/p/w500/kOU4vAVrasAz5PfseG1WRm0BEhE.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1695472618019",
+    "title": "Alterado",
+    "poster": "https://image.tmdb.org/t/p/w500/dhUA9wCbuZAdl1Nhq4bkwyZKst5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3510627994335",
+    "title": "Fiebre",
+    "poster": "https://image.tmdb.org/t/p/w500/fPcnSupt7XF841dLZiOJXXn5Qfn.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2985475771103",
+    "title": "Asfixia",
+    "poster": "https://image.tmdb.org/t/p/w500/grAI6PofWfdW41bNUY5uKRiLn4z.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2229746534947",
+    "title": "Nueve Muertos",
+    "poster": "https://image.tmdb.org/t/p/w500/qndn1emQm9wOCfuZ2hbdEe6Z2Ro.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "355355265667",
+    "title": "Aislados",
+    "poster": "https://image.tmdb.org/t/p/w500/hnwX5cUuzBDM0OWJB2UtnjkrHDm.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1265560324739",
+    "title": "Psicosis II: El regreso de Norman",
+    "poster": "https://image.tmdb.org/t/p/w500/ooXqxgRqJQwpjuiYftvFfBjE7tb.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1349988911848",
+    "title": "La maldición de Rookford",
+    "poster": "https://image.tmdb.org/t/p/w500/1LfTdz8u7A25pODn6E7zeEZanMS.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "554702604910",
+    "title": "Jungla de cristal",
+    "poster": "https://image.tmdb.org/t/p/w500/m54tK4wKjc1w2dp7QInG0munGao.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2598147459730",
+    "title": "Dune",
+    "poster": "https://image.tmdb.org/t/p/w500/5qTvYDiy7bIdXyknlId9xZPDoF.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2434641234572",
+    "title": "Alerta máxima",
+    "poster": "https://image.tmdb.org/t/p/w500/iPTjwvyBiKNW86e0MOk30r64zWQ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "929716242964",
+    "title": "Algo pasa con Mary",
+    "poster": "https://image.tmdb.org/t/p/w500/dSOfZ9Ni0Nd7dAXR2CT2JI4ljsl.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "2180272687839",
+    "title": "Scanners 2: El nuevo orden",
+    "poster": "https://image.tmdb.org/t/p/w500/4ReesiTZUMboDuuRuYJrVKLtTYS.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "5538190068437",
+    "title": "El mundo perdido: Jurassic Park",
+    "poster": "https://image.tmdb.org/t/p/w500/80pXV9DEd81rBGqmlPBLbvr6h9a.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3315038685806",
+    "title": "Dirty Dancing",
+    "poster": "https://image.tmdb.org/t/p/w500/Bqk2YfJRetrcKXnkavJZcqKpUC.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3396043672184",
+    "title": "Guardianes del Espacio",
+    "poster": "https://image.tmdb.org/t/p/w500/rYzxKzIX2gznr3E20w5HgkJBr6n.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "3443481250451",
+    "title": "Quicksilver, la pista rápida del éxito",
+    "poster": "https://image.tmdb.org/t/p/w500/9E5eUvyIJoygfmKX36EmoRvOMGg.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3706840549992",
+    "title": "La zona muerta",
+    "poster": "https://image.tmdb.org/t/p/w500/31Q1tTbmXzEu5i1Xqet75kZJRnG.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "541204875929",
+    "title": "Encuentros en la tercera fase",
+    "poster": "https://image.tmdb.org/t/p/w500/btE3LrMhuFa8sfPGxHRC4hGyEjr.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2064673671715",
+    "title": "Shallow ground: Bajo tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/78kkO758SsSKotEripSPDW4eULL.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3631884143327",
+    "title": "Belgrano, la película",
+    "poster": "https://image.tmdb.org/t/p/w500/mMBMelcsrOuxZBVT2SU2ItJOSaz.jpg",
+    "genre": "Historia"
+  },
+  {
+    "id": "1130660367008",
+    "title": "El guardaespaldas",
+    "poster": "https://image.tmdb.org/t/p/w500/pnGQbumT2SejsZprnszaI2bLA4R.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3707273153107",
+    "title": "La misión",
+    "poster": "https://image.tmdb.org/t/p/w500/rubwmohm8t5TTtBZyYQ9BHOwDUQ.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2800092645998",
+    "title": "Cometieron dos errores",
+    "poster": "https://image.tmdb.org/t/p/w500/vJrlt9oldbblmnIlVwPe620vMiB.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "3264460360302",
+    "title": "La princesa prometida",
+    "poster": "https://image.tmdb.org/t/p/w500/dYgsPYY3sI6Zvie8NaJeA0vo1PF.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "354772716163",
+    "title": "21 Blackjack",
+    "poster": "https://image.tmdb.org/t/p/w500/1c0sybcPnVF1fmVk9JKdG2fH1Au.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1297845127896",
+    "title": "Species (Especie mortal)",
+    "poster": "https://image.tmdb.org/t/p/w500/5Lg9kkaKc53vZd1tqiuc2lmf0bp.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1657939888774",
+    "title": "Retroceder nunca, rendirse jamás",
+    "poster": "https://image.tmdb.org/t/p/w500/sMSPeec7sDXl0JBvCtJtVThbIP.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2665248656012",
+    "title": "Noche infernal",
+    "poster": "https://image.tmdb.org/t/p/w500/djm5ORLWfZlpmowguJ7LqiL6WwW.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2286952909535",
+    "title": "El hombre de al lado",
+    "poster": "https://image.tmdb.org/t/p/w500/wMx6TUb9pltfRkj3YboYLxUL2Hp.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1298447862425",
+    "title": "El libro de las sombras (BW2)",
+    "poster": "https://image.tmdb.org/t/p/w500/1lygSLKhCQhFX2SW4EVb3MMPC56.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2406012095086",
+    "title": "Platoon",
+    "poster": "https://image.tmdb.org/t/p/w500/Aeo2CHf8oWQzxAw4QpB43YfqxEF.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "369068804840",
+    "title": "Poltergeist III",
+    "poster": "https://image.tmdb.org/t/p/w500/zBt3T1z9KmAPa7eE96DLA95RpLl.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2248058800661",
+    "title": "Teen Wolf (De pelo en pecho)",
+    "poster": "https://image.tmdb.org/t/p/w500/5cKky9Cu3JZ2KTqOUgjRFH6F6tj.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4186567477976",
+    "title": "Hacia los grandes horizontes",
+    "poster": "https://image.tmdb.org/t/p/w500/cSPxJNU93DpEzS1IHayJjURzi2Z.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "354771864195",
+    "title": "Al límite",
+    "poster": "https://image.tmdb.org/t/p/w500/gfqBRWRdHNNaCTnq5nUljGnCmxL.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3954707729119",
+    "title": "Creadores de sombras",
+    "poster": "https://image.tmdb.org/t/p/w500/e8GaIWjLSOQfdrtE8vzuAsng1vs.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "30614817462",
+    "title": "La última casa a la izquierda",
+    "poster": "https://image.tmdb.org/t/p/w500/sujI52y4WsPHzmx1WXQAw7z3vya.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1191199574743",
+    "title": "Poder absoluto",
+    "poster": "https://image.tmdb.org/t/p/w500/xzyyrc5qIQi62wOLnlGadLGjavJ.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "816652225158",
+    "title": "Barbie en La princesa y la costurera",
+    "poster": "https://image.tmdb.org/t/p/w500/2X6kRYytvhEwuS2ukHwVvIN7eVc.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "306323262086",
+    "title": "Las hermanas Bolena",
+    "poster": "https://image.tmdb.org/t/p/w500/eLU4zvrXkHwgfzlD0N8rlYZ19mG.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3358591945439",
+    "title": "La tutora",
+    "poster": "https://image.tmdb.org/t/p/w500/5cBNRaWOXnyDSHLkMK5ZnoPzsYX.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "40733444623",
+    "title": "Habitación sin salida",
+    "poster": "https://image.tmdb.org/t/p/w500/zbgRabcy4RxOsailkswoU7Er2b5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4518027594455",
+    "title": "Corazón salvaje",
+    "poster": "https://image.tmdb.org/t/p/w500/xKMJu2wDMmluBkMmrEdShxDPRGx.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2084224043637",
+    "title": "Buscando a Susan desesperadamente",
+    "poster": "https://image.tmdb.org/t/p/w500/xQbzYRuMes3RuabXR0t0WlbJ3EV.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "924863498886",
+    "title": "El señor de las bestias",
+    "poster": "https://image.tmdb.org/t/p/w500/fUWmhKV3WysfPSXuwrlpBEYouKL.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "1966456965785",
+    "title": "Rudo y Cursi",
+    "poster": "https://image.tmdb.org/t/p/w500/xFGuhPSe1mCRcOllLlJYoNUknNt.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3992380443352",
+    "title": "Milagro en la ciudad",
+    "poster": "https://image.tmdb.org/t/p/w500/heYt5iHBemRHzeNCjGBy5u1YMlr.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2263809788526",
+    "title": "Secuestrados",
+    "poster": "https://image.tmdb.org/t/p/w500/2dKFwbh5fxDIy0tSkdjobCZnsDw.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1633870350921",
+    "title": "Estallido",
+    "poster": "https://image.tmdb.org/t/p/w500/yxe9MSuSjXDH676Al1Sg6JEzejq.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1861072718537",
+    "title": "Darkman",
+    "poster": "https://image.tmdb.org/t/p/w500/8cu89O1r0CmLTZTBnosS7YfC9Vn.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2419745163916",
+    "title": "Última sospecha",
+    "poster": "https://image.tmdb.org/t/p/w500/v2zV62f8p4KIjdlWOwvYxgYcKaL.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2604872501900",
+    "title": "Cuando Harry encontró a Sally",
+    "poster": "https://image.tmdb.org/t/p/w500/dHUhjAPViRGTU9CFBt4JoANWHiK.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1149058222627",
+    "title": "El enjambre",
+    "poster": "https://image.tmdb.org/t/p/w500/cyQXcI0Z8DLZus0PFQ4e1mdtclr.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "3335719357068",
+    "title": "Temblores 3: Regreso a Perfección",
+    "poster": "https://image.tmdb.org/t/p/w500/aJVaLsVY11U3Wh1BpCWPgkplRVu.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "358397446803",
+    "title": "Selena",
+    "poster": "https://image.tmdb.org/t/p/w500/yKNiK1gwRcy9IGvtHKFewSBaPci.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3315036523118",
+    "title": "La fuerza del amor",
+    "poster": "https://image.tmdb.org/t/p/w500/A3drbtCcwp9CGpwUv4ZW7rwx3sW.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3468352031455",
+    "title": "Fuego",
+    "poster": "https://image.tmdb.org/t/p/w500/kLJcvMzdPXGXZzLvEKok7TIirjv.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1154738883167",
+    "title": "2010: Odisea dos",
+    "poster": "https://image.tmdb.org/t/p/w500/nMA0Z5Vw05GwHyugYl5s72Lf0Z.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1450558884523",
+    "title": "Star Trek: Primer contacto",
+    "poster": "https://image.tmdb.org/t/p/w500/9eEx7usbWzzxwlehDbSt6rEZOCj.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "537858804334",
+    "title": "La jungla 2: Alerta roja",
+    "poster": "https://image.tmdb.org/t/p/w500/19PBdteqhLAgN6rZUDIU0Ka6qLH.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3263752243822",
+    "title": "Los inmortales: El origen",
+    "poster": "https://image.tmdb.org/t/p/w500/9mKXsmDDYpnKKuviOxMTQxr2q86.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "613562124934",
+    "title": "Mi proyecto científico",
+    "poster": "https://image.tmdb.org/t/p/w500/lYcelQcAcvqFkXr9JMX1uCuJiMn.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "5128245086954",
+    "title": "Viernes 13, 2ª parte",
+    "poster": "https://image.tmdb.org/t/p/w500/n2D3JuHNBTZENynVlj0vuBILykG.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2852148218583",
+    "title": "Soldado Universal: El Retorno",
+    "poster": "https://image.tmdb.org/t/p/w500/m9snWHsV6Sb6NZAUQJCOunxKGQX.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2270846847549",
+    "title": "El increíble hombre menguante",
+    "poster": "https://image.tmdb.org/t/p/w500/xWRyvVVlhSblpeP3iDHa7AXFLoO.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "308809435782",
+    "title": "La red",
+    "poster": "https://image.tmdb.org/t/p/w500/9vmRmkVjMUME1QknZeklYkMcoEr.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3800329620101",
+    "title": "El vengador tóxico II",
+    "poster": "https://image.tmdb.org/t/p/w500/t10WwZDbnrxR46brtXh1rSdU4o3.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "967095356038",
+    "title": "La vecina de al lado",
+    "poster": "https://image.tmdb.org/t/p/w500/ad9tM1Zet4s8DVbFsAX4cYdkIPd.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2829935839854",
+    "title": "Volcano",
+    "poster": "https://image.tmdb.org/t/p/w500/3YJJ8gXRwYYZi3S3hiZZDBEaj8s.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3046838569531",
+    "title": "Karate Kid, el momento de la verdad",
+    "poster": "https://image.tmdb.org/t/p/w500/qupC1Jxss4YH5Y2ZeIB4XXokGcd.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2429751397004",
+    "title": "La venganza de Ninja",
+    "poster": "https://image.tmdb.org/t/p/w500/fCPPXAbhJ70M1uMC0rmsfSDzhzQ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2818276330199",
+    "title": "Destino final 2",
+    "poster": "https://image.tmdb.org/t/p/w500/6m4TTnatasZcMi6qE4Hbe9LdJgz.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3354772048497",
+    "title": "Hardware: Programado para matar",
+    "poster": "https://image.tmdb.org/t/p/w500/ybauOsdo6ColZ1WsALqIYjpUg4X.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2325405567711",
+    "title": "Duelo de dragones",
+    "poster": "https://image.tmdb.org/t/p/w500/dp61vcE5nQ7vvBH5OnqRcbSIn9a.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1729669761784",
+    "title": "Vivir y morir en Los Ángeles",
+    "poster": "https://image.tmdb.org/t/p/w500/ceF4ogdVs0U4XcqQPIML1ixkHEh.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "872903543485",
+    "title": "El gran lío",
+    "poster": "https://image.tmdb.org/t/p/w500/zu0YWQX0nL53PYIoY1uDf1d4CZs.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "773303503513",
+    "title": "Arma joven",
+    "poster": "https://image.tmdb.org/t/p/w500/cirl4qaSvqow6lcvZvpRZFXKo1W.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "3442384112225",
+    "title": "El Valiente de Daisetsuzan, el Rey de los Colmillos",
+    "poster": "https://image.tmdb.org/t/p/w500/hhD549GFbC6FYO26CDhraB4stpr.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "4113078159928",
+    "title": "Karate Kid II, la historia continúa",
+    "poster": "https://image.tmdb.org/t/p/w500/fOfjKdFdzDbbArgxk1sOLpQ211g.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1208713939671",
+    "title": "La caverna maldita",
+    "poster": "https://image.tmdb.org/t/p/w500/oysaR9dUG1FVkNZS1VDvGUhLzAf.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "30607280822",
+    "title": "El corcel negro",
+    "poster": "https://image.tmdb.org/t/p/w500/tiRVhDoxVxPjAdYvSUXOd6ITpJY.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "2666106194644",
+    "title": "Hombre mirando al sudeste",
+    "poster": "https://image.tmdb.org/t/p/w500/yyqsxtP0GeO77kz4FZQOExGtUpz.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "1526963964509",
+    "title": "Sol rojo",
+    "poster": "https://image.tmdb.org/t/p/w500/bXfcpUuWQ0qU435KebvOMPOntvr.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1220479421143",
+    "title": "La sombra de los culpables",
+    "poster": "https://image.tmdb.org/t/p/w500/osKEeAZz1AVXlshhjO8nSDLe7Gz.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3893765606034",
+    "title": "El circo del terror",
+    "poster": "https://image.tmdb.org/t/p/w500/9sfshfTBXOFOAutfceewC6Rvgxq.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3254809987645",
+    "title": "Mundo futuro",
+    "poster": "https://image.tmdb.org/t/p/w500/3o6UCBzZHUd9T6ZQYHYrrwf0OKJ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1423583611453",
+    "title": "Misión de audaces",
+    "poster": "https://image.tmdb.org/t/p/w500/z8vDRoSLzRCiOr34OPHcW3dg4fh.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1416543930941",
+    "title": "El final de la cuenta atrás",
+    "poster": "https://image.tmdb.org/t/p/w500/2zUE7kyEXuy8LOfDROhj70dusXS.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "1970816354860",
+    "title": "Cronos",
+    "poster": "https://image.tmdb.org/t/p/w500/gsJA1Y025p9uIht4hsJXQrvgC8n.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2878202579503",
+    "title": "Beneath Hill 60",
+    "poster": "https://image.tmdb.org/t/p/w500/zagXgKXzqQYaOPbtSWeUG1gM8YK.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3264460098158",
+    "title": "Family Man",
+    "poster": "https://image.tmdb.org/t/p/w500/fvMImuEq9IWlcsVCPXrFDqgNdNn.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4531348900502",
+    "title": "Godzilla",
+    "poster": "https://image.tmdb.org/t/p/w500/y50YnyDwvGgqGdRXbOrcV6BvBeQ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2519153904238",
+    "title": "Donnie Darko",
+    "poster": "https://image.tmdb.org/t/p/w500/1YjDHBC4v2O7IQDKYAiM8fOxzf3.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "332667357827",
+    "title": "El paso del diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/hxOiZZYevx6hSfVa2UxtHW2qkab.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1967906818700",
+    "title": "Despedida de soltero",
+    "poster": "https://image.tmdb.org/t/p/w500/veBT0wVpTdBT0wVly8uTdh9Zxqy.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1742743210636",
+    "title": "Atrapado en el tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/j8ZRAOctUiw7YzrQGuyCRIAJPIW.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "465682500328",
+    "title": "Fantasmas de Marte",
+    "poster": "https://image.tmdb.org/t/p/w500/cYxBSKEpjfFzvZWkNabgBkMCC5i.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1964724652684",
+    "title": "Orca, la ballena asesina",
+    "poster": "https://image.tmdb.org/t/p/w500/eBU74yq55Kyn6Fe0vnc0ICbozdz.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2344289635039",
+    "title": "Re-Animator",
+    "poster": "https://image.tmdb.org/t/p/w500/zUwzx9mKVugyjYyTNzKhBscscT3.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2829935577710",
+    "title": "Dragonheart (Corazón de dragón)",
+    "poster": "https://image.tmdb.org/t/p/w500/7OsZhXvfY3yCrdnQ8Su3SwndYeV.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "1191886785239",
+    "title": "La furia del planeta rojo",
+    "poster": "https://image.tmdb.org/t/p/w500/mElCZzoOF5zMsPlqKWrVjudDDgm.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2219621288591",
+    "title": "Extraterrestrial",
+    "poster": "https://image.tmdb.org/t/p/w500/mmiG916iIh6w378qBjRfTonqOWb.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1023864670851",
+    "title": "El lago azul",
+    "poster": "https://image.tmdb.org/t/p/w500/ndK223FfObY5uUaxFvwmJKw2WW8.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3735514385029",
+    "title": "In-natural (The Stuff)",
+    "poster": "https://image.tmdb.org/t/p/w500/qxDEPz0JPGK6VS6JeLpNCob9vUn.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3007303060183",
+    "title": "La casa donde habita el diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/Ahud0cgyOGbDI6V6zWfMgqOtmPV.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3318795864611",
+    "title": "El exorcista III",
+    "poster": "https://image.tmdb.org/t/p/w500/b0S5zj0vA6XsPB3jcMTNaBRN5n5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "30633298614",
+    "title": "Tortugas Ninja",
+    "poster": "https://image.tmdb.org/t/p/w500/uDJipJy4zwIN9F7stcaTGwfD9yP.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1450541910699",
+    "title": "Star Trek V: La última frontera",
+    "poster": "https://image.tmdb.org/t/p/w500/6AFpvYk8uxXoRkg6r47AWuLqJxo.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "468683918056",
+    "title": "Cortocircuito",
+    "poster": "https://image.tmdb.org/t/p/w500/kuCVtkWApDxOTsEyMeCWonEt7qI.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4543153310431",
+    "title": "Las esposas de Stepford",
+    "poster": "https://image.tmdb.org/t/p/w500/wnRAXbjJN3D2eDK58vUAxl6aHv3.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "273591438056",
+    "title": "Las aventuras de Chatrán",
+    "poster": "https://image.tmdb.org/t/p/w500/6cAey1NAizNjs2AIeRfIO0ROPxz.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2546929437419",
+    "title": "El club de los cinco",
+    "poster": "https://image.tmdb.org/t/p/w500/f0DhsS50Ksn6rBZhwsH9Rgh9xGi.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "299704650260",
+    "title": "Pandorum",
+    "poster": "https://image.tmdb.org/t/p/w500/g3wRjKk9IhztDnvc8e94Kw8tLBK.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3100343994990",
+    "title": "La ira (The Rage: Carrie 2)",
+    "poster": "https://image.tmdb.org/t/p/w500/iLUJnhRQJptEozKWfW1VNLwH9fe.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4815786019335",
+    "title": "La muerte en directo",
+    "poster": "https://image.tmdb.org/t/p/w500/nSROluHSSnoeakTGtHvqablmFNL.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3263753292398",
+    "title": "Fargo",
+    "poster": "https://image.tmdb.org/t/p/w500/cbRbmr645Be2ndpo9IYwxI2hJcy.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3005596174995",
+    "title": "El planeta de los simios",
+    "poster": "https://image.tmdb.org/t/p/w500/pMLpuzyeXFsttiW0dHzJLH5FXyK.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4779636951662",
+    "title": "La gran evasión",
+    "poster": "https://image.tmdb.org/t/p/w500/zyXTt4nDNBbS0oULtDuiFpzhA4x.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "362022374022",
+    "title": "Un paseo por las nubes",
+    "poster": "https://image.tmdb.org/t/p/w500/ArFH2Tj2tFs9TGtncEsJw4Gv6wa.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2122591832637",
+    "title": "Viento en las velas",
+    "poster": "https://image.tmdb.org/t/p/w500/fv7nE9PiOcexSdjTmYgFI2VKn60.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1801350417093",
+    "title": "Braddock: Desaparecido en combate 3",
+    "poster": "https://image.tmdb.org/t/p/w500/uhCgGgKuna727tmMWbHZMGuMb8t.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3051954440814",
+    "title": "Juego de lágrimas",
+    "poster": "https://image.tmdb.org/t/p/w500/lYxwV0lL28j7JjOPtKcxJ1Byiud.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3641441520351",
+    "title": "Los cazadores del tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/iJ2QwfsWQce29HAjSKdIDFflOF7.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "272410675846",
+    "title": "Cisne negro",
+    "poster": "https://image.tmdb.org/t/p/w500/dZucAEc4JNsO6z4fvvunXgLe3b8.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "261848763014",
+    "title": "Mad Max: Salvajes de la autopista",
+    "poster": "https://image.tmdb.org/t/p/w500/vWa1DEwV5RbAOiuAm0WNXD3Aydw.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1283962571325",
+    "title": "Valor de ley",
+    "poster": "https://image.tmdb.org/t/p/w500/3O16Iq2v8FbTI6B2H91CsrKi4q1.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1158751390318",
+    "title": "La cosa (El enigma de otro mundo)",
+    "poster": "https://image.tmdb.org/t/p/w500/5hkM27bPdkgQli5g5zR5pp9bkNZ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "392939768454",
+    "title": "Cocoon: El retorno",
+    "poster": "https://image.tmdb.org/t/p/w500/aRbsVnyVKWmbeG4m20I1Fr44g5C.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "751071791750",
+    "title": "The Warriors (Los amos de la noche)",
+    "poster": "https://image.tmdb.org/t/p/w500/aKsIY5nZ7EF11dtUY3f4PCSQR6.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1550715390680",
+    "title": "En el nombre del padre",
+    "poster": "https://image.tmdb.org/t/p/w500/8UHQLF2ZXcLOfmxPKxYj9vy9Lhg.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2379103668876",
+    "title": "Vampiros: Los muertos",
+    "poster": "https://image.tmdb.org/t/p/w500/q5kRjaLtYB7mf16FrTrixOWwuWA.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3354663848588",
+    "title": "El último samurái",
+    "poster": "https://image.tmdb.org/t/p/w500/DfwutbQodAsYxdqJu7Cme5jifC.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1770681862853",
+    "title": "Aullidos",
+    "poster": "https://image.tmdb.org/t/p/w500/kQNKyEjUZrNk2HeIDU5XpmEePa1.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2818277640919",
+    "title": "Destino final 3",
+    "poster": "https://image.tmdb.org/t/p/w500/3PEVkIBOii1fxQxaQ0iKODGnBUp.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "321996327558",
+    "title": "Jóvenes ocultos",
+    "poster": "https://image.tmdb.org/t/p/w500/w93f1iH59LfCJEpZujk45L6kjWk.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2963255200261",
+    "title": "Señales",
+    "poster": "https://image.tmdb.org/t/p/w500/r4q93grfe8xO28bY6MFMOZdffoo.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "5046333868684",
+    "title": "Atrapa el  fuego",
+    "poster": "https://image.tmdb.org/t/p/w500/xSXkxI55tSKf79bskVdx2R9a0qc.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1264535603843",
+    "title": "El exorcista II: El hereje",
+    "poster": "https://image.tmdb.org/t/p/w500/z9NM9s1wxIsxJdkrj0UDHvFXVI2.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2720949471959",
+    "title": "La casa de los 1000 cadáveres",
+    "poster": "https://image.tmdb.org/t/p/w500/rO7biLmJtJoTbDv5wzEwZGOD375.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2609933388314",
+    "title": "Terroríficamente muertos",
+    "poster": "https://image.tmdb.org/t/p/w500/d4o4F8n0brc2vrpZBTvVFgB2Kk8.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2553441290968",
+    "title": "El hombre de hielo",
+    "poster": "https://image.tmdb.org/t/p/w500/4HllE4JWVl3YbaWKmHXsBVkH4Sr.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2462490561171",
+    "title": "Los años duros: El nacimiento de un guerrillero",
+    "poster": "https://image.tmdb.org/t/p/w500/7vp17Qd7cUYimojp5J48VLJbDA3.jpg",
+    "genre": "Películas"
+  },
+  {
+    "id": "4533502085847",
+    "title": "Matrix Reloaded",
+    "poster": "https://image.tmdb.org/t/p/w500/7IZk3Xp3HIpRJGXFYNvzmyRwDlt.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2052968221416",
+    "title": "Hardcore: Un mundo oculto",
+    "poster": "https://image.tmdb.org/t/p/w500/g6m9xBTAzxXVhdJ624s9BLK9o6.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "3315036916334",
+    "title": "Un viaje alucinante al fondo de la mente",
+    "poster": "https://image.tmdb.org/t/p/w500/qFFquaOlorEVbSyaUb0WXQyuY6z.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1564906687011",
+    "title": "Cuando los dinosaurios dominaban la Tierra",
+    "poster": "https://image.tmdb.org/t/p/w500/tQvXK7AExyVrgEJ2fKubCVawYqe.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2833911384716",
+    "title": "House, una casa alucinante",
+    "poster": "https://image.tmdb.org/t/p/w500/jXImLm6N7c15GdKLuJ4VMCOyphw.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3040965954181",
+    "title": "Bats (Murciélagos)",
+    "poster": "https://image.tmdb.org/t/p/w500/idDunOJs2BKePjFgp8pwJ47Muky.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "399786183302",
+    "title": "Gigantes hacia la victoria",
+    "poster": "https://image.tmdb.org/t/p/w500/jsnFuAlnCOsrfC3claiy41eukOu.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2016019352174",
+    "title": "RoboCop 3",
+    "poster": "https://image.tmdb.org/t/p/w500/nEPpCbdh5UKspPgaH57SFzFJYw.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "723466193542",
+    "title": "Chacal",
+    "poster": "https://image.tmdb.org/t/p/w500/5ocSLBdyVGv34tain3zdeggmW1h.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3051954309742",
+    "title": "Instinto básico 2: Adicción al riesgo",
+    "poster": "https://image.tmdb.org/t/p/w500/5TKhsDYG2s3gi575FEhx5wMS9W1.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "4106132195950",
+    "title": "Cleopatra",
+    "poster": "https://image.tmdb.org/t/p/w500/7JMiLtYv8rRjoAmbFqdu9EvyC6f.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3051952933486",
+    "title": "Escupiré sobre tu tumba",
+    "poster": "https://image.tmdb.org/t/p/w500/inUlrn9Sk59SJLlY90bZ4Web8Ic.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "831134632582",
+    "title": "Aullidos 2: Stirba, la mujer lobo",
+    "poster": "https://image.tmdb.org/t/p/w500/8yRWi2aYhADhkAVdTXBkqmIjpyt.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "224308169347",
+    "title": "El diario de Noa",
+    "poster": "https://image.tmdb.org/t/p/w500/gFCnDKfsZWzyv9sweizVC4EWn06.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "1227587062487",
+    "title": "Krull",
+    "poster": "https://image.tmdb.org/t/p/w500/jPDKgKDlhcmDvd3alaK9t0hucrz.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3264460163694",
+    "title": "La leyenda del Zorro",
+    "poster": "https://image.tmdb.org/t/p/w500/vfJ0AKLoP4aEyjg1sDKAU94o9rU.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1189362207447",
+    "title": "En la boca del miedo",
+    "poster": "https://image.tmdb.org/t/p/w500/sBcKsjV9eEGj1m9dA7P4vwrnoA.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1349435198167",
+    "title": "Los violentos de Kelly",
+    "poster": "https://image.tmdb.org/t/p/w500/ofgerm0zxx26SZRx9EnTb2gFacz.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "30614751926",
+    "title": "Hombres de honor",
+    "poster": "https://image.tmdb.org/t/p/w500/bnsEO5HeS5AgS8OWIZ8BYGHyKNQ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2456656939686",
+    "title": "Superman III",
+    "poster": "https://image.tmdb.org/t/p/w500/d0s7bQpDXKVIeIj3HZZYTvJGCWv.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3995670678239",
+    "title": "Moontrap. Trampa en la Luna",
+    "poster": "https://image.tmdb.org/t/p/w500/r4wxxcsHBxSp7fIdYVOKRBtVEpN.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2102628387562",
+    "title": "Igualita a mí",
+    "poster": "https://image.tmdb.org/t/p/w500/sewd9NqQjMFaLXy6jYf3JSap5QZ.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "312798284422",
+    "title": "El orfanato",
+    "poster": "https://image.tmdb.org/t/p/w500/wk95EOzZKd74NFzVVkHBo1UW46o.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1225838234327",
+    "title": "Bullitt",
+    "poster": "https://image.tmdb.org/t/p/w500/6hwFxbwhAmRoW62FyzcbDfKGKgG.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3770774456915",
+    "title": "El último emperador",
+    "poster": "https://image.tmdb.org/t/p/w500/utbdORmc1tEmnxqQRMOapVAX8E8.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1972747438732",
+    "title": "Arizona Baby",
+    "poster": "https://image.tmdb.org/t/p/w500/iLOKSXqDeVzA2al9f55WU7VAHE0.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1278104046295",
+    "title": "Poli con suerte",
+    "poster": "https://image.tmdb.org/t/p/w500/qgkfwiWmBzwJlLbTSBQjzaORgcU.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1592427219529",
+    "title": "Amores perros",
+    "poster": "https://image.tmdb.org/t/p/w500/bVK4CPluBY9LFkzCAwhG5Fs04HE.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "764807678598",
+    "title": "La celda",
+    "poster": "https://image.tmdb.org/t/p/w500/vBJuude7Wgb2h9VJvid7ExZigsU.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3315039341166",
+    "title": "Los intocables de Eliot Ness",
+    "poster": "https://image.tmdb.org/t/p/w500/pVcWaUbFDL76ObIsReIBQ5ILMHv.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1292968135278",
+    "title": "Irreversible",
+    "poster": "https://image.tmdb.org/t/p/w500/a6HvMOj2lVYnzqaNY6cX2hoCCXz.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "345483709059",
+    "title": "Cartas desde Iwo Jima",
+    "poster": "https://image.tmdb.org/t/p/w500/rTO90XYrjDvfXESHhIEsg0CU0ut.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "334729185926",
+    "title": "Jóvenes y brujas",
+    "poster": "https://image.tmdb.org/t/p/w500/zrevj9eXFr1ocxRVq4UEDXh48tK.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1776157002272",
+    "title": "El proyecto de la bruja de Blair",
+    "poster": "https://image.tmdb.org/t/p/w500/4VkdY6GlFchXcHgg3Bsl1A73jsH.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3859894504159",
+    "title": "Heroes",
+    "poster": "",
+    "genre": "Películas"
+  },
+  {
+    "id": "6932723665494",
+    "title": "Cujo",
+    "poster": "https://image.tmdb.org/t/p/w500/hQ331DZ3CefTQtbgQhuxeDm8aTt.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1229492062781",
+    "title": "Tombstone: La leyenda de Wyatt Earp",
+    "poster": "https://image.tmdb.org/t/p/w500/moAfncos756VZqsrJiZ62nB7mYT.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "3078881675991",
+    "title": "El incidente",
+    "poster": "https://image.tmdb.org/t/p/w500/c2MWgaiUkyoknS4lf0iFvPxuxR6.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "979002329734",
+    "title": "Fama",
+    "poster": "https://image.tmdb.org/t/p/w500/iAi4KIi21qUNuvRnaLl3SV3HyqL.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "369002547944",
+    "title": "Viernes 13, parte III",
+    "poster": "https://image.tmdb.org/t/p/w500/isCTWFTrfnSvkmG0LR8lq6gh3n5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "738586921606",
+    "title": "Antes que el diablo sepa que has muerto",
+    "poster": "https://image.tmdb.org/t/p/w500/JlwN2hZIdluVIVwWNrLjfeoJ7k.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "6950465178301",
+    "title": "Cocodrilo Dundee",
+    "poster": "https://image.tmdb.org/t/p/w500/q0Msbpvpe6yuvIUCyJuBbQ9UhUj.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3180946000600",
+    "title": "Cristal oscuro",
+    "poster": "https://image.tmdb.org/t/p/w500/vNv1gozXLXkfWRQ4ppUJxYiQ8zb.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2186615982826",
+    "title": "La galaxia del terror",
+    "poster": "https://image.tmdb.org/t/p/w500/429ot4ktpg6q7JR2ThaX9kthfLb.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2337502005900",
+    "title": "Dos pájaros a tiro",
+    "poster": "https://image.tmdb.org/t/p/w500/AnbSMZzdNIfPwX3dgyVGXnmSIUI.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "807660423814",
+    "title": "Dictado",
+    "poster": "https://image.tmdb.org/t/p/w500/uPQ9QZGsi4qiKSyOpmIgq5lmpxL.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2820149938903",
+    "title": "Un mundo perfecto",
+    "poster": "https://image.tmdb.org/t/p/w500/P0HK6nMCsdFrxu4c4NTavxfuyh.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2572873829087",
+    "title": "Without",
+    "poster": "https://image.tmdb.org/t/p/w500/czmv6kesHVfswwaOv0sJxZq0A3W.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3061902608931",
+    "title": "1492: La conquista del paraíso",
+    "poster": "https://image.tmdb.org/t/p/w500/3rpSdF6IORC1XRi9GyIimYQUNpZ.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1291913988823",
+    "title": "Los lobos no lloran",
+    "poster": "https://image.tmdb.org/t/p/w500/9CDHAriztY1lkCgsyIHIIYq0a3b.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "691662752390",
+    "title": "La caída de la casa Usher",
+    "poster": "https://image.tmdb.org/t/p/w500/f9H6SGZrZ3TS2ESyEK3lmrEVkrL.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "872256834180",
+    "title": "La conquista del planeta de los simios",
+    "poster": "https://image.tmdb.org/t/p/w500/9kQ0wmBzoL4EZEF2jTft58AhBuv.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "4906295233222",
+    "title": "Gremlins 2: La nueva generación",
+    "poster": "https://image.tmdb.org/t/p/w500/th4AlCahUDHJItNutBGhAe48Vc.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1747950308056",
+    "title": "Network, un mundo implacable",
+    "poster": "https://image.tmdb.org/t/p/w500/r8CrxsvFK8JIBUpIZX0rBmojsC9.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "970717530758",
+    "title": "Un hombre lobo americano en París",
+    "poster": "https://image.tmdb.org/t/p/w500/49qfumITDLKoqfaovwVKujczpFf.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "30581263030",
+    "title": "El lado bueno de las cosas",
+    "poster": "https://image.tmdb.org/t/p/w500/3YXWHl2oP8OFT5CtG3EoeMQtAAD.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "756860390120",
+    "title": "Una historia del Bronx",
+    "poster": "https://image.tmdb.org/t/p/w500/mwW3SOA1SSxySZQRI7tx7Wo3kLy.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1190326962903",
+    "title": "A prueba de balas",
+    "poster": "https://image.tmdb.org/t/p/w500/79DpRL8GW4i1DZ3lKRJqllboaWa.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2342795545228",
+    "title": "Kickboxer 3: El arte de la guerra",
+    "poster": "https://image.tmdb.org/t/p/w500/zspCCTEwzP49bQ8lvMOOP7FpDHY.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3150237338222",
+    "title": "La semilla del diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/1PbbUmtP8SnGRCTvTzqfj5aj0xK.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2862583253614",
+    "title": "War Horse (Caballo de batalla)",
+    "poster": "https://image.tmdb.org/t/p/w500/vdkphnrXmqOvh0mEwYN9xrWGI3w.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "2119626459791",
+    "title": "Lifeforce, fuerza vital",
+    "poster": "https://image.tmdb.org/t/p/w500/khJ26Mf0qukJoSpu7NMFMVgfKrr.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1226635414231",
+    "title": "Rey de reyes",
+    "poster": "https://image.tmdb.org/t/p/w500/A9NtJy2DyKg2pH7Z46pPVz8WkkU.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3519656495839",
+    "title": "Mutant (Night Shadows)",
+    "poster": "https://image.tmdb.org/t/p/w500/3MIZ34BY6hNkZeS4AokK7h1WgzM.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2310699420383",
+    "title": "Black Jack: Los Dos Doctores de la Oscuridad",
+    "poster": "https://image.tmdb.org/t/p/w500/c3ut5CbzJCIh15YYdW6kfUDFF03.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "1164357274147",
+    "title": "El cortador de césped",
+    "poster": "https://image.tmdb.org/t/p/w500/5pg1YS0rxIZTp8VxqJ2uIT4fZFx.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1920170068590",
+    "title": "Los amos de Dogtown",
+    "poster": "https://image.tmdb.org/t/p/w500/3xpS4Wd5zyf1i0sOsF8Zaxh3Raz.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4396697062111",
+    "title": "El regreso del Hombre Nuclear y la Mujer Biónica",
+    "poster": "https://image.tmdb.org/t/p/w500/mpXR4j7s4vDLOfEjxcuOwGVYum6.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3897688066670",
+    "title": "Espartaco",
+    "poster": "https://image.tmdb.org/t/p/w500/azXoEA108BvWjeKxIW9tfYlxY2I.jpg",
+    "genre": "Historia"
+  },
+  {
+    "id": "2519155935854",
+    "title": "Sr. y Sra. Smith",
+    "poster": "https://image.tmdb.org/t/p/w500/wNi7Axc8U4cI9BgryeuF5tpi0I1.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3150239042158",
+    "title": "THX 1138",
+    "poster": "https://image.tmdb.org/t/p/w500/qrWDcSmo4An9CmIBj9wOWAfYq5f.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1178372278999",
+    "title": "Al filo de la sospecha",
+    "poster": "https://image.tmdb.org/t/p/w500/nfMq45LaHIrcza6p7Khr1t2DZRj.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1157759896099",
+    "title": "Pesadillas",
+    "poster": "https://image.tmdb.org/t/p/w500/fSMiDkjzg4MPDRDzfsczrFMfevB.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4355479636509",
+    "title": "El justiciero de la ciudad",
+    "poster": "https://image.tmdb.org/t/p/w500/rjRcqlzNHOrETquXt3jdOMe69uJ.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "830742661742",
+    "title": "Dos policías rebeldes II",
+    "poster": "https://image.tmdb.org/t/p/w500/qyHDZB87UQF9cu6uuQzhhaKGvuo.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1196382423572",
+    "title": "A Beautiful Planet",
+    "poster": "https://image.tmdb.org/t/p/w500/gWFxDug6HMr3XQRaE9V9YVW52J7.jpg",
+    "genre": "Documental"
+  },
+  {
+    "id": "2827619797719",
+    "title": "American Pie: El reencuentro",
+    "poster": "https://image.tmdb.org/t/p/w500/prurn3HioMykwlFMZdfvJ88iPlM.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2624625379980",
+    "title": "Soldado universal",
+    "poster": "https://image.tmdb.org/t/p/w500/f0Z5q8HMksgmNkAtNEaY7h7c1lx.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2415096302220",
+    "title": "Corazones de hierro",
+    "poster": "https://image.tmdb.org/t/p/w500/b9Wdy0xkSgToQpPHMOQNrXt4fZw.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2422191164044",
+    "title": "La puerta",
+    "poster": "https://image.tmdb.org/t/p/w500/mJWe2V468yEDdAPUjSNBxnbV9TW.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "7767768762885",
+    "title": "Congo",
+    "poster": "https://image.tmdb.org/t/p/w500/hgHB2Hzy0ykHzrEDQsdpHUx83Iz.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "4517181393518",
+    "title": "Código fuente",
+    "poster": "https://image.tmdb.org/t/p/w500/chcGEGGGk1GDYftpdwVGVtsYbDF.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1612421401311",
+    "title": "Pizza, birra, faso",
+    "poster": "https://image.tmdb.org/t/p/w500/gJEpEp0oE7osryIExZgCtyiUtJb.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "598295775878",
+    "title": "Cortocircuito 2",
+    "poster": "https://image.tmdb.org/t/p/w500/w9GNBKn3FNLbhl8CmNOq5El0Ekf.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3620204907188",
+    "title": "El especialista",
+    "poster": "https://image.tmdb.org/t/p/w500/kBdd0fHLKKe79En5DqdPmSzQo9c.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3379730582149",
+    "title": "El alimento de los dioses",
+    "poster": "https://image.tmdb.org/t/p/w500/tX7ynhQ8YJUaNqoZtZ71vQ5GDZx.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1586628397569",
+    "title": "Terror en la niebla",
+    "poster": "https://image.tmdb.org/t/p/w500/8ZA2oBaGNk3A4xljFPz0bt4SOGQ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3263752571502",
+    "title": "Este muerto está muy vivo",
+    "poster": "https://image.tmdb.org/t/p/w500/wfUzRJTHGhVPeIdH9IDvJABZoc3.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4328405994101",
+    "title": "Pearl Harbor",
+    "poster": "https://image.tmdb.org/t/p/w500/ftkKVbk4sQEcekuaGJvpvXcNs32.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "1189949868759",
+    "title": "La edad de la inocencia",
+    "poster": "https://image.tmdb.org/t/p/w500/8P02f8RlQ8P490chSGczOEQenaK.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "794379291294",
+    "title": "Jeepers Creepers 2",
+    "poster": "https://image.tmdb.org/t/p/w500/q6RYpWhrlCtqsBI3VzSsAem5Q8o.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3506455775837",
+    "title": "El regreso de Ben Wyatt",
+    "poster": "https://image.tmdb.org/t/p/w500/w1wa9d9kkkEgC9cBB4WNQZzb4jl.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2905733139159",
+    "title": "Wicker Man",
+    "poster": "https://image.tmdb.org/t/p/w500/ilfjxDN1833pZgRPo4DQysJUrjJ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "774071257789",
+    "title": "Envidia",
+    "poster": "https://image.tmdb.org/t/p/w500/rbRXsxXKvPKTYUHFHrwePD1dr5r.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1170424334868",
+    "title": "Más allá de los sueños",
+    "poster": "https://image.tmdb.org/t/p/w500/t73wtydNOHyXKhwRnmD4WuQApPh.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1232089582295",
+    "title": "El amigo más fiel",
+    "poster": "https://image.tmdb.org/t/p/w500/w65gcoD1zwmaPLM0gM8s9eynGcj.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "901791419014",
+    "title": "Coma",
+    "poster": "https://image.tmdb.org/t/p/w500/pteO27H2fEKyyzc6MC9C1N62Hdq.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2162396564191",
+    "title": "Dos más dos",
+    "poster": "https://image.tmdb.org/t/p/w500/2zg6WE5maWgH6rJH9BjVIesuOkP.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1244524841586",
+    "title": "Posesión infernal",
+    "poster": "https://image.tmdb.org/t/p/w500/vgQDogdqPrSk2zRdy2JESq2LGvy.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3263752374894",
+    "title": "Vanilla Sky",
+    "poster": "https://image.tmdb.org/t/p/w500/cAh2pCiNPftsY3aSqJuIOde7uWr.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "1940400376381",
+    "title": "En algún lugar del tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/rrhVRksFy0XsUk7KW6t7L6EUlSq.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2724432644718",
+    "title": "El luchador invisible",
+    "poster": "https://image.tmdb.org/t/p/w500/8SJA3EWnAe7YWYCCf59lCMS3vss.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3580246231685",
+    "title": "Payasos asesinos del espacio exterior",
+    "poster": "https://image.tmdb.org/t/p/w500/vqQoDP43QNJaQFv0KMqilm62X3C.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4212751928060",
+    "title": "Una maravilla con clase",
+    "poster": "https://image.tmdb.org/t/p/w500/vz8n0HrgH9SW6jYI4nQzSW3IDEB.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "726211627752",
+    "title": "Mad Max 3: Más allá de la cúpula del trueno",
+    "poster": "https://image.tmdb.org/t/p/w500/pgmOX4PQl5xPAdAx18zPPnQjQKs.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6888685374038",
+    "title": "Leviathan (El Demonio Del Abismo)",
+    "poster": "https://image.tmdb.org/t/p/w500/46xWVw6AE7HSoLO8BsZLcgntcbM.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3794905205352",
+    "title": "A.I. Inteligencia Artificial",
+    "poster": "https://image.tmdb.org/t/p/w500/5WeNxarV4DNRnuBvUmj5CuwIMbJ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "333593184899",
+    "title": "El jugador",
+    "poster": "https://image.tmdb.org/t/p/w500/hvdS2CnwgoOXTC94u4QddX7KwoV.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "2635609082508",
+    "title": "Waterworld",
+    "poster": "https://image.tmdb.org/t/p/w500/3tkjk7YKBpbenTJ8TTZJS0J3q52.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1224106642135",
+    "title": "Los feos también mojan",
+    "poster": "https://image.tmdb.org/t/p/w500/s4YjtljT5ZTlrljmTgMO6dMn1So.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1959900220044",
+    "title": "Permanezca en sintonía",
+    "poster": "https://image.tmdb.org/t/p/w500/A10N1dKbdE0SZHT7iXlxcIwaEFH.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2455323937446",
+    "title": "Superman II",
+    "poster": "https://image.tmdb.org/t/p/w500/c5OPYXLpRdwtnGBX4gZ8bGq6kSp.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2724433365614",
+    "title": "Space Jam",
+    "poster": "https://image.tmdb.org/t/p/w500/2yyw20gloVgbzR9a5B15GqPdqux.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1982093527587",
+    "title": "Cabezas huecas",
+    "poster": "https://image.tmdb.org/t/p/w500/5dVEAdmP58GwkctUyLCMqwP4YcP.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "4468512852620",
+    "title": "Guncrazy",
+    "poster": "https://image.tmdb.org/t/p/w500/tYY4Dfg3bJlu5woIz2i7LNMD1bX.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2519155149422",
+    "title": "Babe: El cerdito valiente",
+    "poster": "https://image.tmdb.org/t/p/w500/6yy3Y03MF5hhliTYSKPTTvH34gT.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "1925560601311",
+    "title": "Viaje a los limites del universo",
+    "poster": "https://image.tmdb.org/t/p/w500/sHYjvDR2y99VG9FYW2lbrU1C4hp.jpg",
+    "genre": "Documental"
+  },
+  {
+    "id": "1865492335336",
+    "title": "Besos de vampiro",
+    "poster": "https://image.tmdb.org/t/p/w500/6pkFxSUmNSuqQAbZ04zaVOZaHk5.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "869955930758",
+    "title": "Malas tierras",
+    "poster": "https://image.tmdb.org/t/p/w500/kzsNBEiSN9tciZCTNMeS91s2Gdv.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2016019286638",
+    "title": "RoboCop 2",
+    "poster": "https://image.tmdb.org/t/p/w500/zFMP2SQ8YNuWIfYfMSxMQLFIqU9.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2468947954399",
+    "title": "Xtro 2  El segundo encuentro",
+    "poster": "https://image.tmdb.org/t/p/w500/rKAViKJOJYwcFYA7SjvTSKwxlvE.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1546814163672",
+    "title": "Dos hombres y un destino",
+    "poster": "https://image.tmdb.org/t/p/w500/2w6Ik8P1E20KOH5ykQlfTjawAIf.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3812420291157",
+    "title": "Un genio con dos cerebros",
+    "poster": "https://image.tmdb.org/t/p/w500/8iPqWGf8l9oZ9LGYgQsVZypjmHu.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3823866022580",
+    "title": "Casino",
+    "poster": "https://image.tmdb.org/t/p/w500/7x8lsyTB0G7OrLzQ7qxt3ywQ4OY.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1138201922264",
+    "title": "Starman",
+    "poster": "https://image.tmdb.org/t/p/w500/snvyq6q3qaZ6JFF6NOl9CuGmpIX.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3600513632786",
+    "title": "Horizonte Final",
+    "poster": "https://image.tmdb.org/t/p/w500/p0TgEBfbOgWP6xZgSt2T7Ee78vx.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "597665581702",
+    "title": "Cuando el destino nos alcance",
+    "poster": "https://image.tmdb.org/t/p/w500/5iEw4EBb8wZkzsbX52mYvyGLYji.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2294816180876",
+    "title": "Tránsito",
+    "poster": "https://image.tmdb.org/t/p/w500/mvNAb4PSoRAyN0RkRnT1y0qVwue.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "2975965448837",
+    "title": "El mundo perdido",
+    "poster": "https://image.tmdb.org/t/p/w500/qUOT1vjeCc19vPDi67OdLbo1HiI.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "332928453254",
+    "title": "Leyendas de pasión",
+    "poster": "https://image.tmdb.org/t/p/w500/fZjjcVq8YTOUSN6PYTIS009FsmW.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1158751455854",
+    "title": "Están vivos",
+    "poster": "https://image.tmdb.org/t/p/w500/KI0X2vFzWOaMF32TnW6zIpronv.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1900260493941",
+    "title": "El crisol",
+    "poster": "https://image.tmdb.org/t/p/w500/8N4WAZ3Cuxb1tfNOfbxeD46QB0i.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "4013273123445",
+    "title": "Amanecer de los muertos",
+    "poster": "https://image.tmdb.org/t/p/w500/6aue0EtBfftVryNP11acJqOZu2h.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "495372995206",
+    "title": "Ejecución inminente",
+    "poster": "https://image.tmdb.org/t/p/w500/68rY8lVr8rSg5Lh0PNyvhxuDWKU.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "383767218920",
+    "title": "Drive",
+    "poster": "https://image.tmdb.org/t/p/w500/r63LaAngw0LAkgYmvA5gllmOUjm.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "938997451398",
+    "title": "Terror en Amityville",
+    "poster": "https://image.tmdb.org/t/p/w500/kwjfJYfDKCu2qXnmey7yEMYzXfI.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3264459639406",
+    "title": "La historia interminable III: Las aventuras de Bastian",
+    "poster": "https://image.tmdb.org/t/p/w500/aQtQZwYsJxGnSk5dqLqnIuyNgov.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "443523009256",
+    "title": "Black Hawk derribado",
+    "poster": "https://image.tmdb.org/t/p/w500/5chWdaHyaHWd5KaVxK94lbTDCdC.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2905161075415",
+    "title": "La Secretaria de Hitler: El ángulo muerto",
+    "poster": "https://image.tmdb.org/t/p/w500/vvt6z75pucEYw3Efof40QHnXRw9.jpg",
+    "genre": "Documental"
+  },
+  {
+    "id": "2049386810072",
+    "title": "Evasión o victoria",
+    "poster": "https://image.tmdb.org/t/p/w500/hO86vqFBAVEoMdO8OsoKn3RwwBQ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1179095993047",
+    "title": "Dos chalados y un fiambre",
+    "poster": "https://image.tmdb.org/t/p/w500/cWcY8A6b88VAA1sfPdFfIxy01EA.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2123812702860",
+    "title": "Misión a Marte",
+    "poster": "https://image.tmdb.org/t/p/w500/fQM0eyV5b7jQefpSLvQS6b0e1yc.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2822903958231",
+    "title": "Top Secret!",
+    "poster": "https://image.tmdb.org/t/p/w500/eS3WYx18vouzMQQOpV4cWw5ArP0.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1414407653946",
+    "title": "Planeta prohibido",
+    "poster": "https://image.tmdb.org/t/p/w500/f3uiFW6cnzIG96mOQSJzUEdN6ue.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2621521922705",
+    "title": "Elvis",
+    "poster": "https://image.tmdb.org/t/p/w500/nKJEtXTEbq1lCFsIPDyNSlFK6GM.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1697994050083",
+    "title": "Juguete mortal",
+    "poster": "https://image.tmdb.org/t/p/w500/65RDHC5fLwuvQG1LmKRoQugBqLl.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1596205304536",
+    "title": "El color del dinero",
+    "poster": "https://image.tmdb.org/t/p/w500/eGtURb1zBDPtaoo3umzM5ZH8dvH.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5606222531158",
+    "title": "Mimic",
+    "poster": "https://image.tmdb.org/t/p/w500/1BIovowG61saUJuxdzZdG963uw6.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2459066698406",
+    "title": "Superman IV: En busca de la paz",
+    "poster": "https://image.tmdb.org/t/p/w500/i9l2OBvASDruutxftB0z4dfjLhR.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1225925921354",
+    "title": "Ángel de venganza",
+    "poster": "https://image.tmdb.org/t/p/w500/dLcJ5P8T7Kxby2whBymwHrq9aKX.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2259676826335",
+    "title": "Marathon Man",
+    "poster": "https://image.tmdb.org/t/p/w500/iqkB43dLRKP98O0SN1pKwKOscxA.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1616654567997",
+    "title": "Pacto de honor",
+    "poster": "https://image.tmdb.org/t/p/w500/oTbxUCkkUPFMk1FD1w2tXMwzDME.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2935033039500",
+    "title": "La fuga de Logan",
+    "poster": "https://image.tmdb.org/t/p/w500/o6kXmb4vy6kTY7VFpHS4IpgIDLd.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1299924519640",
+    "title": "Shocker, 100.000 voltios de terror",
+    "poster": "https://image.tmdb.org/t/p/w500/raewKXdAKEAdmeJ45m7uQNA930S.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2991046003415",
+    "title": "Mi cerebro es electrónico",
+    "poster": "https://image.tmdb.org/t/p/w500/jB1lEnl9EC2ODU5992UmwcpbPJ0.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2385877207587",
+    "title": "La mano que mece la cuna",
+    "poster": "https://image.tmdb.org/t/p/w500/gTCIHzm41BbtJw9lXYnmCSOql2c.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1225828993751",
+    "title": "Descalzos por el parque",
+    "poster": "https://image.tmdb.org/t/p/w500/gNVhZ8cBzXsvv2xkO6pHVQScU9V.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "844974131846",
+    "title": "Aliens vs. Predator 2",
+    "poster": "https://image.tmdb.org/t/p/w500/3U0JSDmyqXlCOlXeCcPD5PQmp9Q.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2691635612300",
+    "title": "Hangar 18",
+    "poster": "https://image.tmdb.org/t/p/w500/kORjGwOggAmJb0r5l8xoapXiBTW.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2018199669471",
+    "title": "El Ente",
+    "poster": "https://image.tmdb.org/t/p/w500/ws8tfaqgwGNp3w3q1DUFchlo0zx.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1302099855960",
+    "title": "Muerte súbita",
+    "poster": "https://image.tmdb.org/t/p/w500/m2eFjyjdYdMXKSakjP4iqh3eCRU.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1174167685727",
+    "title": "Carretera perdida",
+    "poster": "https://image.tmdb.org/t/p/w500/vFIhGJuUfCSGTFj5fgLCbBAtxt2.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3175234538199",
+    "title": "Punto límite: Cero",
+    "poster": "https://image.tmdb.org/t/p/w500/qIN3bZdHcKptxT6UBLra6a1DN6D.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2710388869829",
+    "title": "Nightcrawler",
+    "poster": "https://image.tmdb.org/t/p/w500/lhwHd76JCkpCT8TRn4rUtToPEKL.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "3258411584140",
+    "title": "Las muertes de Ian Stone",
+    "poster": "https://image.tmdb.org/t/p/w500/guhprfoix4DCKnbPeVQXuF08rHt.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3150237403758",
+    "title": "Gangs of New York",
+    "poster": "https://image.tmdb.org/t/p/w500/gB7aaHAT1yEj49beaII6pudpode.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "5661857483411",
+    "title": "Ellas dan el golpe",
+    "poster": "https://image.tmdb.org/t/p/w500/qHVHUVhE7RqjtecoSAnqYukiIos.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2342734727820",
+    "title": "Kickboxer 2",
+    "poster": "https://image.tmdb.org/t/p/w500/t5ieHTlIiJgXg05lJgP3McT1T9v.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1219880553175",
+    "title": "El hombre de California",
+    "poster": "https://image.tmdb.org/t/p/w500/jj4sbdn2PiwVuUwnL6lMxXZx5yo.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "1224994786007",
+    "title": "Fatal Fury: La leyenda del lobo hambriento",
+    "poster": "https://image.tmdb.org/t/p/w500/xHSe6SRAqvlsb2GgMLTRfi3VVrm.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1823247305432",
+    "title": "El Oro De Mackenna",
+    "poster": "https://image.tmdb.org/t/p/w500/gUsGG130MXYlqaAPXnZ0Wk5CYw.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "395826432651",
+    "title": "Mira quién habla",
+    "poster": "https://image.tmdb.org/t/p/w500/3pfesuEGjxA83F8DesrHmkNo9Bh.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "717999442664",
+    "title": "Decisión crítica",
+    "poster": "https://image.tmdb.org/t/p/w500/nbVrvCi8UPTPjdnX3Lm7C4pmXj1.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3749358209640",
+    "title": "The Chronicles of Riddick: Into Pitch Black",
+    "poster": "https://image.tmdb.org/t/p/w500/daB2WDVkOXzaWohtuxvOArpRF4X.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3257366153733",
+    "title": "Superman",
+    "poster": "https://image.tmdb.org/t/p/w500/sYJGXqaDQzJ2qu2bhMDyTFtww7q.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "373915323112",
+    "title": "Los inmortales II: El desafío",
+    "poster": "https://image.tmdb.org/t/p/w500/7heLDCYLDBOsxRhuxPhNMc3Wt78.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "1254315789015",
+    "title": "Al sur de Los Ángeles",
+    "poster": "https://image.tmdb.org/t/p/w500/i1kpCAxuEeUPe9Ep8r1VUYRfSVX.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "4032182094416",
+    "title": "Jungla de cristal: la venganza",
+    "poster": "https://image.tmdb.org/t/p/w500/uLVcPispwVVa5LMpAWwQngFcm8.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "358389123731",
+    "title": "Promesas del este",
+    "poster": "https://image.tmdb.org/t/p/w500/7VXya7414oHrpeZKkslNQ7BMcg9.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "328106445446",
+    "title": "No tengas miedo a la oscuridad",
+    "poster": "https://image.tmdb.org/t/p/w500/htH3kWAEEW0RLhgA2P8LTBea3mk.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "2176201001633",
+    "title": "Twin Peaks: Fuego camina conmigo",
+    "poster": "https://image.tmdb.org/t/p/w500/4ae4pFtODwowHcierrmgjyzVejh.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "736217139846",
+    "title": "Videodrome",
+    "poster": "https://image.tmdb.org/t/p/w500/qqqkiZSU9EBGZ1KiDmfn07S7qvv.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2724331653772",
+    "title": "Huida del planeta de los simios",
+    "poster": "https://image.tmdb.org/t/p/w500/mCbFub0UiNQi3SBSOjwGNLhEroc.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1532694498041",
+    "title": "Poltergeist (Fenómenos extraños)",
+    "poster": "https://image.tmdb.org/t/p/w500/b6JcwPnultjlXSVDGJhtPSAZSEY.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "368943827688",
+    "title": "Pesadilla en Elm Street 4 El amo del sueño",
+    "poster": "https://image.tmdb.org/t/p/w500/waLzjguZwn83nCtSuG22l87eHZx.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4194755152517",
+    "title": "La sabiduría de los cocodrilos",
+    "poster": "https://image.tmdb.org/t/p/w500/gAeX7UhM5HUDO67PTRsuUceA31I.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "3022613187133",
+    "title": "La noche de los muertos vivientes",
+    "poster": "https://image.tmdb.org/t/p/w500/5cjDlHqfb6CJV9gUcAcSp7jlEs4.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2535317899991",
+    "title": "El árbol de la vida",
+    "poster": "https://image.tmdb.org/t/p/w500/5Zc2JGtIX4CGaVFwrHX72Okuek8.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2800091466350",
+    "title": "Carrie",
+    "poster": "https://image.tmdb.org/t/p/w500/xx39ZISsvHJW1K0dIfoDD6tOOfo.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1791745067559",
+    "title": "Reflejos",
+    "poster": "https://image.tmdb.org/t/p/w500/bP5cmzflg0SrebT2QeFNYzxtw4M.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "242869406342",
+    "title": "S.W.A.T.: Los hombres de Harrelson",
+    "poster": "https://image.tmdb.org/t/p/w500/mBv6FzdqYnXpoosz3yyuCa2ifJS.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2580276447967",
+    "title": "La cara oculta de la luna",
+    "poster": "https://image.tmdb.org/t/p/w500/1Ilu7zfhxw2cy5BXDW0kUnkWKLl.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1305218058967",
+    "title": "La máquina del tiempo",
+    "poster": "https://image.tmdb.org/t/p/w500/etqDF1zxjegHcVei2T9sKLaZ5s2.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2022139365949",
+    "title": "La invasión de los ladrones de cuerpos",
+    "poster": "https://image.tmdb.org/t/p/w500/zuQRECfEODUkXc7cD04BDI8HC7a.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "2342329453279",
+    "title": "Licks",
+    "poster": "https://image.tmdb.org/t/p/w500/50U9ZfzkLlbhP645BJ6MJBYJqQl.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "791002417798",
+    "title": "Scary Movie 4",
+    "poster": "https://image.tmdb.org/t/p/w500/4SMqo8Me8aCT4KAVLeG9pk8VYiN.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2093117934115",
+    "title": "Los inmortales III: El hechicero",
+    "poster": "https://image.tmdb.org/t/p/w500/AhPvP5c3kXOUdkk7zRCcFCymiYF.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "422361041542",
+    "title": "No hay dos sin tres",
+    "poster": "https://image.tmdb.org/t/p/w500/tilpdfUMcEQ0rC3bPIT3QNtjB0q.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "3908304636639",
+    "title": "El coche fantástico 2000",
+    "poster": "https://image.tmdb.org/t/p/w500/haHCWfrXXvu4faVR6EgPj1skE28.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2065584491101",
+    "title": "El Álamo",
+    "poster": "https://image.tmdb.org/t/p/w500/tnJ4FOrqRwYzilWDEwdYbhyvUfh.jpg",
+    "genre": "Bélica"
+  },
+  {
+    "id": "3850374089356",
+    "title": "Un tipo serio",
+    "poster": "https://image.tmdb.org/t/p/w500/t4wM2xD8YmajreYBKuKyS24TZAr.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2581683440189",
+    "title": "Wicked City: La ciudad maldita",
+    "poster": "https://image.tmdb.org/t/p/w500/2ODXO7MTmzErqlY7XKjygOj6YMs.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2357347486348",
+    "title": "Los inmortales",
+    "poster": "https://image.tmdb.org/t/p/w500/aAH4s6H2DBcepgD2EqoUjAfUsmU.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "304710486662",
+    "title": "El último mohicano",
+    "poster": "https://image.tmdb.org/t/p/w500/mM9ewvwSZM5DdHFeSaFtRJYDCij.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "5572748249823",
+    "title": "El mundo que viene",
+    "poster": "https://image.tmdb.org/t/p/w500/57mcPNs083ifBWdDqVcnKlfHX5k.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1437141436991",
+    "title": "La rebelión de los simios",
+    "poster": "https://image.tmdb.org/t/p/w500/J80xXgT6Mw8EiiQeHcEdJ4LfxC.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3374089046708",
+    "title": "El coloso en llamas",
+    "poster": "https://image.tmdb.org/t/p/w500/o5OOPzncdTzQCYciaOmgoMUlrD2.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3699150686866",
+    "title": "Visitante del más allá",
+    "poster": "https://image.tmdb.org/t/p/w500/dCjgedgQaDkKKjxs2cW5I3mgbl5.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1628171209412",
+    "title": "El día de mañana",
+    "poster": "https://image.tmdb.org/t/p/w500/c4IUWfr4AokGlVSWNRAat0DfbgZ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "5470977723103",
+    "title": "Frío como el hielo",
+    "poster": "https://image.tmdb.org/t/p/w500/nbKHTHdSbG2u8ySTZXAN3ojm5cw.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "3977743633111",
+    "title": "La fuerza de uno",
+    "poster": "https://image.tmdb.org/t/p/w500/7u3o6Zz0nnHmQBzWOMfraUKiIT7.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2126833257077",
+    "title": "Melodía de seducción",
+    "poster": "https://image.tmdb.org/t/p/w500/p9FecqQhylTZEgzl1nRkoD7LV5O.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "4396966742751",
+    "title": "Sueños siniestros",
+    "poster": "https://image.tmdb.org/t/p/w500/cc139yXIEmxAR9uLfCgopUNVj0u.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "853411629702",
+    "title": "Stigmata",
+    "poster": "https://image.tmdb.org/t/p/w500/v5xcveeR177PwVsOxiOXgcUxxk8.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2530399685335",
+    "title": "Temblores",
+    "poster": "https://image.tmdb.org/t/p/w500/gGg2haDaZF3vklYQXPPQ6ccCNj0.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3697124510431",
+    "title": "Caminando en el viento",
+    "poster": "https://image.tmdb.org/t/p/w500/rPbAGObhxzMRWMJdxGZVa6CleIh.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1279606393560",
+    "title": "Atrapados sin salida",
+    "poster": "https://image.tmdb.org/t/p/w500/fxoCIZaHysHONN22rnGGhS8w67Z.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2829937543790",
+    "title": "Como la vida misma",
+    "poster": "https://image.tmdb.org/t/p/w500/yS5rwHNWrJr6n91P9mlstlSO9ca.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2553509317252",
+    "title": "Species II (Especie mortal II)",
+    "poster": "https://image.tmdb.org/t/p/w500/jKlDrFiPJ6twicw6u9JdoSLduYJ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "1756756839113",
+    "title": "The Battery",
+    "poster": "https://image.tmdb.org/t/p/w500/nI7lzx2t4UPfuqhunB5bEVymOOV.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "7318903654941",
+    "title": "Arma letal",
+    "poster": "https://image.tmdb.org/t/p/w500/bOmKVohi6yjxBnoP7XvX6tpXR56.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1540356573731",
+    "title": "A la deriva",
+    "poster": "https://image.tmdb.org/t/p/w500/oUTDij05C0NJz7pyYVwFqSMvCLJ.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "990288415458",
+    "title": "El escondite",
+    "poster": "https://image.tmdb.org/t/p/w500/bzpCwz8KoVzb0yIr7BI6W4LQjM2.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "743227918982",
+    "title": "Adaptation. El ladrón de orquídeas",
+    "poster": "https://image.tmdb.org/t/p/w500/d4DUAAHul6TKHRkXnj59Cy1WYnp.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2982301600479",
+    "title": "Pesadilla diabólica",
+    "poster": "https://image.tmdb.org/t/p/w500/6siLQOh5pPOY6A54TeJr44AUfFo.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2923847944844",
+    "title": "Brokeback Mountain: En terreno vedado",
+    "poster": "https://image.tmdb.org/t/p/w500/kRgrTPM6uDiLBgASk8j3RBTE49d.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1227513924311",
+    "title": "La ley de los fuertes",
+    "poster": "https://image.tmdb.org/t/p/w500/av3XN2K2wI6C8GAvw4fCWvoQl9W.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2689134693043",
+    "title": "Duelo en Silver Creek",
+    "poster": "https://image.tmdb.org/t/p/w500/3buDYuUh7aZjRMTfjzR6cjVVvSA.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "2205986196078",
+    "title": "Acoso",
+    "poster": "https://image.tmdb.org/t/p/w500/rrF4W4nHbgZ1G4Dj2G1fQYU8N0t.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "3690967075551",
+    "title": "En la cama con Madonna",
+    "poster": "https://image.tmdb.org/t/p/w500/2brgFMN0xJTZ5w45zIEU8eBmDPm.jpg",
+    "genre": "Música"
+  },
+  {
+    "id": "779296836285",
+    "title": "La salchicha peleona",
+    "poster": "https://image.tmdb.org/t/p/w500/t86vNoMVV6kuvayzzQ0mC48ak02.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "30627072694",
+    "title": "Las brujas de Zugarramurdi",
+    "poster": "https://image.tmdb.org/t/p/w500/ujY3b20uM3FYOiRj7T0KdMACQf9.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "576585206406",
+    "title": "Mira quien habla también",
+    "poster": "https://image.tmdb.org/t/p/w500/tY9cqNnlMnc3vR11LdSxvBl3ERe.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "2417865853663",
+    "title": "Vuelo a Marte",
+    "poster": "https://image.tmdb.org/t/p/w500/limU75Z23WTBfsvIvscVe6TjbgR.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "29650913837",
+    "title": "La última noche",
+    "poster": "https://image.tmdb.org/t/p/w500/9rSCPAEJ35BK5YbK5Asr0JkjB5n.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "2470672665198",
+    "title": "Leyenda urbana 2",
+    "poster": "https://image.tmdb.org/t/p/w500/9TxrMWzcZZj2vSGvjD4v2r1cgXt.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1744155904708",
+    "title": "Tango y Cash",
+    "poster": "https://image.tmdb.org/t/p/w500/hcrhz0UP90Qz7b2TzRE01X6pJnS.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2456128064223",
+    "title": "Alien Nación",
+    "poster": "https://image.tmdb.org/t/p/w500/wkoWjshHinwIjkuVaepVklfHJKw.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "4164925458979",
+    "title": "Tiburón 4: La venganza",
+    "poster": "https://image.tmdb.org/t/p/w500/uETv0BJHqHGRb2UhyaXeQZLl7ef.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "3197696084695",
+    "title": "Invictus",
+    "poster": "https://image.tmdb.org/t/p/w500/gWW20yeF5t6ZHn3gCjidLuWtQMU.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "1327737866953",
+    "title": "Hambre",
+    "poster": "https://image.tmdb.org/t/p/w500/jaot9ZW8pLcFAXiIe5J6DG8G1Bn.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3267103885935",
+    "title": "Shrek tercero",
+    "poster": "https://image.tmdb.org/t/p/w500/7sTwtmVPTX77CFOUXdwAM7lKtKL.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "3162155846277",
+    "title": "Moscas",
+    "poster": "https://image.tmdb.org/t/p/w500/x9N3Ve9inJAHIF8vYHpm4hdUdBH.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "9649089939978",
+    "title": "Criminales a la vista",
+    "poster": "https://image.tmdb.org/t/p/w500/c1iiWZ55YhmuFqMabx2PiIGzXSZ.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "2382821329631",
+    "title": "Autopista al infierno",
+    "poster": "https://image.tmdb.org/t/p/w500/fKczKfa1iZMw7RJpJt9NykQGgYH.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "7143702203027",
+    "title": "Un arma cargada de futuro",
+    "poster": "https://image.tmdb.org/t/p/w500/g1O7XUccOoL8gdsWMidpFpFdaxw.jpg",
+    "genre": "Documental"
+  },
+  {
+    "id": "1437871704637",
+    "title": "Los Profesionales",
+    "poster": "https://image.tmdb.org/t/p/original/pyDdqgz2VBsr3EKit7E66auhYwb.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1597001566940",
+    "title": "Superstición",
+    "poster": "https://image.tmdb.org/t/p/w500/dzIqI7dyX2G9IidJ5e3tKpgMQ5K.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2330308905612",
+    "title": "Detective Conan 5: Cuenta regresiva al cielo",
+    "poster": "https://image.tmdb.org/t/p/w500/tf0Bw7MAEWDvCM6NDlTEUDPQkwF.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2131076647647",
+    "title": "Al filo del abismo",
+    "poster": "https://image.tmdb.org/t/p/w500/m7b4lcPjqDSNZipPRYjE8cwqXS4.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "1988586900200",
+    "title": "Si no puedo tener amor, quiero poder",
+    "poster": "https://image.tmdb.org/t/p/w500/fLe08drzgDhSFGwU9ip4bAMJXJr.jpg",
+    "genre": "Música"
+  },
+  {
+    "id": "3619951217270",
+    "title": "Nacido para ganar (Trading paint)",
+    "poster": "https://image.tmdb.org/t/p/w500/aaV2Tyv9BnxMrKNGWmWoEu5dYmS.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2580864568031",
+    "title": "Spinal Tap II: El final continúa",
+    "poster": "https://image.tmdb.org/t/p/w500/eDeRY3vKQzox1qalZolHMfxmGD.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2261269875442",
+    "title": "El tren de las 3:10",
+    "poster": "https://image.tmdb.org/t/p/w500/7UNt0JSO2Ttyxjcp49L0aTkDsLr.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "1858038270533",
+    "title": "Piraña 2 (Piraña 3DD)",
+    "poster": "https://image.tmdb.org/t/p/w500/vbJObKz2s4ZkMiQwfl5EM1IIt5d.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "2365545843340",
+    "title": "Sol de medianoche",
+    "poster": "https://image.tmdb.org/t/p/w500/dAgmz28m1Q5kYHexD6BJEmoZenO.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "687392950918",
+    "title": "Psicosis en mis super dulces 16",
+    "poster": "https://image.tmdb.org/t/p/w500/5EeYLxKgrcaLq52BnPo7noVpTXc.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "931579169414",
+    "title": "Aquí vive el horror",
+    "poster": "https://image.tmdb.org/t/p/w500/1KB0rEdICGrFtHsIdeJ33dTT30X.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "4262027004445",
+    "title": "Intrépidos forajidos: Arma Joven II",
+    "poster": "https://image.tmdb.org/t/p/w500/cfZxNJiNepAV1Cy0P1b3RJohqkf.jpg",
+    "genre": "Western"
+  },
+  {
+    "id": "3509771963020",
+    "title": "Juegos prohibidos",
+    "poster": "https://image.tmdb.org/t/p/w500/9giNxXKhfLcDduidtr7VxVD6hX4.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3056884845279",
+    "title": "Transformaciones",
+    "poster": "https://image.tmdb.org/t/p/w500/mgu4KeKkm79hecxuyRSyt50ed1X.jpg",
+    "genre": "Películas"
+  },
+  {
+    "id": "1362420107874",
+    "title": "El clan del oso cavernario",
+    "poster": "https://image.tmdb.org/t/p/w500/iMrfZ0A6Uekxc2G8Q9eAHflqkLs.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "2554036357847",
+    "title": "Gracias por el chocolate",
+    "poster": "https://image.tmdb.org/t/p/w500/bts2lO4QM48VhQF8El641wm8c2J.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "1184949209815",
+    "title": "Dulce venganza",
+    "poster": "https://image.tmdb.org/t/p/w500/uxbDwHWN70IfRpCbstoNezd1UzT.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2088136673796",
+    "title": "La joven del agua",
+    "poster": "https://image.tmdb.org/t/p/w500/j3kjDNFhhGheHQ8uMCvFTy5ziSp.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2155943037663",
+    "title": "Yeti, el gigante del siglo 20",
+    "poster": "https://image.tmdb.org/t/p/w500/1GICe6lQ1NkJFw5xTSU3iux3sYu.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "1520496675544",
+    "title": "La pequeña tienda de los horrores",
+    "poster": "https://image.tmdb.org/t/p/w500/yBYll8dgoyQrKDeajWYvhhZFAmG.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "1801983494773",
+    "title": "Starship Troopers: Invasión",
+    "poster": "https://image.tmdb.org/t/p/w500/xJJY16XSazUgDvbWEXQ1ulLiz8q.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "2064790719116",
+    "title": "Agua Viva",
+    "poster": "https://image.tmdb.org/t/p/w500/qaUiHJk6kkxq3FmLKCh8cSdhaMa.jpg",
+    "genre": "Películas"
+  },
+  {
+    "id": "47953480212",
+    "title": "Los gemelos golpean dos veces",
+    "poster": "https://image.tmdb.org/t/p/w500/z17mNScwFyZ9sOplnd2R9aQOmlr.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "2584488249996",
+    "title": "Carrera contra la muerte",
+    "poster": "https://image.tmdb.org/t/p/w500/GTAUOhO4BN0peJVvxGEQydJvUO.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "2231559129710",
+    "title": "Rocky Balboa",
+    "poster": "https://image.tmdb.org/t/p/w500/8oN30JAimKk2LcLOusSYpGvMPgG.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "2535708429015",
+    "title": "La misión Exomars: Un fracaso Europeo",
+    "poster": "https://image.tmdb.org/t/p/w500/d1lYesLNU022yu0bvZOYcdtN3fg.jpg",
+    "genre": "Documental"
+  },
+  {
+    "id": "1407105436314",
+    "title": "30 minutos o menos",
+    "poster": "https://image.tmdb.org/t/p/w500/bOHbTyE3wDKu2ExhsfhGZQOIVUm.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1221652646615",
+    "title": "Mi perro Skip",
+    "poster": "https://image.tmdb.org/t/p/w500/rviIwH0Cdo5IG3aPjlKQjFLbexg.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "7357995092604",
+    "title": "American Shaolin",
+    "poster": "https://image.tmdb.org/t/p/w500/rBPjXDfacD5JBtX9uiPcX3iEo04.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "5091229371110",
+    "title": "El guerrero americano",
+    "poster": "https://image.tmdb.org/t/p/w500/5Ri2mVo4xQCfGczyX3kPAhoWPUh.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "1084564441731",
+    "title": "El guerrero americano 2: La confrontación",
+    "poster": "https://image.tmdb.org/t/p/w500/pxzR6ZPZMJNvrR0bX8oqQ2zHCUx.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "11660872387252",
+    "title": "La noche del diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/6nwIXdBhDfGBR2UW9LIPEDpL2Z3.jpg",
+    "genre": "Crimen"
+  },
+  {
+    "id": "11015248677556",
+    "title": "Eliminators",
+    "poster": "https://image.tmdb.org/t/p/w500/rsJHnIjAuwukZl4SMifx5pcZX4y.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "10918688590516",
+    "title": "Yo, el halcón",
+    "poster": "https://image.tmdb.org/t/p/w500/gjkXw0MOKgr5WEdFlWDNZFyst9v.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3162155846277",
+    "title": "La mosca",
+    "poster": "https://image.tmdb.org/t/p/w500/lotsO2VRhsmeFKzqncMX9xrYMj6.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3842991655460",
+    "title": "Death Race: La carrera de la muerte",
+    "poster": "https://image.tmdb.org/t/p/w500/bPvd43SWgCh6AED73XRsFoBVPwi.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3843025668644",
+    "title": "Death Race 2 (La carrera de la muerte: El origen)",
+    "poster": "https://image.tmdb.org/t/p/w500/scuGtS1xiKHIZ9g9QHNQzvXtyhI.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3843027110436",
+    "title": "Death Race 3 (La carrera de la muerte: Inferno)",
+    "poster": "https://image.tmdb.org/t/p/w500/zdOtfDbrHT3l5k7NW1i2hKVeC9A.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "9481157282399",
+    "title": "Un sueño posible",
+    "poster": "https://image.tmdb.org/t/p/w500/uDZJph23idOLBmImnuaZBlF3TgP.jpg",
+    "genre": "Drama"
+  },
+  {
+    "id": "3636622985846",
+    "title": "Mr. Nanny",
+    "poster": "https://image.tmdb.org/t/p/w500/gSRSvh9kSEgCOsPR7yrH0ueh4lC.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "6454181366390",
+    "title": "Asesinos",
+    "poster": "https://image.tmdb.org/t/p/w500/56CjAhLlMwtcITYbS61ql3DbmkW.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3636622920310",
+    "title": "El novato del año",
+    "poster": "https://image.tmdb.org/t/p/w500/fzRxNqxyzarEcZv4k8Qd4JpbVU1.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "3636622723702",
+    "title": "Sonámbulos, de Stephen King",
+    "poster": "https://image.tmdb.org/t/p/w500/68O7KBW77S60PJNB88FTlFRlEOp.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "3629566265974",
+    "title": "Body Rock",
+    "poster": "https://image.tmdb.org/t/p/w500/AbP7KnApzdk8p1wf8ZAFPAx1bdu.jpg",
+    "genre": "Música"
+  },
+  {
+    "id": "8217433672302",
+    "title": "Alvin y las ardillas",
+    "poster": "https://image.tmdb.org/t/p/w500/xpInKihOnJZ9QePD5letvwDV9W8.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "10009925585588",
+    "title": "Tres fugitivos",
+    "poster": "https://image.tmdb.org/t/p/w500/75ho1MRWYg3q9kEwSdocU5UAWet.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "13474042546868",
+    "title": "A espaldas de la ley",
+    "poster": "https://image.tmdb.org/t/p/w500/pBtLfIpEpp5d0o4JCloSjZJtG42.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "14193367517742",
+    "title": "Depredador dominante",
+    "poster": "https://image.tmdb.org/t/p/w500/mV7uFS1U8iP0p4CcXZp4znBVpch.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15220855147054",
+    "title": "He-Man y los masters del universo",
+    "poster": "https://image.tmdb.org/t/p/w500/vo76hj9nwlX3qZxUkqUOpAbBYUs.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15568690743937",
+    "title": "Culpa tuya: Londres",
+    "poster": "https://image.tmdb.org/t/p/w500/oeOmayFaiGz6km5vShPpDBQnZf1.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "13991002114798",
+    "title": "Intercambiados",
+    "poster": "https://image.tmdb.org/t/p/w500/i89vUDwNhAEWUZSFYITSiv1RIbK.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "16263253396033",
+    "title": "Minions & Monsters",
+    "poster": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "14949608720906",
+    "title": "La Boda Maldita",
+    "poster": "https://image.tmdb.org/t/p/w500/n8DHPlRSHmaNUMtT95mDJwH6IX8.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "16524006460000",
+    "title": "The Mandalorian and Grogu",
+    "poster": "https://image.tmdb.org/t/p/w500/sWitU9IjgFwf6y1OrI0zUaL3GNa.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15691771087511",
+    "title": "Citizen Vigilante",
+    "poster": "https://image.tmdb.org/t/p/w500/6LmJD3Wohe0g4U62wgi7RyJqfE4.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "15159215393327",
+    "title": "Mortal Kombat II",
+    "poster": "https://image.tmdb.org/t/p/w500/ivVKHht5jutNGnObn1y5sSDrAXn.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15858342169147",
+    "title": "En mar abierto",
+    "poster": "https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "16524006525536",
+    "title": "Scary Movie",
+    "poster": "https://image.tmdb.org/t/p/w500/qhGf7btEU9hcGz3A0lneNptJKL7.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "15481727290073",
+    "title": "Obsesión",
+    "poster": "https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "16424658930208",
+    "title": "Toy Story 5",
+    "poster": "https://image.tmdb.org/t/p/w500/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "15306021800606",
+    "title": "El día de la revelación",
+    "poster": "https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "6537632942704",
+    "title": "Supergirl",
+    "poster": "https://image.tmdb.org/t/p/w500/9ZSS0Gc5fwcu8apglDGoK6zlarL.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "15014422317620",
+    "title": "Arma letal II",
+    "poster": "https://image.tmdb.org/t/p/w500/60lsR1XuNjmA676sXUJtmEgiY4X.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15888324037316",
+    "title": "Arma letal IV",
+    "poster": "https://image.tmdb.org/t/p/w500/fXlPJpyxlbFRz0WXhQDoFdYBfXq.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15288187292206",
+    "title": "Enola Holmes 3",
+    "poster": "https://image.tmdb.org/t/p/w500/yUoiUOZWayJIz5I2LEtGzUnWidu.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "15941076323012",
+    "title": "Mensajes de voz para Isabelle",
+    "poster": "https://image.tmdb.org/t/p/w500/3nY9BG8VjuxwLLRx5BGiiuj0M71.jpg",
+    "genre": "Romance"
+  },
+  {
+    "id": "15093790870145",
+    "title": "La carretera interminable",
+    "poster": "https://image.tmdb.org/t/p/w500/22PO79VLHFaEutoXf2z4eLVV3hS.jpg",
+    "genre": "Misterio"
+  },
+  {
+    "id": "16485267212832",
+    "title": "La odisea",
+    "poster": "https://image.tmdb.org/t/p/w500/sf2ke1nwFOLLcwLZiXu9VaMMv8e.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "16263253133889",
+    "title": "Moana",
+    "poster": "https://image.tmdb.org/t/p/w500/4sFGyfPGrS2uonrWFDGlLXT0nyA.jpg",
+    "genre": "Familia"
+  },
+  {
+    "id": "14970489015024",
+    "title": "Los Descendientes: viaje al mundo oscuro",
+    "poster": "https://image.tmdb.org/t/p/w500/pBY8LeKTcgqeWKztgclJvRs8z1T.jpg",
+    "genre": "Fantasía"
+  },
+  {
+    "id": "3899739867798",
+    "title": "He-Man & She-Ra: El secreto de la espada",
+    "poster": "https://image.tmdb.org/t/p/w500/vJQ5YlDTf3zUPY6SfZKkGPlAYVn.jpg",
+    "genre": "Animación"
+  },
+  {
+    "id": "14486414232110",
+    "title": "Rescate",
+    "poster": "https://image.tmdb.org/t/p/w500/eyN2bVnymFv9XeOd60fAYVqH1JY.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "15469838338606",
+    "title": "Cuatro cachorros para salvar",
+    "poster": "https://image.tmdb.org/t/p/w500/97T0PPp7srO0RTiJWN9bO2eKaG1.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "8026798951007",
+    "title": "Por encima de la ley",
+    "poster": "https://image.tmdb.org/t/p/w500/jlf78X9MYp4J0lKMf8mORhMc0DO.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "3789250431668",
+    "title": "Batman",
+    "poster": "https://image.tmdb.org/t/p/w500/zzoPxWHnPa0eyfkMLgwbNvdEcVF.jpg",
+    "genre": "Acción"
+  },
+  {
+    "id": "6103534799455",
+    "title": "El Sacramento del Diablo",
+    "poster": "https://image.tmdb.org/t/p/w500/mV3mNMRY5sZNeKjVRGmnmqLzsJi.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "15882900212283",
+    "title": "Dink",
+    "poster": "https://image.tmdb.org/t/p/w500/5rVJLhpYrtaDzeItzhteP3xCZW7.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "15209690237611",
+    "title": "72 horas",
+    "poster": "https://image.tmdb.org/t/p/w500/enkyq1gVdQqWaCyAFjFIxjlKvNW.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "15209689909931",
+    "title": "The Debt Collectors Son",
+    "poster": "https://image.tmdb.org/t/p/w500/89x7o4SnZSX9JI8KETuz2tACN5e.jpg",
+    "genre": "Películas"
+  },
+  {
+    "id": "16000080153292",
+    "title": "La muerte de Robin Hood",
+    "poster": "https://image.tmdb.org/t/p/w500/k1kZXvpVusYQzi56VLuu0AgxTdB.jpg",
+    "genre": "Aventura"
+  },
+  {
+    "id": "14304414206661",
+    "title": "Borderline",
+    "poster": "https://image.tmdb.org/t/p/w500/bpFq5UKFHoAOsa9Szx58IOvOpu1.jpg",
+    "genre": "Comedia"
+  },
+  {
+    "id": "17263794981443",
+    "title": "Borderline",
+    "poster": "https://image.tmdb.org/t/p/w500/sAA2mjpYJFAKydtzG4P4aHC4mZk.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "16437924006595",
+    "title": "Spider-Man: Brand New Day",
+    "poster": "https://image.tmdb.org/t/p/w500/tluwRNA7k0XfTtDkdLYKX1KOSCJ.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "3944933296766",
+    "title": "Carver",
+    "poster": "https://image.tmdb.org/t/p/w500/ao2vwrhkcXkethKtj5AzO5KBKC1.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "10537949203124",
+    "title": "Depredador 2",
+    "poster": "https://image.tmdb.org/t/p/w500/92Lqy293CqAExYXlqDc456eYCWp.jpg",
+    "genre": "Ciencia ficción"
+  },
+  {
+    "id": "17495371156035",
+    "title": "El Exorcista del Papa",
+    "poster": "https://image.tmdb.org/t/p/w500/kdknWP9bsQfS6I6aZQyJGBmhn2t.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "17483226155587",
+    "title": "Mi Nombre Era Eileen",
+    "poster": "https://image.tmdb.org/t/p/w500/6xKD6etr0ECYokegyZPz4lfLYHK.jpg",
+    "genre": "Suspense"
+  },
+  {
+    "id": "10019389246103",
+    "title": "New Life",
+    "poster": "https://image.tmdb.org/t/p/w185/bYTerxU14TaGKfAmbaWMmGH5ORo.jpg",
+    "genre": "Terror"
+  },
+  {
+    "id": "16072327498330",
+    "title": "Rage of Stars",
+    "poster": "https://image.tmdb.org/t/p/w500/vK9tTyWlVKlBGPTFp1e4WPGMJ7w.jpg",
+    "genre": "Acción"
+  }
 ]
