@@ -3,47 +3,35 @@ import json
 import os
 import re
 import time
-import random
+import threading
 from datetime import datetime
 from flask import Flask, Response, redirect, request, jsonify
 import requests
 
-# Crear la aplicación Flask
 app = Flask(__name__)
 
-# Configuración para Render
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-CACHE_DURATION = 3600  # 1 hora
+CACHE_DURATION = 21600  # 6 horas (el token dura 24h, pero lo renovamos cada 6h por seguridad)
 
-# Caché (Sin ThreadPoolExecutor para no saturar la CPU)
+# Caché y control de peticiones
 cache_urls = {}
 cache_stats = {"hits": 0, "misses": 0, "errors": 0}
 
+# Este candado evita que el servidor se sature si el reproductor pide lo mismo 3 veces seguidas
+current_extractions = {}
+
 def cargar_catalogo():
-    """Carga el catálogo de videos desde catalog.json"""
     catalog_path = os.path.join(os.path.dirname(__file__), "catalog.json")
-    
     if os.path.exists(catalog_path):
         try:
             with open(catalog_path, "r", encoding="utf-8") as f:
                 return json.load(f)
         except Exception as e:
             print(f"❌ Error al leer catalog.json: {e}")
-    
-    # Catálogo de ejemplo si no existe
-    catalog = [
-        {"id": "6342618319493", "title": "La Ira De Becky", "poster": "https://image.tmdb.org/t/p/w500/yvGX9k90QfenTy2KonXUrzXsOpY.jpg", "genre": "Acción"},
-        {"id": "9240843127423", "title": "Pesadilla Americana", "poster": "https://image.tmdb.org/t/p/w500/fWa89Rr95zFYqTKVfDPKpjrofsM.jpg", "genre": "Misterio"}
-    ]
-    try:
-        with open(catalog_path, "w", encoding="utf-8") as f:
-            json.dump(catalog, f, indent=2, ensure_ascii=False)
-    except:
-        pass
-    return catalog
+    return []
 
 def extraer_enlace_mp4(ok_id, quality_preference="full"):
-    """Extrae el enlace directo de OK.ru"""
+    """Extrae el enlace directo de OK.ru (solo para UN id)"""
     url_embed = f"https://ok.ru/videoembed/{ok_id}"
     headers = {"User-Agent": USER_AGENT}
 
@@ -62,15 +50,12 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         raw_json = html.unescape(match.group(1))
         data = json.loads(raw_json)
         
-        # --- CORRECCIÓN CRÍTICA PARA OK.RU ---
         flashvars = data.get("flashvars", {})
         metadata_raw = flashvars.get("metadata", "{}")
-        
         if isinstance(metadata_raw, dict):
             metadata = metadata_raw
         else:
             metadata = json.loads(metadata_raw)
-        # ------------------------------------
 
         videos = metadata.get("videos", [])
         if not videos:
@@ -78,17 +63,14 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
             return None
 
         calidades = ["full", "1080", "hd", "720", "sd", "480", "low"]
-        
         if quality_preference and quality_preference in calidades:
             calidades.remove(quality_preference)
             calidades.insert(0, quality_preference)
         
         videos_dict = {v["name"].lower(): v["url"] for v in videos}
-        
         for c in calidades:
             if c in videos_dict:
                 return videos_dict[c]
-        
         return videos[0]["url"]
         
     except Exception as e:
@@ -97,7 +79,7 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         return None
 
 def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
-    """Obtiene enlace con caché (SOLO se ejecuta cuando el usuario hace clic)"""
+    """Obtiene el token. Si no está, lo busca SOLO para ese ID"""
     if not force_refresh and ok_id in cache_urls:
         cache_data = cache_urls[ok_id]
         if time.time() - cache_data["timestamp"] < CACHE_DURATION:
@@ -113,11 +95,9 @@ def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
             "timestamp": time.time(),
             "quality": quality
         }
-    
     return url
 
 def construir_m3u(usar_directo=False, quality="full"):
-    """Genera el archivo M3U de forma RÁPIDA, usando siempre el proxy"""
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
@@ -135,10 +115,8 @@ def construir_m3u(usar_directo=False, quality="full"):
         title = item.get("title", f"Video {ok_id}")
         poster = item.get("poster", "")
         genre = item.get("genre", "Películas")
-        
         title_clean = title.replace(",", " ").replace('"', "'")
         
-        # CRÍTICO: Usa el proxy. El enlace real se extrae cuando el usuario hace clic.
         m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
         m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
 
@@ -148,14 +126,11 @@ def construir_m3u(usar_directo=False, quality="full"):
 
 @app.route("/")
 def index():
-    """Página principal"""
     catalogo = cargar_catalogo()
-    
     try:
         base_url = request.host_url.rstrip('/')
     except:
         base_url = "https://tu-app.onrender.com"
-    
     return f"""
     <!DOCTYPE html>
     <html>
@@ -167,13 +142,11 @@ def index():
             .card {{ background: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; }}
             .endpoint {{ background: #e8f4fd; padding: 10px; border-radius: 5px; margin: 10px 0; }}
             .btn {{ background: #0066cc; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }}
-            .btn:hover {{ background: #0052a3; }}
             .url {{ background: #f0f0f0; padding: 10px; border-radius: 5px; font-family: monospace; word-break: break-all; }}
         </style>
     </head>
     <body>
         <h1>🎬 OK.ru IPTV Proxy</h1>
-        
         <div class="card">
             <h2>📡 Endpoints</h2>
             <div class="endpoint">
@@ -187,7 +160,6 @@ def index():
                 <a href="{base_url}/descargar-m3u">Descargar</a>
             </div>
         </div>
-        
         <div class="card">
             <h2>📺 Películas ({len(catalogo)})</h2>
             <ul>
@@ -197,10 +169,8 @@ def index():
         title = item.get("title", f"Video {ok_id}")
         status = "🟢" if ok_id in cache_urls else "🔴"
         html_content = f'<li>{status} <a href="{base_url}/stream?id={ok_id}">{title}</a></li>'
-    
     if len(catalogo) > 20:
         html_content += f'<li>... y {len(catalogo) - 20} más</li>'
-    
     html_content += """
             </ul>
         </div>
@@ -229,25 +199,25 @@ def descargar_m3u():
 def redirigir_stream():
     ok_id = request.args.get("id")
     quality = request.args.get("quality", "full")
-    force_refresh = request.args.get("refresh", "false").lower() == "true"
     
     if not ok_id:
         return "❌ Falta el ID del video", 400
 
-    # 1. Intentar obtener de la caché primero (si ya está, responde al instante)
+    # 1. Si el token ya está en la caché, responde al instante (302)
     url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
     
-    # 2. Si NO está en caché, DEBEMOS EVITAR QUE EL SERVIDOR SE SATURE.
-    #    En lugar de procesarla en el momento (y saturar la CPU), la extraemos en un hilo aparte,
-    #    y le decimos al reproductor que vuelva a intentarlo en unos segundos.
+    # 2. Si NO está en la caché:
     if not url_video:
-        # Iniciamos la extracción en un hilo en segundo plano (no bloquea el servidor)
-        threading.Thread(target=extraer_enlace_mp4, args=(ok_id, quality), daemon=True).start()
+        # Inicia la extracción en un hilo en segundo plano (solo para ESTE id)
+        if ok_id not in current_extractions:
+            current_extractions[ok_id] = True
+            threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
         
-        # Devolvemos el 503 para que el reproductor espere unos segundos y reintente
-        return "🔄 Extrayendo enlace, reintente en unos segundos...", 503
+        # Devuelve un 503 (Espere). El reproductor reintentará en 2-3 segundos.
+        # Así NO saturas la CPU intentando responder 3 veces a la vez.
+        return "🔄 Extrayendo enlace, reintente en 3 segundos...", 503
     
-    # 3. Si ya está en caché, redirigimos inmediatamente a Ok.ru (instantáneo, no gasta CPU)
+    # 3. Si la URL ya está, redirige directo a Ok.ru
     return redirect(url_video, code=302)
 
 @app.route("/cache/status")
@@ -260,9 +230,7 @@ def cache_status():
     })
 
 # ========== INICIO ==========
-
 if __name__ == "__main__":
     print("🚀 Iniciando servidor...")
-    # CRÍTICO: Usar el puerto que Render asigna (10000 por defecto)
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port, debug=False)
