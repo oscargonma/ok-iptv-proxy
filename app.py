@@ -316,7 +316,7 @@ def cache_status():
 
 if __name__ == "__main__":
     print("🚀 Iniciando servidor...")
-    threading.Thread(target=preload_catalogo, daemon=True).start()
+   
     
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
