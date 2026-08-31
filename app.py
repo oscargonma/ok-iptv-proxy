@@ -66,7 +66,20 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
 
         raw_json = html.unescape(match.group(1))
         data = json.loads(raw_json)
-        metadata = json.loads(data.get("flashvars", {}).get("metadata", "{}"))
+        
+        # --- CORRECCIÓN CRÍTICA AQUÍ ---
+        # Ok.ru ahora puede devolver "metadata" como un diccionario (objeto) directamente,
+        # o como una cadena de texto que hay que convertir. Debemos manejar ambos casos.
+        flashvars = data.get("flashvars", {})
+        metadata_raw = flashvars.get("metadata", "{}")
+        
+        if isinstance(metadata_raw, dict):
+            # Si ya es un diccionario, lo usamos directamente
+            metadata = metadata_raw
+        else:
+            # Si es un string, lo convertimos a JSON
+            metadata = json.loads(metadata_raw)
+        # --------------------------------
 
         videos = metadata.get("videos", [])
         if not videos:
@@ -88,7 +101,7 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         return videos[0]["url"]
         
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"❌ Error: {e}") # Ahora verás exactamente qué está fallando en los logs si sigue fallando
         cache_stats["errors"] += 1
         return None
 
