@@ -284,17 +284,6 @@ def descargar_m3u():
         headers={"Content-Disposition": "attachment; filename=lista.m3u"}
     )
 
-@app.route("/m3u-directo")
-def m3u_directo():
-    # ¡OJO! Esta ruta intenta extraer TODAS las URLs al vuelo. 
-    # Con 400 películas en el plan free, esto colapsará el servidor.
-    # No la uses con muchos usuarios o catálogos grandes.
-    quality = request.args.get("quality", "full")
-    return Response(
-        construir_m3u(usar_directo=True, quality=quality),
-        mimetype="application/x-mpegurl", 
-        headers={"Content-Disposition": "attachment; filename=lista_directa.m3u"}
-    )
 
 @app.route("/stream")
 def redirigir_stream():
