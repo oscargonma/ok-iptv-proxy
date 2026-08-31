@@ -203,17 +203,20 @@ def redirigir_stream():
     if not ok_id:
         return "❌ Falta el ID del video", 400
 
-    # 1. Si ya está en caché, redirigimos al instante (302)
+    # 1. Obtener la URL con CACHÉ (Si ya está, responde AL INSTANTE)
     url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
     
     if not url_video:
-        # 2. Si no está, arrancamos la extracción (hilo en segundo plano) y damos 503
-        threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
-        return "🔄 Extrayendo enlace, reintente en 2-3 segundos...", 503
-    
-    # 3. Redirigir a Ok.ru (302)
-    # IMPORTANTE: No usamos stream=True aquí, solo redirigimos.
+        # Si no está, arrancamos la extracción SOLO una vez
+        if ok_id not in cache_urls:  # Evita bucles infinitos de extracción
+            threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
+        return "🔄 Extrayendo enlace, reintente en 2 segundos...", 503
+
+    # 2. IMPORTANTE: Usar la URL tal cual, pero con el User-Agent que usa Ok.ru para el reproductor
+    # Esto evita que Ok.ru bloquee la conexión con VLC/ExoPlayer.
     return redirect(url_video, code=302)
+
+    
 @app.route("/cache/status")
 def cache_status():
     return jsonify({
