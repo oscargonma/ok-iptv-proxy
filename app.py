@@ -156,8 +156,6 @@ def preload_catalogo():
         print("✅ Precarga completada")
 
 def construir_m3u(usar_directo=False, quality="full"):
-    """Genera el archivo M3U de forma RÁPIDA, usando siempre el proxy /stream"""
-    # IMPORTANTE: No intenta extraer enlaces aquí. Solo genera el texto de la lista.
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
@@ -178,8 +176,7 @@ def construir_m3u(usar_directo=False, quality="full"):
         
         title_clean = title.replace(",", " ").replace('"', "'")
         
-        # SIEMPRE usamos la URL del proxy. El proxy extraerá la URL real de Ok.ru cuando el usuario la reproduzca.
-        # Esto hace que la lista M3U se genere en milisegundos, sin importar si hay 400 o 4000 películas.
+        # CRÍTICO: Esta línea DEBE ir SIEMPRE. El proxy extraerá el enlace real al reproducir.
         m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
         m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
 
