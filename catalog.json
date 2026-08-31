@@ -1,10 +1,14 @@
 [
-  {
-    "id": "6363784350313",
-    "title": "Y donde esta el policia? 2_Audio_Latino"
-  },
-  {
-    "id": "6581116406389",
-    "title": "La sombra del reino"
-  }
+    {
+        "id": "6363784350313",
+        "title": "Y donde esta el policia?",
+        "poster": "https://image.tmdb.org/t/p/original/eykTYCLnPW4quK6rqOHtc5PR8qy.jpg",
+        "genre": "Comedia"
+    },
+    {
+        "id": "6581116406389",
+        "title": "la sombra del reino",
+        "poster": "https://image.tmdb.org/t/p/original/tkMsXx2Cmigomq5ANWHQOIWRC1S.jpg",
+        "genre": "Accion"
+    }
 ]
