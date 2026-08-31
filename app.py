@@ -234,14 +234,20 @@ def redirigir_stream():
     if not ok_id:
         return "❌ Falta el ID del video", 400
 
-    # 1. Intentar obtener de la caché primero
+    # 1. Intentar obtener de la caché primero (si ya está, responde al instante)
     url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
     
-    # 2. Si NO está en caché, devolver 503 para que el reproductor reintente
+    # 2. Si NO está en caché, DEBEMOS EVITAR QUE EL SERVIDOR SE SATURE.
+    #    En lugar de procesarla en el momento (y saturar la CPU), la extraemos en un hilo aparte,
+    #    y le decimos al reproductor que vuelva a intentarlo en unos segundos.
     if not url_video:
+        # Iniciamos la extracción en un hilo en segundo plano (no bloquea el servidor)
+        threading.Thread(target=extraer_enlace_mp4, args=(ok_id, quality), daemon=True).start()
+        
+        # Devolvemos el 503 para que el reproductor espere unos segundos y reintente
         return "🔄 Extrayendo enlace, reintente en unos segundos...", 503
     
-    # 3. Redirigir inmediatamente a Ok.ru
+    # 3. Si ya está en caché, redirigimos inmediatamente a Ok.ru (instantáneo, no gasta CPU)
     return redirect(url_video, code=302)
 
 @app.route("/cache/status")
