@@ -16,7 +16,7 @@ app = Flask(__name__)
 # Configuración para Render
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 CACHE_DURATION = 3600  # 1 hora
-MAX_WORKERS = 1  # <--- CAMBIO CRÍTICO: 1 hilo para no saturar la CPU de 0.1
+MAX_WORKERS = 1  # <--- CRÍTICO: 1 hilo para no saturar la CPU de 0.1
 
 # Caché
 cache_urls = {}
@@ -292,13 +292,16 @@ def redirigir_stream():
     if not ok_id:
         return "❌ Falta el ID del video", 400
 
-    # Aquí es donde se extrae la URL de Ok.ru. 
-    # Solo se extrae cuando alguien hace clic en una película (Lazy Loading).
-    url_video = obtener_enlace_con_cache(ok_id, force_refresh=force_refresh, quality=quality)
+    # 1. Intentar obtener de la caché primero (esto es instantáneo y no gasta CPU)
+    url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
     
+    # 2. Si NO está en caché, NO intentes extraerla en este momento.
+    #    Devolvemos un error 503 para que el reproductor entienda que debe reintentar.
+    #    Así VLC no satura el servidor pidiendo 400 a la vez.
     if not url_video:
-        return "❌ No se pudo obtener el enlace", 404
+        return "🔄 Extrayendo enlace, reintente en unos segundos...", 503
     
+    # 3. Si ya está en caché, redirigimos inmediatamente a Ok.ru
     return redirect(url_video, code=302)
 
 @app.route("/precargar", methods=["POST"])
