@@ -16,7 +16,7 @@ app = Flask(__name__)
 # Configuración para Render
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 CACHE_DURATION = 3600  # 1 hora
-MAX_WORKERS = 3
+MAX_WORKERS = 1  # <--- CAMBIO CRÍTICO: 1 hilo para no saturar la CPU de 0.1
 
 # Caché
 cache_urls = {}
@@ -36,8 +36,8 @@ def cargar_catalogo():
     
     # Catálogo de ejemplo si no existe
     catalog = [
-        {"id": "6363784350313", "title": "Pelicula de Prueba 1"},
-        {"id": "6363784350314", "title": "Pelicula de Prueba 2"}
+        {"id": "6342618319493", "title": "La Ira De Becky", "poster": "https://image.tmdb.org/t/p/w500/yvGX9k90QfenTy2KonXUrzXsOpY.jpg", "genre": "Acción"},
+        {"id": "9240843127423", "title": "Pesadilla Americana", "poster": "https://image.tmdb.org/t/p/w500/fWa89Rr95zFYqTKVfDPKpjrofsM.jpg", "genre": "Misterio"}
     ]
     try:
         with open(catalog_path, "w", encoding="utf-8") as f:
@@ -52,7 +52,8 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
     headers = {"User-Agent": USER_AGENT}
 
     try:
-        res = requests.get(url_embed, headers=headers, timeout=10)
+        # Timeout reducido a 5 segundos para no dejar bloqueado el servidor
+        res = requests.get(url_embed, headers=headers, timeout=5)
         
         if res.status_code != 200:
             cache_stats["errors"] += 1
@@ -92,7 +93,7 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         return None
 
 def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
-    """Obtiene enlace con caché"""
+    """Obtiene enlace con caché (SOLO se ejecuta cuando el usuario hace clic en la película)"""
     if not force_refresh and ok_id in cache_urls:
         cache_data = cache_urls[ok_id]
         if time.time() - cache_data["timestamp"] < CACHE_DURATION:
@@ -108,12 +109,12 @@ def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
             "timestamp": time.time(),
             "quality": quality
         }
-        time.sleep(random.uniform(0.3, 0.6))
+        time.sleep(random.uniform(0.2, 0.4))
     
     return url
 
 def preload_catalogo():
-    """Precarga todos los enlaces"""
+    """Precarga todos los enlaces (Manual, con 1 solo hilo)"""
     global is_preloading
     
     if is_preloading:
@@ -131,7 +132,6 @@ def preload_catalogo():
                 if ok_id not in cache_urls:
                     future = executor.submit(extraer_enlace_mp4, ok_id, "full")
                     futures.append((ok_id, future))
-                    time.sleep(0.2)
             
             for ok_id, future in futures:
                 try:
@@ -146,7 +146,8 @@ def preload_catalogo():
                 except Exception as e:
                     print(f"❌ Error en {ok_id}: {e}")
                 
-                time.sleep(random.uniform(0.3, 0.6))
+                # Pausa larga para no saturar la CPU con 400 películas
+                time.sleep(random.uniform(1.0, 2.0))
     
     except Exception as e:
         print(f"❌ Error: {e}")
@@ -155,12 +156,12 @@ def preload_catalogo():
         print("✅ Precarga completada")
 
 def construir_m3u(usar_directo=False, quality="full"):
-    """Genera el archivo M3U"""
+    """Genera el archivo M3U de forma RÁPIDA, usando siempre el proxy /stream"""
+    # IMPORTANTE: No intenta extraer enlaces aquí. Solo genera el texto de la lista.
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
 
-    # Obtener la URL base
     try:
         base_url = request.host_url.rstrip('/')
     except:
@@ -172,18 +173,15 @@ def construir_m3u(usar_directo=False, quality="full"):
     for item in catalogo:
         ok_id = item["id"]
         title = item.get("title", f"Video {ok_id}")
+        poster = item.get("poster", "")
+        genre = item.get("genre", "Películas")
         
-        if usar_directo:
-            direct_url = obtener_enlace_con_cache(ok_id, force_refresh=True, quality=quality)
-            if direct_url:
-                m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}", {title}\n'
-                m3u_text += f'{direct_url}\n'
-            else:
-                m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}", {title} [proxy]\n'
-                m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
-        else:
-            m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}", {title}\n'
-            m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
+        title_clean = title.replace(",", " ").replace('"', "'")
+        
+        # SIEMPRE usamos la URL del proxy. El proxy extraerá la URL real de Ok.ru cuando el usuario la reproduzca.
+        # Esto hace que la lista M3U se genere en milisegundos, sin importar si hay 400 o 4000 películas.
+        m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
+        m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
 
     return m3u_text
 
@@ -238,6 +236,9 @@ def index():
         
         <div class="card">
             <h2>📺 Películas ({len(catalogo)})</h2>
+            <form action="/precargar" method="POST">
+                <button type="submit" class="btn">🔄 Forzar Precarga de Enlaces (Solo si quieres llenar la caché)</button>
+            </form>
             <ul>
     """
     for item in catalogo[:20]:
@@ -275,6 +276,9 @@ def descargar_m3u():
 
 @app.route("/m3u-directo")
 def m3u_directo():
+    # ¡OJO! Esta ruta intenta extraer TODAS las URLs al vuelo. 
+    # Con 400 películas en el plan free, esto colapsará el servidor.
+    # No la uses con muchos usuarios o catálogos grandes.
     quality = request.args.get("quality", "full")
     return Response(
         construir_m3u(usar_directo=True, quality=quality),
@@ -291,6 +295,8 @@ def redirigir_stream():
     if not ok_id:
         return "❌ Falta el ID del video", 400
 
+    # Aquí es donde se extrae la URL de Ok.ru. 
+    # Solo se extrae cuando alguien hace clic en una película (Lazy Loading).
     url_video = obtener_enlace_con_cache(ok_id, force_refresh=force_refresh, quality=quality)
     
     if not url_video:
@@ -301,7 +307,7 @@ def redirigir_stream():
 @app.route("/precargar", methods=["POST"])
 def precargar():
     threading.Thread(target=preload_catalogo, daemon=True).start()
-    return jsonify({"message": "🔄 Precarga iniciada"})
+    return jsonify({"message": "🔄 Precarga iniciada. Esto tomará varios minutos con 400 películas."})
 
 @app.route("/cache/status")
 def cache_status():
@@ -316,7 +322,7 @@ def cache_status():
 
 if __name__ == "__main__":
     print("🚀 Iniciando servidor...")
-   
+    # La precarga se eliminó del inicio para que el servidor arranque instantáneamente.
     
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
