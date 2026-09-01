@@ -203,17 +203,27 @@ def redirigir_stream():
     if not ok_id:
         return "❌ Falta el ID del video", 400
 
-    # 1. Obtener la URL con CACHÉ (Si ya está, responde AL INSTANTE)
     url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
     
     if not url_video:
-        # Si no está, arrancamos la extracción SOLO una vez
-        if ok_id not in cache_urls:  # Evita bucles infinitos de extracción
-            threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
+        threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
         return "🔄 Extrayendo enlace, reintente en 2 segundos...", 503
 
-    # 2. IMPORTANTE: Usar la URL tal cual, pero con el User-Agent que usa Ok.ru para el reproductor
-    # Esto evita que Ok.ru bloquee la conexión con VLC/ExoPlayer.
+    # 1. Verificar el tipo de contenido con un "HEAD request" (solo pide cabeceras, no el video)
+    try:
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+            "Referer": "https://ok.ru/",
+            "Accept": "*/*"
+        }
+        r = requests.head(url_video, headers=headers, allow_redirects=True, timeout=5)
+        # Si es HLS, devolvemos un proxy simple para HLS (solo transmitir la lista .m3u8)
+        if 'm3u8' in r.headers.get('Content-Type', ''):
+            return redirect(url_video, code=302)
+    except:
+        pass
+
+    # 2. Si es MP4 directo, redirigimos normalmente
     return redirect(url_video, code=302)
 
     
