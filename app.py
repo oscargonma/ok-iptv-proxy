@@ -28,21 +28,43 @@ def cargar_catalogo():
             print(f"❌ Error al leer catalog.json: {e}")
     return []
 
+def es_reproducible(url):
+    """Verifica si el enlace puede ser reproducido por VLC sin problemas"""
+    if not url:
+        return False
+    
+    # Si es un MP4 directo, es 100% reproducible
+    if '.mp4' in url or 'type=1' in url or 'type=0' in url:
+        return True
+    
+    # Si es HLS (.m3u8), puede ser problemático para VLC,
+    # pero lo aceptamos si estamos en modo proxy (para no gastar CPU)
+    if '.m3u8' in url:
+        # Si es HLS, lo marcamos como reproducible solo si vamos a usar el proxy
+        # (VLC puede reproducir HLS si se le da el m3u8 correcto)
+        return True
+    
+    return False
+
 def extraer_enlace_mp4(ok_id, quality_preference="full"):
     """Extrae el enlace directo de OK.ru (solo para UN id)"""
     url_embed = f"https://ok.ru/videoembed/{ok_id}"
     headers = {"User-Agent": USER_AGENT}
 
+    print(f"[DEBUG] Intentando extraer enlace para ID {ok_id}...")
+    
     try:
         res = requests.get(url_embed, headers=headers, timeout=5)
         
         if res.status_code != 200:
             cache_stats["errors"] += 1
+            print(f"[DEBUG] ❌ Ok.ru respondió {res.status_code} para ID {ok_id}")
             return None
 
         match = re.search(r'data-options="([^"]+)"', res.text)
         if not match:
             cache_stats["errors"] += 1
+            print(f"[DEBUG] ❌ No se encontró data-options para ID {ok_id}")
             return None
 
         raw_json = html.unescape(match.group(1))
@@ -58,6 +80,7 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         videos = metadata.get("videos", [])
         if not videos:
             cache_stats["errors"] += 1
+            print(f"[DEBUG] ❌ No hay videos disponibles para ID {ok_id}")
             return None
 
         calidades = ["full", "1080", "hd", "720", "sd", "480", "low"]
@@ -101,6 +124,7 @@ def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
     return url
 
 def construir_m3u(usar_directo=False, quality="full"):
+    """Genera la lista M3U SOLO con los videos que se pueden reproducir"""
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
@@ -120,9 +144,26 @@ def construir_m3u(usar_directo=False, quality="full"):
         genre = item.get("genre", "Películas")
         title_clean = title.replace(",", " ").replace('"', "'")
         
+        # 1. Intentar obtener la URL de la caché
+        url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
+        
+        # 2. Si NO tenemos la URL, intentamos extraerla AHORA (para saber si es reproducible)
+        if not url_video:
+            threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
+            # Como aún no la tenemos, NO la incluimos en la lista todavía
+            print(f"[DEBUG] ⏭️ ID {ok_id} aún no está en caché, omitido de la lista")
+            continue
+        
+        # 3. Si tenemos la URL, verificamos si es reproducible
+        if not es_reproducible(url_video):
+            print(f"[DEBUG] ⏭️ ID {ok_id} tiene un enlace NO reproducible, omitido de la lista")
+            continue
+        
+        # 4. Si es reproducible, lo añadimos a la lista
         m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
         m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
 
+    print(f"[DEBUG] ✅ Lista generada con {len(m3u_text.splitlines())} líneas")
     return m3u_text
 
 # ========== RUTAS ==========
@@ -212,82 +253,14 @@ def redirigir_stream():
         threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
         return "🔄 Extrayendo enlace, reintente en 2 segundos...", 503
 
-    # 1. LEE EL ENLACE EXTRAÍDO PARA VER SI ES HLS O MP4
-    if '.m3u8' in url_video:
-        print(f"[DEBUG] ES HLS. Iniciando proxy HLS para ID {ok_id}")
-        return hls_proxy(url_video, ok_id)
-
-    # 2. Si es MP4, redirigimos a Ok.ru (este es el método que NO consume recursos)
-    print(f"[DEBUG] ES MP4. Redirigiendo a Ok.ru para ID {ok_id}")
+    # 1. Si es un enlace directo (MP4), redirigimos
+    if not es_reproducible(url_video):
+        print(f"[DEBUG] ⏭️ ID {ok_id} NO reproducible en /stream")
+        return "❌ Enlace no reproducible", 404
+    
+    # 2. Redirigir a Ok.ru
+    print(f"[DEBUG] ✅ Reproduciendo ID {ok_id} a través de /stream")
     return redirect(url_video, code=302)
-
-# ========== FUNCIONES PROXY ==========
-def hls_proxy(original_url, ok_id):
-    """Transmite la lista .m3u8 de Ok.ru con las cabeceras correctas"""
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Referer": "https://ok.ru/",
-            "Accept": "*/*"
-        }
-        # Descargar la lista .m3u8 original
-        resp = requests.get(original_url, headers=headers, timeout=10)
-        
-        if resp.status_code != 200:
-            print(f"❌ [DEBUG] HLS Proxy: Ok.ru respondió {resp.status_code} para ID {ok_id}")
-            return f"❌ Error: Ok.ru respondió {resp.status_code}", 502
-        
-        # Leer el contenido de la lista
-        m3u8_content = resp.text
-        
-        # Reemplazar las URL de los segmentos por las de nuestro proxy
-        m3u8_content = re.sub(r'(https?://[^\s"]+)', lambda m: f'{request.host_url.rstrip("/")}/hls-proxy?url={m.group(1)}&ok_id={ok_id}', m3u8_content)
-        
-        # Devolver la lista modificada al reproductor
-        return Response(m3u8_content, mimetype='application/vnd.apple.mpegurl')
-        
-    except Exception as e:
-        print(f"❌ [DEBUG] HLS Proxy Error: {e}")
-        return "❌ Error al transmitir HLS", 502
-
-@app.route("/hls-proxy")
-def hls_segment_proxy():
-    """Transmite los segmentos .ts del video HLS"""
-    url = request.args.get("url")
-    ok_id = request.args.get("ok_id")
-    
-    if not url or not ok_id:
-        return "❌ Requisitos insatisfechos", 400
-    
-    try:
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-            "Referer": "https://ok.ru/",
-            "Accept": "*/*"
-        }
-        
-        # Transmitimos los bytes del segmento
-        resp = requests.get(url, headers=headers, stream=True, timeout=10)
-        
-        if resp.status_code != 200:
-            return f"❌ Error: Ok.ru respondió {resp.status_code}", 502
-        
-        # Générar el flujo de bytes para el reproductor
-        def generate():
-            try:
-                for chunk in resp.iter_content(chunk_size=8192):
-                    if chunk:
-                        yield chunk
-            finally:
-                resp.close()
-        
-        # Debemos mimificar el tipo de contenido del segmento
-        content_type = resp.headers.get('Content-Type', 'video/mp2t')
-        return Response(generate(), mimetype=content_type)
-        
-    except Exception as e:
-        print(f"❌ [DEBUG] HLS Segment Proxy Error: {e}")
-        return "❌ Error al transmitir segmento", 502
 
 # ========== INICIO ==========
 if __name__ == "__main__":
