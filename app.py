@@ -16,6 +16,9 @@ CACHE_DURATION = 21600  # 6 horas
 # Caché
 cache_urls = {}
 cache_stats = {"hits": 0, "misses": 0, "errors": 0}
+# Control para extraer SOLO una película a la vez (evita saturar la CPU)
+current_extractions = {}
+is_silent_preloading = False
 
 def cargar_catalogo():
     catalog_path = os.path.join(os.path.dirname(__file__), "catalog.json")
@@ -27,8 +30,18 @@ def cargar_catalogo():
             print(f"❌ Error al leer catalog.json: {e}")
     return []
 
+def es_reproducible(url):
+    """Valida si el enlace es reproducible. Solo aceptamos enlaces directos"""
+    if not url:
+        return False
+    if 'type=1' in url or '.mp4' in url:
+        return True
+    if '.m3u8' in url:
+        return True
+    return False
+
 def extraer_enlace_mp4(ok_id, quality_preference="full"):
-    """Extrae el enlace directo de OK.ru (solo para UN id)"""
+    """Extrae el enlace directo de OK.ru"""
     url_embed = f"https://ok.ru/videoembed/{ok_id}"
     headers = {"User-Agent": USER_AGENT}
 
@@ -73,7 +86,7 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         for c in calidades:
             if c in videos_dict:
                 url = videos_dict[c]
-                print(f"[DEBUG] ✅ Enlace extraído para ID {ok_id}: {url[:100]}...")
+                print(f"[DEBUG] ✅ Enlace extraído para ID {ok_id}")
                 return url
         return videos[0]["url"]
         
@@ -83,7 +96,6 @@ def extraer_enlace_mp4(ok_id, quality_preference="full"):
         return None
 
 def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
-    """Obtiene el token. Si no está, lo busca SOLO para ese ID"""
     if not force_refresh and ok_id in cache_urls:
         cache_data = cache_urls[ok_id]
         if time.time() - cache_data["timestamp"] < CACHE_DURATION:
@@ -104,8 +116,54 @@ def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
         print(f"[DEBUG] URL guardada en caché para ID {ok_id}")
     return url
 
+def preload_catalogo_silencioso():
+    """Extrae enlaces en segundo plano DE UNO EN UNO para no saturar"""
+    global is_silent_preloading
+    
+    if is_silent_preloading:
+        return
+    
+    is_silent_preloading = True
+    print("🚀 Iniciando extracción silenciosa...")
+    
+    try:
+        catalogo = cargar_catalogo()
+        count = 0
+        
+        for item in catalogo:
+            ok_id = item["id"]
+            if ok_id not in cache_urls:
+                try:
+                    url = extraer_enlace_mp4(ok_id, "full")
+                    if url and es_reproducible(url):
+                        cache_urls[ok_id] = {
+                            "url": url,
+                            "timestamp": time.time(),
+                            "quality": "full"
+                        }
+                        print(f"✅ Precargado: {ok_id}")
+                    else:
+                        print(f"⏭️ NO reproducible: {ok_id} (omitido)")
+                except Exception as e:
+                    print(f"❌ Error en {ok_id}: {e}")
+                
+                count += 1
+                time.sleep(2)  # Pausa de 2 segundos entre cada película
+                
+                # Si llevamos 10 películas, pausamos 30 segundos para que Render respire
+                if count >= 10:
+                    print(f"⏸️ Lote de 10 completado. Esperando 30 segundos...")
+                    time.sleep(30)
+                    count = 0
+                    
+    except Exception as e:
+        print(f"❌ Error: {e}")
+    finally:
+        is_silent_preloading = False
+        print("✅ Extracción silenciosa completada")
+
 def construir_m3u(usar_directo=False, quality="full"):
-    """Genera la lista M3U con la URL de nuestro proxy (para que el usuario haga clic y extraiga)"""
+    """Genera la lista M3U SOLO con los videos que ya están en caché"""
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
@@ -114,6 +172,9 @@ def construir_m3u(usar_directo=False, quality="full"):
         base_url = request.host_url.rstrip('/')
     except:
         base_url = "https://tu-app.onrender.com"
+    
+    # INICIAMOS LA EXTRACCIÓN SILENCIOSA EN SEGUNDO PLANO (NO BLOQUEA LA LISTA)
+    threading.Thread(target=preload_catalogo_silencioso, daemon=True).start()
     
     m3u_text = "#EXTM3U\n"
     m3u_text += f"# Generado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
@@ -125,10 +186,20 @@ def construir_m3u(usar_directo=False, quality="full"):
         genre = item.get("genre", "Películas")
         title_clean = title.replace(",", " ").replace('"', "'")
         
-        # La URL siempre apunta a nuestro servidor. El servidor extraerá el enlace cuando el usuario haga clic.
-        m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
-        m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
+        # SOLO INCLUIMOS SI YA ESTÁ EN CACHÉ Y ES REPRODUCIBLE
+        if ok_id in cache_urls:
+            url_video = cache_urls[ok_id]["url"]
+            
+            if es_reproducible(url_video):
+                m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
+                m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
+        else:
+            # Si no está en caché, simplemente lo ignoramos en la lista
+            # (pero la extracción silenciosa ya está trabajando en segundo plano)
+            print(f"[DEBUG] ⏭️ ID {ok_id} no está en caché (omitido de la lista, extrayendo en 2do plano...)")
+            continue
 
+    print(f"[DEBUG] ✅ Lista generada con {len(m3u_text.splitlines())} líneas")
     return m3u_text
 
 # ========== RUTAS ==========
@@ -218,12 +289,17 @@ def redirigir_stream():
         threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
         return "🔄 Extrayendo enlace, reintente en 2 segundos...", 503
 
+    # Si no es reproducible, devolvemos error
+    if not es_reproducible(url_video):
+        print(f"[DEBUG] ⏭️ ID {ok_id} NO reproducible")
+        return "❌ No reproducible", 404
+    
     return redirect(url_video, code=302)
 
 @app.route("/precargar", methods=["POST"])
 def precargar():
-    threading.Thread(target=preload_catalogo, daemon=True).start()
-    return jsonify({"message": "🔄 Precarga iniciada. Revisa los Logs de Render."})
+    threading.Thread(target=preload_catalogo_silencioso, daemon=True).start()
+    return jsonify({"message": "🔄 Extracción silenciosa iniciada. Esto tomará varios minutos, pero la lista ya se genera."})
 
 @app.route("/cache/status")
 def cache_status():
