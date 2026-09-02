@@ -16,7 +16,6 @@ CACHE_DURATION = 21600  # 6 horas
 # Caché y control de peticions
 cache_urls = {}
 cache_stats = {"hits": 0, "misses": 0, "errors": 0}
-current_extractions = {}
 
 def cargar_catalogo():
     catalog_path = os.path.join(os.path.dirname(__file__), "catalog.json")
@@ -29,21 +28,15 @@ def cargar_catalogo():
     return []
 
 def es_reproducible(url):
-    """Verifica si el enlace puede ser reproducido por VLC sin problemas"""
+    """Solo consideramos reproducible si es un MP4 directo o un HLS manejable"""
     if not url:
         return False
-    
-    # Si es un MP4 directo, es 100% reproducible
+    # Si es MP4 directo (con type=1 o termina en mp4), es seguro para VLC
     if '.mp4' in url or 'type=1' in url or 'type=0' in url:
         return True
-    
-    # Si es HLS (.m3u8), puede ser problemático para VLC,
-    # pero lo aceptamos si estamos en modo proxy (para no gastar CPU)
+    # Si es HLS (.m3u8), lo aceptamos solo si tenemos el proxy activo (para no gastar más CPU)
     if '.m3u8' in url:
-        # Si es HLS, lo marcamos como reproducible solo si vamos a usar el proxy
-        # (VLC puede reproducir HLS si se le da el m3u8 correcto)
         return True
-    
     return False
 
 def extraer_enlace_mp4(ok_id, quality_preference="full"):
@@ -124,7 +117,7 @@ def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
     return url
 
 def construir_m3u(usar_directo=False, quality="full"):
-    """Genera la lista M3U SOLO con los videos que se pueden reproducir"""
+    """Genera la lista M3U SOLO con los videos que YA están en caché (para no saturar)"""
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
@@ -136,7 +129,8 @@ def construir_m3u(usar_directo=False, quality="full"):
     
     m3u_text = "#EXTM3U\n"
     m3u_text += f"# Generado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
-
+    
+    # Solo incluimos los que YA tienen URL en caché para evitar saturar la CPU al generar la lista
     for item in catalogo:
         ok_id = item["id"]
         title = item.get("title", f"Video {ok_id}")
@@ -144,24 +138,20 @@ def construir_m3u(usar_directo=False, quality="full"):
         genre = item.get("genre", "Películas")
         title_clean = title.replace(",", " ").replace('"', "'")
         
-        # 1. Intentar obtener la URL de la caché
-        url_video = obtener_enlace_con_cache(ok_id, force_refresh=False, quality=quality)
-        
-        # 2. Si NO tenemos la URL, intentamos extraerla AHORA (para saber si es reproducible)
-        if not url_video:
-            threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
-            # Como aún no la tenemos, NO la incluimos en la lista todavía
+        if ok_id in cache_urls:
+            url_video = cache_urls[ok_id]["url"]
+            
+            # Validamos si el enlace es reproducible
+            if not es_reproducible(url_video):
+                print(f"[DEBUG] ⏭️ ID {ok_id} tiene un enlace NO reproducible, omitido de la lista")
+                continue
+            
+            m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
+            m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
+        else:
+            # Si no está en caché, lo omitimos por ahora (se agregará cuando alguien lo vea)
             print(f"[DEBUG] ⏭️ ID {ok_id} aún no está en caché, omitido de la lista")
             continue
-        
-        # 3. Si tenemos la URL, verificamos si es reproducible
-        if not es_reproducible(url_video):
-            print(f"[DEBUG] ⏭️ ID {ok_id} tiene un enlace NO reproducible, omitido de la lista")
-            continue
-        
-        # 4. Si es reproducible, lo añadimos a la lista
-        m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
-        m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
 
     print(f"[DEBUG] ✅ Lista generada con {len(m3u_text.splitlines())} líneas")
     return m3u_text
@@ -225,10 +215,13 @@ def index():
 @app.route("/lista.m3u")
 def ver_lista_m3u():
     quality = request.args.get("quality", "full")
-    return Response(
+    response = Response(
         construir_m3u(usar_directo=False, quality=quality), 
         mimetype="text/plain"
     )
+    # Importante: Evita que Render reinicie el servicio por inactividad inmediata
+    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+    return response
 
 @app.route("/descargar-m3u")
 def descargar_m3u():
