@@ -13,7 +13,7 @@ app = Flask(__name__)
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 CACHE_DURATION = 21600  # 6 horas
 
-# Caché y control de peticions
+# Caché
 cache_urls = {}
 cache_stats = {"hits": 0, "misses": 0, "errors": 0}
 
@@ -26,18 +26,6 @@ def cargar_catalogo():
         except Exception as e:
             print(f"❌ Error al leer catalog.json: {e}")
     return []
-
-def es_reproducible(url):
-    """Solo consideramos reproducible si es un MP4 directo o un HLS manejable"""
-    if not url:
-        return False
-    # Si es MP4 directo (con type=1 o termina en mp4), es seguro para VLC
-    if '.mp4' in url or 'type=1' in url or 'type=0' in url:
-        return True
-    # Si es HLS (.m3u8), lo aceptamos solo si tenemos el proxy activo (para no gastar más CPU)
-    if '.m3u8' in url:
-        return True
-    return False
 
 def extraer_enlace_mp4(ok_id, quality_preference="full"):
     """Extrae el enlace directo de OK.ru (solo para UN id)"""
@@ -117,7 +105,7 @@ def obtener_enlace_con_cache(ok_id, force_refresh=False, quality="full"):
     return url
 
 def construir_m3u(usar_directo=False, quality="full"):
-    """Genera la lista M3U SOLO con los videos que YA están en caché (para no saturar)"""
+    """Genera la lista M3U con la URL de nuestro proxy (para que el usuario haga clic y extraiga)"""
     catalogo = cargar_catalogo()
     if not catalogo:
         return "#EXTM3U\n# No hay películas\n"
@@ -129,8 +117,7 @@ def construir_m3u(usar_directo=False, quality="full"):
     
     m3u_text = "#EXTM3U\n"
     m3u_text += f"# Generado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
-    
-    # Solo incluimos los que YA tienen URL en caché para evitar saturar la CPU al generar la lista
+
     for item in catalogo:
         ok_id = item["id"]
         title = item.get("title", f"Video {ok_id}")
@@ -138,22 +125,10 @@ def construir_m3u(usar_directo=False, quality="full"):
         genre = item.get("genre", "Películas")
         title_clean = title.replace(",", " ").replace('"', "'")
         
-        if ok_id in cache_urls:
-            url_video = cache_urls[ok_id]["url"]
-            
-            # Validamos si el enlace es reproducible
-            if not es_reproducible(url_video):
-                print(f"[DEBUG] ⏭️ ID {ok_id} tiene un enlace NO reproducible, omitido de la lista")
-                continue
-            
-            m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
-            m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
-        else:
-            # Si no está en caché, lo omitimos por ahora (se agregará cuando alguien lo vea)
-            print(f"[DEBUG] ⏭️ ID {ok_id} aún no está en caché, omitido de la lista")
-            continue
+        # La URL siempre apunta a nuestro servidor. El servidor extraerá el enlace cuando el usuario haga clic.
+        m3u_text += f'#EXTINF:-1 tvg-id="{ok_id}" tvg-logo="{poster}" group-title="{genre}", {title_clean}\n'
+        m3u_text += f'{base_url}/stream?id={ok_id}&quality={quality}\n'
 
-    print(f"[DEBUG] ✅ Lista generada con {len(m3u_text.splitlines())} líneas")
     return m3u_text
 
 # ========== RUTAS ==========
@@ -215,13 +190,10 @@ def index():
 @app.route("/lista.m3u")
 def ver_lista_m3u():
     quality = request.args.get("quality", "full")
-    response = Response(
+    return Response(
         construir_m3u(usar_directo=False, quality=quality), 
         mimetype="text/plain"
     )
-    # Importante: Evita que Render reinicie el servicio por inactividad inmediata
-    response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
-    return response
 
 @app.route("/descargar-m3u")
 def descargar_m3u():
@@ -246,14 +218,21 @@ def redirigir_stream():
         threading.Thread(target=obtener_enlace_con_cache, args=(ok_id, False, quality), daemon=True).start()
         return "🔄 Extrayendo enlace, reintente en 2 segundos...", 503
 
-    # 1. Si es un enlace directo (MP4), redirigimos
-    if not es_reproducible(url_video):
-        print(f"[DEBUG] ⏭️ ID {ok_id} NO reproducible en /stream")
-        return "❌ Enlace no reproducible", 404
-    
-    # 2. Redirigir a Ok.ru
-    print(f"[DEBUG] ✅ Reproduciendo ID {ok_id} a través de /stream")
     return redirect(url_video, code=302)
+
+@app.route("/precargar", methods=["POST"])
+def precargar():
+    threading.Thread(target=preload_catalogo, daemon=True).start()
+    return jsonify({"message": "🔄 Precarga iniciada. Revisa los Logs de Render."})
+
+@app.route("/cache/status")
+def cache_status():
+    return jsonify({
+        "total": len(cache_urls),
+        "hits": cache_stats["hits"],
+        "misses": cache_stats["misses"],
+        "errors": cache_stats["errors"]
+    })
 
 # ========== INICIO ==========
 if __name__ == "__main__":
