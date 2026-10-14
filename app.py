@@ -11,7 +11,7 @@ import requests
 app = Flask(__name__)
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-CACHE_DURATION = 21600  # 6 horas
+CACHE_DURATION = 3600  # 6 horas
 
 # Caché
 cache_urls = {}
